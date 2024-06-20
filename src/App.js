@@ -1,25 +1,48 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import React from 'react';
+import {useState,useEffect} from 'react';
+import Navbar from './components/Navbar';
+import About from './components/About';
+import Home from './components/Home';
+import Navbar2 from './components/Navbar2';
+import Comingsoon from './components/comingsoon';
+import MovieView from './components/MovieView';
+import SearchView from './components/SearchView';
+import {Switch,Route} from 'react-router-dom';
+//import comingsoon from './components/comingsoon';
 
-function App() {
+const App = () => {
+  const [searchResults,setSearchResults] = useState([]);
+  const [searchText,setSearchText] = useState('');
+  useEffect (()=>{
+    console.log(searchText,"is the search text")
+    fetch(`https://api.themoviedb.org/3/search/movie?api_key=ab166ff82684910ae3565621aea04d62&language=en-US&query=${searchText}&page=1&include_adult=false`)
+    .then(response =>response.json())
+    .then(data =>{
+      setSearchResults(data.results)
+    })
+  },[searchText])
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      <Navbar2 searchText={searchText} setSearchText={setSearchText} />
+      <Switch>
+        <Route path="/" exact>
+         <Home/>
+        </Route>
+        <Route path="/AboutUs" component ={About} />
+        <Route path="/comingsoon" component ={Comingsoon} />
+        <Route path="/search">
+          <SearchView keyword={searchText} searchResults={searchResults}/>
+        </Route>
+        <Route path="/movies/:id" exact>
+         <MovieView/>
+        </Route>
+       
+      </Switch>
     </div>
   );
 }
 
-export default App;
+export default App
+
