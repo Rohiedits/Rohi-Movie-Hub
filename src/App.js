@@ -7,7 +7,9 @@ import Home from './components/Home';
 import Navbar2 from './components/Navbar2';
 import Comingsoon from './components/comingsoon';
 import MovieView from './components/MovieView';
+import Signup from     './components/Signup';
 import SearchView from './components/SearchView';
+import Yt from './components/Yt';
 import {Switch,Route} from 'react-router-dom';
 //import comingsoon from './components/comingsoon';
 
@@ -32,10 +34,12 @@ const App = () => {
         </Route>
         <Route path="/AboutUs" component ={About} />
         <Route path="/comingsoon" component ={Comingsoon} />
+        <Route path="/signup" component ={Signup} />
+        <Route path="/Yt" component ={Yt} />
         <Route path="/search">
           <SearchView keyword={searchText} searchResults={searchResults}/>
         </Route>
-        <Route path="/movies/:id" exact>
+        <Route path="/movies/:id" component={MovieView}>
          <MovieView/>
         </Route>
        
