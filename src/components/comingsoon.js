@@ -12,12 +12,17 @@ const comingsoon = () => {
                 <div className='row'>
                     <div className='col-lg-8 offset-lg-2 my-5'>
                         <p className='lead'>
-                            ComingSoon....
+                            Iam Bujji design By Rohi....
                         </p>
-                        <Spline scene="https://prod.spline.design/Ed6urtr6EHAOVjYK/scene.splinecode" />
+                        <div>
+                                <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.48/build/spline-viewer.js"></script>
+                                <spline-viewer url="https://prod.spline.design/Ed6urtr6EHAOVjYK/scene.splinecode"></spline-viewer>
+                                </div>
+                        
                     </div>
                 </div>
               </div>
+              <Spline scene="https://prod.spline.design/Ed6urtr6EHAOVjYK/scene.splinecode" />
         </center>
       
       
