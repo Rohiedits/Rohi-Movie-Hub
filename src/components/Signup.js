@@ -1,7 +1,6 @@
-import React,{useEffect,useState} from 'react'
+import React,{useState} from 'react'
 import axios from 'axios';
 import Hero from './Hero';
-import Loginwithgoogle from '../loginwithgoogle';
 import "../../src/login.css";
 
 function Signup() {

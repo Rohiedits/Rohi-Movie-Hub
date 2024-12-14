@@ -1,5 +1,6 @@
 import React from 'react'
 import Hero from './Hero';
+import Spline from '@splinetool/react-spline';
 
 const comingsoon = () => {
   return (
@@ -13,6 +14,7 @@ const comingsoon = () => {
                         <p className='lead'>
                             ComingSoon....
                         </p>
+                        <Spline scene="https://prod.spline.design/Ed6urtr6EHAOVjYK/scene.splinecode" />
                     </div>
                 </div>
               </div>
@@ -26,4 +28,7 @@ const comingsoon = () => {
   )
 }
 
+
 export default comingsoon;
+
+

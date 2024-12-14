@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import { useHistory,Link } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 
 const OffcanvasExample =({searchText,setSearchText}) =>{
   const history = useHistory()
@@ -15,7 +15,7 @@ const OffcanvasExample =({searchText,setSearchText}) =>{
     }
   return (
     <>
-      {[ 'sm'].map((expand) => (
+      {['sm' ].map((expand) => (
         <Navbar key={expand} expand={expand} className="bg-body-tertiary mb-3">
           <Container fluid>
             <Navbar.Brand href="#Rohi-App"> 🌐Rohi Movie-Browser</Navbar.Brand>
