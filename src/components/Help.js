@@ -16,11 +16,11 @@ const Form = () => {
           <input spellCheck="false" className="input" type="email" name="email" id="email-input" />
           <div className="frg_pss">
             <label className="label_input" htmlFor="password-input">Password</label>
-            <a href="http://localhost:3000/signup">Forgot password?</a>
+            <a href="https://rohi-movie-hub.vercel.app/signup">Forgot password?</a>
           </div>
           <input spellCheck="false" className="input" type="text" name="password" id="password-input" />
          
-          <button className="submit"  type="button"> <a className="submi" href="http://localhost:3000/">Submit
+          <button className="submit"  type="button"> <a className="submi" href="https://rohi-movie-hub.vercel.app/">Submit
           
           </a></button>
         </form>
