@@ -36,13 +36,14 @@ const OffcanvasExample =({searchText,setSearchText}) =>{
                   <Nav.Link href="/">Home</Nav.Link>
                   <Nav.Link href="/AboutUs">About</Nav.Link>
                   
-                  <Nav.Link href="/signup">Sign</Nav.Link>
+                  <Nav.Link href="/signup">Signup</Nav.Link>
                   <Nav.Link href="/search">Search</Nav.Link>
                   <NavDropdown
                     title="More"
                     id={`offcanvasNavbarDropdown-expand-${expand}`}
                   >
                     <NavDropdown.Item href="/Yt">Youtube</NavDropdown.Item>
+                    <NavDropdown.Item href="/Help">Login</NavDropdown.Item>
                     <NavDropdown.Item href="/comingsoon">
                       Another action
                     </NavDropdown.Item>

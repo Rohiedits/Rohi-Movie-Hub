@@ -34,7 +34,7 @@ function Signup() {
      <Hero text = " 👤Sign in page"/>
     <div style={{margin:"10px"}}>
       <center>
-       <div style={{margin:"2px solid black", width:"200px",height:"500px"}}>
+       <div  style={{margin:"2px solid black", width:"200px",height:"500px"}}>
       <form onSubmit={submitHandler}>
         {/* <label>UserName:</label> */}
         <input  type="text" name="username" placeholder='username' value={username} onChange={changeHandler}/> <br/> 
@@ -48,7 +48,9 @@ function Signup() {
       </center>
     </div>
    </div> 
+   
   )
+  
 }
 
 export default Signup

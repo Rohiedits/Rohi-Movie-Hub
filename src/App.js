@@ -10,6 +10,8 @@ import MovieView from './components/MovieView';
 import Signup from     './components/Signup';
 import SearchView from './components/SearchView';
 import Yt from './components/Yt';
+import Help from './components/Help';
+// import LoginPage from "./LoginPage2";
 import {Switch,Route} from 'react-router-dom';
 //import comingsoon from './components/comingsoon';
 
@@ -35,7 +37,9 @@ const App = () => {
         <Route path="/AboutUs" component ={About} />
         <Route path="/comingsoon" component ={Comingsoon} />
         <Route path="/signup" component ={Signup} />
+         <Route path="/login2" component ={Signup} /> 
         <Route path="/Yt" component ={Yt} />
+        <Route path="/Help" component ={Help} />
         <Route path="/search">
           <SearchView keyword={searchText} searchResults={searchResults}/>
         </Route>
