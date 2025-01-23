@@ -1,12 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
 import Nav from 'react-bootstrap/Nav';
-import Hero from 'C:/Users/rohit/react_router/src/components/Hero.js';
+// import Hero from 'C:/Users/rohit/react_router/src/components/Hero.js';
 
 const Card = () => {
   return (
     <StyledWrapper>
-           <Hero  text="👨‍💻Enroll your Course.."/>
+           {/* <Hero  text="👨‍💻Enroll your Course.."/> */}
       <div className="card">
         <div className="card__border" />
         <div className="card_title__container">
