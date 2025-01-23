@@ -1,10 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
+import Hero from './Hero';
 
 const Form = () => {
   return (
+    
     <StyledWrapper>
+      <Hero text = " 👤 Login Page"/> <br/>
       <div className="card">
+
         <input defaultValue className="blind-check" type="checkbox" id="blind-input" name="blindcheck" hidden />
         <label htmlFor="blind-input" className="blind_input">
           <span className="hide">Hide</span>

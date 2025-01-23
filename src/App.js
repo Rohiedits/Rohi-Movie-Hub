@@ -11,6 +11,9 @@ import Signup from     './components/Signup';
 import SearchView from './components/SearchView';
 import Yt from './components/Yt';
 import Help from './components/Help';
+import Newfeature from './components/Newfeature';
+import Python from './components/learning_hub/python.js';
+import PythonCourse from './components/learning_hub/python_course.js';
 // import LoginPage from "./LoginPage2";
 import {Switch,Route} from 'react-router-dom';
 //import comingsoon from './components/comingsoon';
@@ -40,6 +43,9 @@ const App = () => {
          <Route path="/login2" component ={Signup} /> 
         <Route path="/Yt" component ={Yt} />
         <Route path="/Help" component ={Help} />
+        <Route path="/NewFeature" component ={Newfeature} />
+        <Route path="/Python" component ={Python} />
+        <Route path="/PythonCourse" component ={PythonCourse} />
         <Route path="/search">
           <SearchView keyword={searchText} searchResults={searchResults}/>
         </Route>
