@@ -1,11 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
-import Hero from 'C:/Users/rohit/react_router/src/components/Hero.js';
+// import Hero from 'C:/Users/rohit/react_router/src/components/Hero.js';
 
 const Card = () => {
   return (
     <StyledWrapper>
-                  <Hero  text="👨‍💻Welcome to Python Course.."/>
+                  {/* <Hero  text="👨‍💻Welcome to Python Course.."/> */}
       <div className="card_container">
         <div className="card_hover">
           <div className="part part-1" />
