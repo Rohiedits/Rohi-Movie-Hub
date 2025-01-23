@@ -156,7 +156,7 @@ const Card = () => {
              <a href="#" class="button1">Try it Yourself</a>
      
              <h2>Casting</h2>
-             <p>If you want to specify the data type of a variable, this can be done with casting.</p>
+             <p>If You want to specify the data type of a variable, this can be done with casting.</p>
      
              <h3>Example</h3>
              <div class="example1">
