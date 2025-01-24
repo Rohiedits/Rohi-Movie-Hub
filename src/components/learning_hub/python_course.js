@@ -1,10 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
 // import Hero from 'C:/Users/rohit/react_router/src/components/Hero.js';
+import Nextbutton from 'C:/Users/rohit/react_router/src/components/learning_hub/nextbutton.js';
+import Mood from 'C:/Users/rohit/react_router/src/components/mood.js';
+import Moodhead from 'C:/Users/rohit/react_router/src/components/codemoodheading.js';
 
 const Card = () => {
   return (
     <StyledWrapper>
+      
                   {/* <Hero  text="👨‍💻Welcome to Python Course.."/> */}
       <div className="card_container">
         <div className="card_hover">
@@ -43,6 +47,7 @@ const Card = () => {
                                     //////////////// */}
  <div class="container3">
         <h1 ><a id='whatispy'>What is Python?</a></h1>
+        <iframe width="760" height="315" src="https://www.youtube.com/embed/hEgO047GxaQ?si=F9saf0FVvf1sbnN4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <p>Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.</p>
         <p>It is used for:</p>
         <ul>
@@ -87,8 +92,8 @@ const Card = () => {
         <ul>
             <li><a href='#whatispy'>What is Python</a></li>
             <li><a href='#pyvariable'>Python Variables</a></li>
-            <li>Python Data Types</li>
-            <li>Python Numbers</li>
+            <li><a href='#pydatatypes'>Python Data Types</a></li>
+            <li><a href='#pynumbers'>Python Numbers</a></li>
             <li>Python Casting</li>
             <li>Python Strings</li>
             <li>Python Booleans</li>
@@ -130,6 +135,8 @@ const Card = () => {
          {/* //Variables */}
          <div class="container_vari">
              <h1><a id='pyvariable'>Python Variables</a></h1>
+             {/* https://www.youtube.com/embed/TqPzwenhMj0?si=e_cl2NSDNMVJ7Lbz */}
+             <iframe width="760" height="315" src="https://www.youtube.com/embed/TqPzwenhMj0?si=e_cl2NSDNMVJ7Lbz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
              <p>Variables are containers for storing data values.</p>
      
              <h2>Creating Variables</h2>
@@ -167,9 +174,253 @@ const Card = () => {
              <a href="#" class="button1">Try it Yourself</a>
          </div>
 </div>
-       
-        
+<h1 ><a id='pydatatypes'>Python Data Types</a></h1>
+{/* https://www.youtube.com/embed/gCCVsvgR2KU?si=3UAAQIk3diNvrjyr */}
+<iframe width="760" height="315" src="https://www.youtube.com/embed/gCCVsvgR2KU?si=3UAAQIk3diNvrjyr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<div class="section">
+    <h2>Built-in Data Types</h2>
+    <p>In programming, data type is an important concept. Variables can store data of different types, and different types can do different things.</p>
+    <p>Python has the following built-in data types, divided into these categories:</p>
+    <ul>
+        <li>Text Type: <code class="code">str</code></li>
+        <li>Numeric Types: <code class="code">int</code>, <code class="code">float</code>, <code class="code">complex</code></li>
+        <li>Sequence Types: <code class="code">list</code>, <code class="code">tuple</code>, <code class="code">range</code></li>
+        <li>Mapping Type: <code class="code">dict</code></li>
+        <li>Set Types: <code class="code">set</code>, <code class="code">frozenset</code></li>
+        <li>Boolean Type: <code class="code">bool</code></li>
+        <li>Binary Types: <code class="code">bytes</code>, <code class="code">bytearray</code>, <code class="code">memoryview</code></li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2>Getting the Data Type</h2>
+    <p>You can get the type of any object by using the <code class="code">type()</code> function.</p>
+    <p><strong>Example:</strong></p>
+    <div class="code">x = 5
+print(type(x))</div>
+</div>
+
+<div class="section">
+    <h2>Setting the Data Type</h2>
+    <p>In Python, the data type is set when you assign a value to a variable.</p>
+    <p><strong>Example:</strong></p>
+    <table>
+        <thead>
+            <tr>
+                <th>Code</th>
+                <th>Data Type</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><code class="code">x = "Hello World"</code></td>
+                <td>str</td>
+            </tr>
+            <tr>
+                <td><code class="code">x = 20</code></td>
+                <td>int</td>
+            </tr>
+            <tr>
+                <td><code class="code">x = 20.5</code></td>
+                <td>float</td>
+            </tr>
+            <tr>
+                <td><code class="code">x = 1j</code></td>
+                <td>complex</td>
+            </tr>
+            <tr>
+                <td><code class="code">x = ["apple", "banana", "cherry"]</code></td>
+                <td>list</td>
+            </tr>
+            <tr>
+                <td><code class="code">x = ("apple", "banana", "cherry")</code></td>
+                <td>tuple</td>
+            </tr>
+            <tr>
+                <td><code class="code">x = range(6)</code></td>
+                <td>range</td>
+            </tr>
+            <tr>
+                <td><code class="code">x = ("name": "John", "age": 36)</code></td>
+                <td>dict</td>
+            </tr>
+            <tr>
+                <td><code class="code">x = ("apple", "banana", "cherry")</code></td>
+                <td>set</td>
+            </tr>
+            <tr>
+                <td><code class="code">x = frozenset("apple", "banana", "cherry")</code></td>
+                <td>frozenset</td>
+            </tr>
+            <tr>
+                <td><code class="code">x = True</code></td>
+                <td>bool</td>
+            </tr>
+            <tr>
+                <td><code class="code">x = b"Hello"</code></td>
+                <td>bytes</td>
+            </tr>
+            <tr>
+                <td><code class="code">x = bytearray(5)</code></td>
+                <td>bytearray</td>
+            </tr>
+            <tr>
+                <td><code class="code">x = memoryview(bytes(5))</code></td>
+                <td>memoryview</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+{/* ///python numbers  */}
+
+<h1><a id='pynumbers'>Python Numbers</a></h1>
+<iframe width="760" height="315" src="https://www.youtube.com/embed/AWAjbtWBzGs?si=mY4MKSoXuDkGceJr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<div class="section">
+    <h2>Introduction</h2>
+    <p>There are three numeric types in Python:</p>
+    <ul>
+        <li><code class="code">int</code></li>
+        <li><code class="code">float</code></li>
+        <li><code class="code">complex</code></li>
+    </ul>
+    <p>Variables of numeric types are created when you assign a value to them:</p>
+    <div class="code">x = 1    # int
+y = 2.8  # float
+z = 1j   # complex</div>
+</div>
+
+<div class="section">
+    <h2>Verifying the Type</h2>
+    <p>To verify the type of any object in Python, use the <code class="code">type()</code> function:</p>
+    <div class="example">
+        <strong>Example:</strong>
+        <div class="code">print(type(x))
+print(type(y))
+print(type(z))</div>
+        <a href="#" class="button1">Try it Yourself &gt;</a>
     </div>
+</div>
+
+<div class="section">
+    <h2>Int</h2>
+    <p><code class="code">int</code>, or integer, is a whole number, positive or negative, without decimals, of unlimited length.</p>
+    <div class="example">
+        <strong>Example:</strong>
+        <div class="code">x = 1
+y = 35656222554887711
+z = -3255522
+
+print(type(x))
+print(type(y))
+print(type(z))</div>
+        <a href="#" class="button1">Try it Yourself &gt;</a>
+    </div>
+</div>
+
+<div class="section">
+    <h2>Float</h2>
+    <p><code class="code">float</code>, or "floating point number," is a number, positive or negative, containing one or more decimals.</p>
+    <div class="example">
+        <strong>Example:</strong>
+        <div class="code">x = 1.10
+y = 1.0
+z = -35.59
+
+print(type(x))
+print(type(y))
+print(type(z))</div>
+        <a href="#" class="button1">Try it Yourself &gt;</a>
+    </div>
+
+    <p>Float can also be scientific numbers with an "e" to indicate the power of 10.</p>
+    <div class="example">
+        <strong>Example:</strong>
+        <div class="code">x = 35e3
+y = 12E4
+z = -87.7e100
+
+print(type(x))
+print(type(y))
+print(type(z))</div>
+        <a href="#" class="button1">Try it Yourself &gt;</a>
+    </div>
+    
+
+<div class="section">
+    <h2>Complex</h2>
+    <p>Complex numbers are written with a "j" as the imaginary part:</p>
+    <p><strong>Example:</strong></p>
+    <div class="code"># Complex:
+x = 1 + 2j
+y = 3 + 4j
+print(x)
+print(y)
+print(type(x))
+print(type(y))</div>
+    <a href="#" class="button1">Try it Yourself &raquo;</a>
+</div>
+
+<div class="section">
+    <h2>Type Conversion</h2>
+    <p>You can convert from one type to another with the <code class="code">int()</code>, <code class="code">float()</code>, and <code class="code">complex()</code> methods:</p>
+    <p><strong>Example:</strong></p>
+    <div class="code"># Convert from one type to another:
+x = 1   # int
+y = float(x)
+z = complex(x)
+
+print(x)
+print(y)
+print(z)
+print(type(x))
+print(type(y))
+print(type(z))</div>
+    <p><strong>Note:</strong> You cannot convert complex numbers into another number type.</p>
+    <a href="#" class="button1">Try it Yourself &raquo;</a>
+</div>
+
+<div class="section">
+    <h2>Random Number</h2>
+    <p>Python does not have a <code class="code">random()</code> function to make a random number, but Python has a built-in module called <code class="code">random</code> that can be used to make random numbers:</p>
+    <p><strong>Example:</strong></p>
+    <div class="code"># Import the random module, and display a random number between 1 and 9:
+import random
+
+print(random.randrange(1, 10))</div>
+    <a href="#" class="button1">Try it Yourself &raquo;</a>
+</div>
+
+<div class="note">
+    <p><strong>Note:</strong> In our <em>Random Module Reference</em> you will learn more about the Random module.</p>
+</div>
+
+<div class="exercise1">
+    <h3>Exercise</h3>
+    <p>Which is NOT a legal numeric data type in Python:</p>
+    <ul>
+        <li><input type="radio" name="answer"/> <label for="int">int</label></li>
+        <li><input type="radio" name="answer"/> <label for="long">long</label></li>
+        <li><input type="radio" name="answer"/> <label for="float">float</label></li>
+    </ul>
+    <button>Submit Answer</button>
+</div>
+</div>
+
+<h1 className='coding mood'>CODING MOOD </h1>
+<Moodhead/>
+<Mood/>
+    </div>
+
+    
+
+
+
+    <Nextbutton/>
+
 
          
      
@@ -213,6 +464,7 @@ const Card = () => {
           </button>
         </div>
       </div>
+      
     </StyledWrapper>
   );
 }
@@ -228,6 +480,69 @@ const StyledWrapper = styled.div`
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         } */
+
+            .exercise1 {
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        .exercise1 h3 {
+            margin-top: 0;
+        }
+
+        .exercise1 button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+
+        .code {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 10px;
+            font-family: 'Courier New', Courier, monospace;
+            display: inline-block;
+            white-space: pre-wrap;
+        }
+
+        .button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 5px 10px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 4px;
+            display: inline-block;
+        }
         h1, h2 {
             color: #444;
         }
