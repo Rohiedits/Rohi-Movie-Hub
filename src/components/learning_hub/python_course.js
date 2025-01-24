@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 // import Hero from 'C:/Users/rohit/react_router/src/components/Hero.js';
-import Nextbutton from 'C:/Users/rohit/react_router/src/components/learning_hub/nextbutton.js';
+// import Nextbutton from 'C:/Users/rohit/react_router/src/components/learning_hub/nextbutton.js';
 // import Mood from 'C:/Users/rohit/react_router/src/components/mood.js';
-import Moodhead from 'C:/Users/rohit/react_router/src/components/codemoodheading.js';
+// import Moodhead from 'C:/Users/rohit/react_router/src/components/codemoodheading.js';
 
 const Card = () => {
   return (
@@ -410,8 +410,8 @@ print(random.randrange(1, 10))</div>
 </div>
 </div>
 
-<h1 className='coding mood'>CODING MOOD </h1>
-<Moodhead/>
+{/* <h1 className='coding mood'>CODING MOOD </h1> */}
+{/* <Moodhead/> */}
 {/* <Mood/> */}
     </div>
 
@@ -419,7 +419,7 @@ print(random.randrange(1, 10))</div>
 
 
 
-    <Nextbutton/>
+    {/* <Nextbutton/> */}
 
 
          
