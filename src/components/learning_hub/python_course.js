@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 // import Hero from 'C:/Users/rohit/react_router/src/components/Hero.js';
 import Nextbutton from 'C:/Users/rohit/react_router/src/components/learning_hub/nextbutton.js';
-import Mood from 'C:/Users/rohit/react_router/src/components/mood.js';
+// import Mood from 'C:/Users/rohit/react_router/src/components/mood.js';
 import Moodhead from 'C:/Users/rohit/react_router/src/components/codemoodheading.js';
 
 const Card = () => {
@@ -412,7 +412,7 @@ print(random.randrange(1, 10))</div>
 
 <h1 className='coding mood'>CODING MOOD </h1>
 <Moodhead/>
-<Mood/>
+{/* <Mood/> */}
     </div>
 
     
