@@ -1,17 +1,19 @@
 import React from 'react';
 import styled from 'styled-components';
-// import Hero from 'C:/Users/rohit/react_router/src/components/Hero.js';
+ import Hero from './Hero.js';
  import Nextbutton from './nextbutton.js';
  import Mood from './mood.js'
  import Moodhead from './codemoodheading.js';
  import Footer from './footer.js'
+ import Nav from 'react-bootstrap/Nav';
+ import Codeingbtn from './codingbtn.js';
 
 
 const Card = () => {
   return (
     <StyledWrapper>
       
-                  {/* <Hero  text="👨‍💻Welcome to Python Course.."/> */}
+             <Hero  text="👨‍💻Welcome to Python Course.."/> 
       <div className="card_container">
         <div className="card_hover">
           <div className="part part-1" />
@@ -412,7 +414,7 @@ print(random.randrange(1, 10))</div>
 </div>
 </div>
 
-<h1 className='coding mood'>CODING MOOD </h1> 
+<h1 className='coding mood'>CODING MOOD </h1> <br/>
   <Moodhead/> 
     <Mood/>
     </div>
@@ -421,7 +423,7 @@ print(random.randrange(1, 10))</div>
 
 
 
-    <Nextbutton/> 
+    <Nav.Link href="/Python_p2" >   <Nextbutton/>   </Nav.Link>
 
 
          
@@ -470,6 +472,8 @@ print(random.randrange(1, 10))</div>
       </div>
 
       <br/>
+      
+      <a href="#" >   <Codeingbtn/>   </a>
       <hr/>
       <Footer/>
 
