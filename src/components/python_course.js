@@ -1,9 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
 // import Hero from 'C:/Users/rohit/react_router/src/components/Hero.js';
-// import Nextbutton from 'C:/Users/rohit/react_router/src/components/learning_hub/nextbutton.js';
-// import Mood from 'C:/Users/rohit/react_router/src/components/mood.js';
-// import Moodhead from 'C:/Users/rohit/react_router/src/components/codemoodheading.js';
+ import Nextbutton from './nextbutton.js';
+ import Mood from './mood.js'
+ import Moodhead from './codemoodheading.js';
+ import Footer from './footer.js'
+
 
 const Card = () => {
   return (
@@ -47,7 +49,7 @@ const Card = () => {
                                     //////////////// */}
  <div class="container3">
         <h1 ><a id='whatispy'>What is Python?</a></h1>
-        <iframe width="760" height="315" src="https://www.youtube.com/embed/hEgO047GxaQ?si=F9saf0FVvf1sbnN4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="760"  height="315" className='youtube' src="https://www.youtube.com/embed/hEgO047GxaQ?si=F9saf0FVvf1sbnN4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <p>Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.</p>
         <p>It is used for:</p>
         <ul>
@@ -136,7 +138,7 @@ const Card = () => {
          <div class="container_vari">
              <h1><a id='pyvariable'>Python Variables</a></h1>
              {/* https://www.youtube.com/embed/TqPzwenhMj0?si=e_cl2NSDNMVJ7Lbz */}
-             <iframe width="760" height="315" src="https://www.youtube.com/embed/TqPzwenhMj0?si=e_cl2NSDNMVJ7Lbz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+             <iframe width="760" height="315" className='youtube' src="https://www.youtube.com/embed/TqPzwenhMj0?si=e_cl2NSDNMVJ7Lbz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
              <p>Variables are containers for storing data values.</p>
      
              <h2>Creating Variables</h2>
@@ -176,7 +178,7 @@ const Card = () => {
 </div>
 <h1 ><a id='pydatatypes'>Python Data Types</a></h1>
 {/* https://www.youtube.com/embed/gCCVsvgR2KU?si=3UAAQIk3diNvrjyr */}
-<iframe width="760" height="315" src="https://www.youtube.com/embed/gCCVsvgR2KU?si=3UAAQIk3diNvrjyr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="760" height="315" className='youtube' src="https://www.youtube.com/embed/gCCVsvgR2KU?si=3UAAQIk3diNvrjyr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <div class="section">
     <h2>Built-in Data Types</h2>
@@ -277,7 +279,7 @@ print(type(x))</div>
 {/* ///python numbers  */}
 
 <h1><a id='pynumbers'>Python Numbers</a></h1>
-<iframe width="760" height="315" src="https://www.youtube.com/embed/AWAjbtWBzGs?si=mY4MKSoXuDkGceJr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="760" height="315" className='youtube' src="https://www.youtube.com/embed/AWAjbtWBzGs?si=mY4MKSoXuDkGceJr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <div class="section">
     <h2>Introduction</h2>
@@ -410,16 +412,16 @@ print(random.randrange(1, 10))</div>
 </div>
 </div>
 
-{/* <h1 className='coding mood'>CODING MOOD </h1> */}
-{/* <Moodhead/> */}
-{/* <Mood/> */}
+<h1 className='coding mood'>CODING MOOD </h1> 
+  <Moodhead/> 
+    <Mood/>
     </div>
 
     
 
 
 
-    {/* <Nextbutton/> */}
+    <Nextbutton/> 
 
 
          
@@ -462,8 +464,15 @@ print(random.randrange(1, 10))</div>
               </svg>
             </span>
           </button>
+          
         </div>
+        
       </div>
+
+      <br/>
+      <hr/>
+      <Footer/>
+
       
     </StyledWrapper>
   );
@@ -710,6 +719,37 @@ const StyledWrapper = styled.div`
     --X: calc(var(--angleX) * -1);
     --Y: var(--angleY);
   }
+  .youtube{
+   
+   max-width: 100%;
+   height:315;
+   display: block;
+   position: relative;
+
+
+
+
+
+
+
+
+
+     border-radius: 0.5rem;
+     padding: 0.25rem;
+     background-color: rgb(172, 250, 233);
+     background-size: cover;
+    background-image: linear-gradient(
+      135deg,
+      rgba(172, 250, 233, 1) 0%,
+      rgba(213, 143, 235, 1) 50%,
+      rgba(242, 126, 241, 1) 100%
+    );
+    transform-origin: center;
+    transform: rotateX(var(--X)) rotateY(var(--Y)) rotateZ(var(--Z));
+    transition: transform 0.3s ease-in-out;
+  }
+
+  }
 
   .card {
     --light: #d9d9d9;
@@ -723,7 +763,7 @@ const StyledWrapper = styled.div`
  
 
     padding: 1.5rem;
-    /* width: 150rem; */
+
     width: auto;
     background-color: rgb(172, 250, 233);
     background-image: linear-gradient(
@@ -784,7 +824,7 @@ const StyledWrapper = styled.div`
     font-weight: 600;
     color: var(--dark);
     text-transform: capitalize;
-    text-wrap: nowrap;
+    text-wrap: nowrap; 
     text-overflow: ellipsis;
   }
 
@@ -892,6 +932,7 @@ const StyledWrapper = styled.div`
     justify-content: center;
     width: 100%;
   }
+
 
   /* New Download Button Styles */
   .download-button {

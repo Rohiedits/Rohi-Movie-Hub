@@ -18,7 +18,7 @@ const Button = () => {
 const StyledWrapper = styled.div`
   .cta {
     position: relative;
-   margin-left: 450px;
+   margin-left: 60%;
     padding: 12px 18px;
     transition: all 0.2s ease;
     border: none;

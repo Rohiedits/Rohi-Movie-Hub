@@ -27,11 +27,12 @@ const StyledWrapper = styled.div`
 
   .container {
     margin-top: 20px;
-    margin-left: 300px;
+    margin-left: 40%;
     color: hsl(0, 0%, 30%);
     font-weight: 900;
     font-size: 6rem;
     display: flex;
+    max-width: 100%;
 
   }
 

@@ -12,9 +12,11 @@ import SearchView from './components/SearchView';
 import Yt from './components/Yt';
 import Help from './components/Help';
 import Newfeature from './components/Newfeature';
-import Python from './components/learning_hub/python.js';
-import PythonCourse from './components/learning_hub/python_course.js';
+import Python from './components/python.js';
+import PythonCourse from './components/python_course.js';
+// import Mood from './components/mood.js';
 // import LoginPage from "./LoginPage2";
+import Nextbtn from './components/nextbutton.js'
 import {Switch,Route} from 'react-router-dom';
 //import comingsoon from './components/comingsoon';
 
@@ -46,6 +48,7 @@ const App = () => {
         <Route path="/NewFeature" component ={Newfeature} />
         <Route path="/Python" component ={Python} />
         <Route path="/PythonCourse" component ={PythonCourse} />
+        <Route path="/Python_p2" component ={Nextbtn} />
         <Route path="/search">
           <SearchView keyword={searchText} searchResults={searchResults}/>
         </Route>
