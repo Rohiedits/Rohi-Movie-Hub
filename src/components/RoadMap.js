@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import Footer from './footer.js'
 import Backbtn from './Backbtn.js';
 import Nav from 'react-bootstrap/Nav';
+import Downloadbtn from './downloadbtn.js';
 import S1 from './s1.png'
 import S2 from './s2.png'
 import S3 from './s3.png'
@@ -42,48 +43,72 @@ function python_c3() {
               <Nav.Link href="/PythonCourse" >  <Backbtn/>  </Nav.Link>
               
               <img  className='png' src={S1} alt="Python" />
+              <a href={S1} download="RoadMap"><Downloadbtn/></a>
               <hr/>
               <img  className='png' src={S2} alt="Python" />
+              <a href={S2} download="RoadMap"><Downloadbtn/></a>
               <hr/>
               <img  className='png' src={S3} alt="Python" />
+              <a href={S3} download="RoadMap"><Downloadbtn/></a>
               <hr/>
               <img  className='png' src={S4} alt="Python" />
+              <a href={S4} download="RoadMap"><Downloadbtn/></a>
               <hr/>
               <img  className='png' src={S5} alt="Python" />
+              <a href={S5} download="RoadMap"><Downloadbtn/></a>
               <hr/>
               <img  className='png' src={S6} alt="Python" />
+              <a href={S6} download="RoadMap"><Downloadbtn/></a>
               <hr/>
               <img  className='png' src={S7} alt="Python" />
+              <a href={S7} download="RoadMap"><Downloadbtn/></a>
+
               <hr/>
               <img  className='png' src={S8} alt="Python" />
+              <a href={S8} download="RoadMap"><Downloadbtn/></a>
               <hr/>
               <img  className='png' src={S9} alt="Python" />
+              <a href={S9} download="RoadMap"><Downloadbtn/></a>
               <hr/>
               <img  className='png' src={S10} alt="Python" />
+              <a href={S10} download="RoadMap"><Downloadbtn/></a>
               <hr/>
               <img  className='png' src={S11} alt="Python" />
+              <a href={S11} download="RoadMap"><Downloadbtn/></a>
               <hr/>
               <img  className='png' src={S12} alt="Python" />
+              <a href={S12} download="RoadMap"><Downloadbtn/></a>
               <hr/>
               <img  className='png' src={S13} alt="Python" />
+              <a href={S13} download="RoadMap"><Downloadbtn/></a>
               <hr/>
               <img  className='png' src={S14} alt="Python" />
+              <a href={S14} download="RoadMap"><Downloadbtn/></a>
               <hr/>
               <img  className='png' src={S15} alt="Python" />
+              <a href={S15} download="RoadMap"><Downloadbtn/></a>
               <hr/>
               <img  className='png' src={S16} alt="Python" />
+              <a href={S16} download="RoadMap"><Downloadbtn/></a>
+
               <hr/>
               <img  className='png' src={S17} alt="Python" />
+              <a href={S17} download="RoadMap"><Downloadbtn/></a>
               <hr/>
               <img  className='png' src={S18} alt="Python" />
+              <a href={S18} download="RoadMap"><Downloadbtn/></a>
               <hr/>
               <img  className='png' src={S19} alt="Python" />
+              <a href={S19} download="RoadMap"><Downloadbtn/></a>
               <hr/>
               <img  className='png' src={S20} alt="Python" />
+              <a href={S20} download="RoadMap"><Downloadbtn/></a>
               <hr/>
               <img  className='png' src={S21} alt="Python" />
+              <a href={S21} download="RoadMap"><Downloadbtn/></a>
               <hr/>
               <img  className='png' src={S22} alt="Python" />
+              <a href={S22} download="RoadMap"><Downloadbtn/></a>
               <Footer/>
       
     </StyledWrapper>

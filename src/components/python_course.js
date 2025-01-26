@@ -8,6 +8,7 @@ import styled from 'styled-components';
  import Nav from 'react-bootstrap/Nav';
  import Codeingbtn from './codingbtn.js';
  import Roadmapbtn1 from './Roadmapbtn1.js';
+ import Python_notes from  './Py_Notes.pdf'
 
 const Card = () => {
   return (
@@ -456,8 +457,12 @@ print(random.randrange(1, 10))</div>
           </ul> */}
         </div>
         <div className="action">
+        <a href={Python_notes} download="Rohi-Hub_Python_handwritten_notes">
           <button className="download-button">
+          
             <span className="button-text">DOWNLOAD</span>
+            
+            
             <span className="button-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35" className="download-svg">
                 <path d="M17.5,22.131a1.249,1.249,0,0,1-1.25-1.25V2.187a1.25,1.25,0,0,1,2.5,0V20.881A1.25,1.25,0,0,1,17.5,22.131Z" />
@@ -465,7 +470,9 @@ print(random.randrange(1, 10))</div>
                 <path d="M31.436,34.063H3.564A3.318,3.318,0,0,1,.25,30.749V22.011a1.25,1.25,0,0,1,2.5,0v8.738a.815.815,0,0,0,.814.814H31.436a.815.815,0,0,0,.814-.814V22.011a1.25,1.25,0,1,1,2.5,0v8.738A3.318,3.318,0,0,1,31.436,34.063Z" />
               </svg>
             </span>
+            
           </button>
+          </a>
           
         </div>
         
@@ -475,6 +482,7 @@ print(random.randrange(1, 10))</div>
       
       <a href="#" >   <Codeingbtn/>   </a>
       <hr/>
+     
       <Footer/>
 
       
