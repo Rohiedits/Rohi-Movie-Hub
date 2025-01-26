@@ -7,7 +7,7 @@ function BasicExample() {
   return (
     <Navbar expand="" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="/Rohi-App">Rohi-App</Navbar.Brand>
+        <Navbar.Brand href="/Rohi-App">🌐Rohi-App</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

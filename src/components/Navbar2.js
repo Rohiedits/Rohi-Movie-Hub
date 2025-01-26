@@ -18,7 +18,7 @@ const OffcanvasExample =({searchText,setSearchText}) =>{
       {['sm' ].map((expand) => (
         <Navbar key={expand} expand={expand} className="bg-body-tertiary mb-3">
           <Container fluid>
-            <Navbar.Brand href="#Rohi-App"> 🌐Rohi Movie-Browser</Navbar.Brand>
+            <Navbar.Brand href="#Rohi-App"> 🌐Rohi MB&L-Hub</Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
@@ -34,8 +34,7 @@ const OffcanvasExample =({searchText,setSearchText}) =>{
                 <Nav className="justify-content-end flex-grow-1 pe-3">
                 
                   <Nav.Link href="/">Home</Nav.Link>
-                  <Nav.Link href="/AboutUs">About</Nav.Link>
-                  
+                  <Nav.Link href="/NewFeature">Learn</Nav.Link>
                   <Nav.Link href="/Help">Login</Nav.Link>
                   <Nav.Link href="/search">Search</Nav.Link>
                   <NavDropdown
@@ -47,7 +46,7 @@ const OffcanvasExample =({searchText,setSearchText}) =>{
                     <NavDropdown.Item href="/comingsoon">
                       Introduce Bujji
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="/NewFeature">Learning Hub</NavDropdown.Item>
+                    <NavDropdown.Item href="/AboutUs">About </NavDropdown.Item>
                     <NavDropdown.Divider />
                     <NavDropdown.Item href="/cancel">
                       Cancel
