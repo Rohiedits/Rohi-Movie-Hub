@@ -7,7 +7,7 @@ import styled from 'styled-components';
  import Footer from './footer.js'
  import Nav from 'react-bootstrap/Nav';
  import Codeingbtn from './codingbtn.js';
-
+ import Roadmapbtn1 from './Roadmapbtn1.js';
 
 const Card = () => {
   return (
@@ -421,7 +421,7 @@ print(random.randrange(1, 10))</div>
 
     
 
-
+    <Roadmapbtn1/>
 
     <Nav.Link href="/Python_p2" >   <Nextbutton/>   </Nav.Link>
 
@@ -493,7 +493,15 @@ const StyledWrapper = styled.div`
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         } */
-
+/* .roadmapbtn {
+  margin-left: 70%;
+  position: relative;
+  border: 1px solid #000;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+} */
             .exercise1 {
             background-color: #f4f4f4;
             border: 1px solid #ddd;

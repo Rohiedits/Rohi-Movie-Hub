@@ -7,6 +7,8 @@ import Moodhead from './codemoodheading.js';
 import Footer from './footer.js'
 import Nav from 'react-bootstrap/Nav';
 import Codeingbtn from './codingbtn.js';
+import Roadmapbtn1 from './Roadmapbtn1.js';
+// import S1 from './s1.png'
 
 
 function python_c2() {
@@ -496,6 +498,7 @@ print(a)
             <td>x &gt;&gt; 2</td>
         </tr>
     </table>
+    {/* <img src={S1} alt='s1' /> */}
 
     <h1 className='coding mood'>CODING MOOD </h1> <br/>
   <Moodhead/> 
@@ -505,8 +508,8 @@ print(a)
     
 
 
-
-    <Nav.Link href="/Python_p2" >   <Nextbutton/>   </Nav.Link>
+   <Roadmapbtn1/>
+    <Nav.Link href="/Python_p3" >   <Nextbutton/>   </Nav.Link>
     <a href="#" >   <Codeingbtn/>   </a>
       <hr/>
       <Footer/>
