@@ -9,6 +9,7 @@ import Nav from 'react-bootstrap/Nav';
 import Codeingbtn from './codingbtn.js';
 import Roadmapbtn1 from './Roadmapbtn1.js';
 // import S1 from './s1.png'
+import ScribdEmbed from './embedednotes.js';
 
 
 function python_c2() {
@@ -498,6 +499,8 @@ print(a)
             <td>x &gt;&gt; 2</td>
         </tr>
     </table>
+    <br/>
+    <ScribdEmbed/>
     {/* <img src={S1} alt='s1' /> */}
 
     <h1 className='coding mood'>CODING MOOD </h1> <br/>

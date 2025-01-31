@@ -1,5 +1,6 @@
 import React from 'react'
 import Hero from './Hero';
+import ScribdEmbed from './embedednotes';
 
 const About = () => {
   return (
@@ -15,12 +16,15 @@ const About = () => {
                             <br/>
                             <div style={{color:"red"}}>© All Copyrights Clims Belongs to Rohith Bhojanapu ..</div>
                              
-                 
+                
                  
                         </p>
+                        
                     </div>    
                 </div>        
-           </div> 
+           </div>
+
+
                            
       
     </div>
