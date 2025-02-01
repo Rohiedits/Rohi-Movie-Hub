@@ -1,6 +1,6 @@
 import React from 'react'
 import Hero from './Hero';
-import ScribdEmbed from './embedednotes';
+import Quiz from './quize';
 
 const About = () => {
   return (
@@ -23,6 +23,7 @@ const About = () => {
                     </div>    
                 </div>        
            </div>
+           <Quiz/>
 
 
                            

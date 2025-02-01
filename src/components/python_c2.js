@@ -10,6 +10,7 @@ import Codeingbtn from './codingbtn.js';
 import Roadmapbtn1 from './Roadmapbtn1.js';
 // import S1 from './s1.png'
 import ScribdEmbed from './embedednotes.js';
+import Quiz from './quize.js';
 
 
 function python_c2() {
@@ -499,7 +500,9 @@ print(a)
             <td>x &gt;&gt; 2</td>
         </tr>
     </table>
+    <Quiz/>
     <br/>
+
     <ScribdEmbed/>
     {/* <img src={S1} alt='s1' /> */}
 
