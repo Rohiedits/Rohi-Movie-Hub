@@ -13,6 +13,7 @@ import ScribdEmbed from './embedednotes.js';
 import Quiz from './quize.js';
 
 
+
 function python_c2() {
   return (
     
@@ -20,6 +21,7 @@ function python_c2() {
       <Hero  text="👨‍💻 Python Course.."/> 
       <div class="container">
         <h1>Python Casting</h1>
+        <iframe width="760" height="315" className='youtube' src="https://www.youtube.com/embed/Qtq83lAoogM?si=jypEFN-PoVOX225F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
         {/* <a href="#" class="btn">&lt; Previous</a> */}
 
@@ -87,6 +89,7 @@ z = str(3.0)    # z will be '3.0'
     </div>
     <div class="container">
     <h1>Strings</h1>
+    <iframe width="716" height="315" className='youtube' src="https://www.youtube.com/embed/IWk44K-6bnQ?si=1kWxFtER6PEBc0sq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     <p>
       Strings in python are surrounded by either single quotation marks, or double quotation marks.
       <br/>
@@ -211,6 +214,7 @@ print(a)
         <a href="#" class="btn">Try it Yourself</a>
         <div class="container">
         <h1>Python Operators</h1>
+        <iframe width="716" height="315" className='youtube' src="https://www.youtube.com/embed/v5MR5JnKcZI?si=qeHvQop1Olc2zm4_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <p>Operators are used to perform operations on variables and values. In the example below, we use the <code>+</code> operator to add together two values:</p>
          <li>Arithmetic operators</li>
          <li>Assignment operators</li>
@@ -515,7 +519,7 @@ print(a)
 
 
    <Roadmapbtn1/>
-    <Nav.Link href="/Python_p3" >   <Nextbutton/>   </Nav.Link>
+    <Nav.Link href="/Python_p3.0" >   <Nextbutton/>   </Nav.Link>
     <a href="#" >   <Codeingbtn/>   </a>
       <hr/>
       <Footer/>
@@ -610,7 +614,32 @@ const StyledWrapper = styled.div`
             list-style: none;
             padding: 0;
         }
-        
+        .youtube{
+   
+   max-width: 100%;
+   height:315;
+   display: block;
+   position: relative;
+   justify-content: center;
+   align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+   
+
+     border-radius: 0.5rem;
+     padding: 0.25rem;
+     background-color: rgb(172, 250, 233);
+     background-size: cover;
+    background-image: linear-gradient(
+      135deg,
+      rgba(172, 250, 233, 1) 0%,
+      rgba(213, 143, 235, 1) 50%,
+      rgba(242, 126, 241, 1) 100%
+    );
+    transform-origin: center;
+    transform: rotateX(var(--X)) rotateY(var(--Y)) rotateZ(var(--Z));
+    transition: transform 0.3s ease-in-out;
+  }
 
 table {
             width: 100%;
@@ -629,6 +658,8 @@ table {
 
         .options li {
             padding: 5px 0;
+        }
+
         
   }`;
 

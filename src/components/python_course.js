@@ -745,14 +745,11 @@ const StyledWrapper = styled.div`
    height:315;
    display: block;
    position: relative;
-
-
-
-
-
-
-
-
+   justify-content: center;
+   align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+   
 
      border-radius: 0.5rem;
      padding: 0.25rem;
@@ -764,10 +761,6 @@ const StyledWrapper = styled.div`
       rgba(213, 143, 235, 1) 50%,
       rgba(242, 126, 241, 1) 100%
     );
-    transform-origin: center;
-    transform: rotateX(var(--X)) rotateY(var(--Y)) rotateZ(var(--Z));
-    transition: transform 0.3s ease-in-out;
-  }
 
   }
 
