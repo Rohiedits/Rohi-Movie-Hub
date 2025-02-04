@@ -16,6 +16,8 @@ import Python from './components/python.js';
 import PythonCourse from './components/python_course.js';
 import Python_p2 from "./components/python_c2.js";
 import Python_p3 from "./components/RoadMap.js";
+import Part2 from './components/Part_2.js';
+import Minigame from './components/Minigame.js';
 // import Mood from './components/mood.js';
 // import LoginPage from "./LoginPage2";
 import Nextbtn from './components/nextbutton.js'
@@ -53,6 +55,8 @@ const App = () => {
         <Route path="/Next" component ={Nextbtn} />
         <Route path="/Python_p2" component ={Python_p2} />
         <Route path="/RoadMap" component ={Python_p3} />
+        <Route path="/part2" component ={Part2} />
+        <Route path="/minigame" component ={Minigame} />
         <Route path="/search">
           <SearchView keyword={searchText} searchResults={searchResults}/>
         </Route>
