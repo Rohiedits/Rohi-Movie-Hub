@@ -1,0 +1,129 @@
+import React, { useState } from 'react';
+
+function InterviewUI() {
+  const [interviewQuestions, setInterviewQuestions] = useState([
+    {
+      id: 1,
+      question: 'Can you tell me a little about yourself?',
+      answer: '',
+    },
+    {
+      id: 2,
+      question: 'Why do you want to work for our company?',
+      answer: '',
+    },
+    {
+      id: 3,
+      question: 'What are your strengths and weaknesses?',
+      answer: '',
+    },
+  ]);
+
+  const [currentQuestion, setCurrentQuestion] = useState(0);
+
+  const handleAnswerChange = (event) => {
+    const newInterviewQuestions = [...interviewQuestions];
+    newInterviewQuestions[currentQuestion].answer = event.target.value;
+    setInterviewQuestions(newInterviewQuestions);
+  };
+
+  const handleNextQuestion = () => {
+    if (currentQuestion < interviewQuestions.length - 1) {
+      setCurrentQuestion(currentQuestion + 1);
+    }
+  };
+
+  const handlePreviousQuestion = () => {
+    if (currentQuestion > 0) {
+      setCurrentQuestion(currentQuestion - 1);
+    }
+  };
+
+  const handleSubmit = () => {
+    console.log(interviewQuestions);
+  };
+
+  return (
+    <div style={{
+      maxWidth: '800px',
+      margin: '40px auto',
+      padding: '20px',
+      backgroundColor: '#f9f9f9',
+      border: '1px solid #ddd',
+      boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
+    }}>
+      <h1 style={{ fontSize: '24px', marginBottom: '10px' }}>Interview UI</h1>
+      <div style={{
+        marginBottom: '20px',
+      }}>
+        <p style={{ fontSize: '16px', color: '#666' }}>Question {currentQuestion + 1} of {interviewQuestions.length}</p>
+        <h2 style={{ fontSize: '24px', marginTop: '0' }}>{interviewQuestions[currentQuestion].question}</h2>
+        <textarea
+          value={interviewQuestions[currentQuestion].answer}
+          onChange={handleAnswerChange}
+          placeholder="Enter your answer here"
+          style={{
+            width: '100%',
+            height: '100px',
+            padding: '10px',
+            fontSize: '16px',
+            border: '1px solid #ccc',
+          }}
+        />
+      </div>
+      <div style={{
+        textAlign: 'center',
+      }}>
+        {currentQuestion > 0 && (
+          <button
+            onClick={handlePreviousQuestion}
+            style={{
+              backgroundColor: '#337ab7',
+              color: '#fff',
+              border: 'none',
+              padding: '10px 20px',
+              fontSize: '16px',
+              cursor: 'pointer',
+              marginRight: '10px',
+            }}
+          >
+            Previous
+          </button>
+        )}
+        {currentQuestion < interviewQuestions.length - 1 && (
+          <button
+            onClick={handleNextQuestion}
+            style={{
+              backgroundColor: '#337ab7',
+              color: '#fff',
+              border: 'none',
+              padding: '10px 20px',
+              fontSize: '16px',
+              cursor: 'pointer',
+              marginRight: '10px',
+            }}
+          >
+            Next
+          </button>
+        )}
+        {currentQuestion === interviewQuestions.length - 1 && (
+          <button
+            onClick={handleSubmit}
+            style={{
+              backgroundColor: '#337ab7',
+              color: '#fff',
+              border: 'none',
+              padding: '10px 20px',
+              fontSize: '16px',
+              cursor: 'pointer',
+            }}
+          >
+            Submit
+          </button>
+        )}
+      </div>
+    </div>
+  );
+}
+
+export default InterviewUI;
