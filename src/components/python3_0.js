@@ -11,6 +11,7 @@ import Roadmapbtn1 from './Roadmapbtn1.js';
 // import S1 from './s1.png'
 import ScribdEmbed from './embedednotes.js';
 import Quiz from './quize.js';
+import Quiz3 from './quiz3.js';
 
 const python3_0 = () => {
   return (
@@ -387,7 +388,7 @@ b = 200<br/>
 if b {'>'} a:<br/>
   </pre>
   
-
+<Quiz3/>
 
   <ScribdEmbed/>
     {/* <img src={S1} alt='s1' /> */}

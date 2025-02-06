@@ -9,6 +9,8 @@ import styled from 'styled-components';
  import Codeingbtn from './codingbtn.js';
  import Roadmapbtn1 from './Roadmapbtn1.js';
  import Python_notes from  './Py_Notes.pdf'
+ import Quiz1 from './queiz1.js';
+//  import Card1 from './card.js';
 
 const Card = () => {
   return (
@@ -403,16 +405,8 @@ print(random.randrange(1, 10))</div>
     <p><strong>Note:</strong> In our <em>Random Module Reference</em> you will learn more about the Random module.</p>
 </div>
 
-<div class="exercise1">
-    <h3>Exercise</h3>
-    <p>Which is NOT a legal numeric data type in Python:</p>
-    <ul>
-        <li><input type="radio" name="answer"/> <label for="int">int</label></li>
-        <li><input type="radio" name="answer"/> <label for="long">long</label></li>
-        <li><input type="radio" name="answer"/> <label for="float">float</label></li>
-    </ul>
-    <button>Submit Answer</button>
-</div>
+<Quiz1/>
+{/* <Card1/> */}
 </div>
 
 <h1 className='coding mood'>CODING MOOD </h1> <br/>
