@@ -1,6 +1,12 @@
 import React from 'react'
 import styled from 'styled-components';
 import Hero from './Hero';
+import Codeingbtn from './codingbtn.js';
+import Roadmapbtn1 from './Roadmapbtn1.js';
+import Nextbutton from './nextbutton.js';
+import Footer from './footer.js'
+import Nav from 'react-bootstrap/Nav';
+import Interview2 from './interview2.js';
 const python4 = () => {
   return (
     <StyledWrapper>
@@ -45,6 +51,7 @@ const python4 = () => {
 </p>
 
 <h2 style={{color:"blue"}}>Glossary of Key Terms</h2>
+<dl class="glossary">
 <strong>Call by Reference</strong>: A method of passing parameters to a function where the memory address of the variable is passed. Modifications to the variable within the function directly affect the original variable.<br/>
 
 <strong>Call by Value</strong>: A method of passing parameters to a function where a copy of the variable's value is passed. Changes to the variable inside the function do not affect the original variable.<br/>
@@ -94,7 +101,7 @@ const python4 = () => {
 <strong>Type Casting</strong>: A manual process where a programmer uses a casting operator to change a data type.<br/>
 
 <strong>Type Conversion</strong>: The automatic change of one data type into another by the compiler during compilation.<br/>
-
+</dl>
 
 <hr/>
 <h1 style={{color:"gray",textAlign:'center'}}>2.Python-Programming Interview Questions with Answers</h1>
@@ -134,6 +141,7 @@ const python4 = () => {
 4.Compare and contrast the object-oriented programming principles of abstraction and encapsulation. Provide examples of how each is implemented and demonstrate in Python.<br/>
 5.Explain the differences between method overriding and method overloading. Discuss the role of each one in implementing polymorphism, and explain which approach Python uses.<br/>
 <h2>Glossary of Key Terms</h2>
+<dl class="glossary">
 <strong>Interpreted Language</strong>: A programming language that executes code line by line rather than being compiled into machine code.<br/>
 <strong>Dynamically Typed</strong>: A language where the type of a variable is checked at runtime, allowing it to hold different types of data during execution.<br/>
 <strong>High-Level Language</strong>: A language that is easy to read and uses tools that allow the developer to focus on solving problems rather than dealing with hardware details.<br/>
@@ -175,7 +183,13 @@ const python4 = () => {
 <strong>Linked List</strong>: A data structure where each element is a node containing data and a reference to the next node.<br/>
 <strong>Two-Pointer Technique</strong>: An approach where two pointers are used simultaneously to solve problems in data structures like linked lists, arrays or strings.<br/>
 <strong>Dynamic Programming</strong>: An approach to solve a complex problem by breaking it down into smaller subproblems.<br/>
+</dl>
+    <Nav.Link href="/Interview2" >   <Nextbutton/>   </Nav.Link>
+    <a href="#" >   <Codeingbtn/>   </a>
+      <hr/>
+      <Footer/>
 
+   
      </div>
 
       
@@ -285,6 +299,14 @@ const StyledWrapper = styled.div`
     transform: rotateX(var(--X)) rotateY(var(--Y)) rotateZ(var(--Z));
     transition: transform 0.3s ease-in-out;
   }
+  .glossary {
+            background: #f1f1f1;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .glossary dt {
+            font-weight: bold;
+        }
 
 `;
 

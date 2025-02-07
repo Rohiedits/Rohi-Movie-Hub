@@ -29,7 +29,9 @@ const StyledWrapper = styled.div`
   .card {
     position: relative;
     display: flex;
-    max-width: 760px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 42px 32px;
     flex-direction: column;
     align-items: flex-start;

@@ -10,6 +10,12 @@ import styled from 'styled-components';
  import Roadmapbtn1 from './Roadmapbtn1.js';
  import Python_notes from  './Py_Notes.pdf'
  import Quiz1 from './queiz1.js';
+import Pythondwd from './pythondwd _1.png';
+import Pyversion from './pyversion.png';
+import Pywelcome from './pywelcome.png';
+import Vs from './vs.png';
+import Pycham from './pycham.png';
+
 //  import Card1 from './card.js';
 
 const Card = () => {
@@ -139,6 +145,102 @@ const Card = () => {
 
         <a href="https://www.w3schools.com/python/trypython.asp?filename=demo_default" class="button3">Try it Yourself</a>
 <div>
+<h1><a id='pyvariable'>Python Installation</a></h1>
+<iframe width="760" height="315" className='youtube' src="https://www.youtube.com/embed/CScxy0294SE?si=f8K1ohoefJ6Ai01u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<h1>Python Installation & IDE Guide</h1>
+
+  <h2>Limitations of the Interpreter & the Role of an IDE</h2>
+  <p>While the interpreter is functional, it is not ideal for larger projects like AI or web applications.</p>
+  <p>An Integrated Development Environment (IDE) is introduced as a more comprehensive solution, enabling developers to:</p>
+  <ul>
+    <li>Write code</li>
+    <li>Test code</li>
+    <li>Run code</li>
+    <li>Debug code</li>
+    <li>Deploy code</li>
+  </ul>
+  <p>PyCharm, from JetBrains, is highlighted as a popular IDE for Python. Other options include VS Code, Anaconda, and IDLE.</p>
+
+  <h2>Python Installation Process</h2>
+  <p>The video directs viewers to the official Python website to download the installer. They recommend the latest stable version (at the time, Python 3.12), advising against pre-release versions.</p>
+  <p>Step 1 : goto <a href="https://www.python.org/downloads/">https://www.python.org/downloads/</a> </p>
+  <img  width="760" height="315" className='youtube' src={Pythondwd} alt="Python" />
+ 
+              {/* <a href={Pythondwd} download="RoadMap"><Downloadbtn/></a> */}
+  <blockquote>"You can go for python 3.12 which is the latest version I feel...13 is into preas so don't use 13 as at this point."</blockquote>
+  <p>During the installation process, the crucial step of <strong>"Add python.exe to path"</strong> is emphasised, as this avoids the need to manually locate the Python executable later on.</p>
+  <blockquote>"If you do this add a python.exe to your path you don't have to manually search for the installation."</blockquote>
+  <p>Following installation, the interpreter can be verified in a new command prompt or terminal session by using <code>python --version</code>.</p>
+  <img  width="760" height="315" className='youtube' src={Pyversion} alt="Python" />
+
+  <blockquote>"One thing to remember even if you have installed python and if you directly do this it may not work so you have to reopen your command prompt."</blockquote>
+  <img  width="760" height="315" className='youtube' src={Pywelcome} alt="Python" />
+
+  <h1>PyCharm Installation Process</h1>
+  
+
+        <h2>Step 1: Download PyCharm</h2>
+        <ol>
+            <li>Visit the official <a href="https://www.jetbrains.com/pycharm/download" target="_blank">JetBrains PyCharm website</a>.</li>
+            <img  width="760" height="315" className='youtube' src={Pycham} alt="Python" />
+            <li>Choose your operating system (Windows, macOS, or Linux).</li>
+            <li>Select the edition:
+                <ul>
+                    <li><strong>Community Edition (Free)</strong> – Suitable for beginners and standard Python development.</li>
+                    <li><strong>Professional Edition (Paid)</strong> – Advanced features like web development and database tools.</li>
+                </ul>
+            </li>
+        </ol>
+
+        <h2>Step 2: Install PyCharm</h2>
+        <h3>Windows:</h3>
+        <ol>
+            <li>Run the downloaded <code>.exe</code> file.</li>
+            <li>Follow the setup wizard instructions.</li>
+            <li>Select installation options like creating a desktop shortcut and updating the PATH variable.</li>
+            <li>Click <strong>Install</strong> and wait for the process to complete.</li>
+            <li>Click <strong>Finish</strong> and launch PyCharm.</li>
+        </ol>
+
+        <h2>Step 2: Install PyCharm</h2>
+        <h3>Windows:</h3>
+        <ol>
+            <li>Run the downloaded <code>.exe</code> file.</li>
+            <li>Follow the setup wizard instructions.</li>
+            <li>Select installation options like creating a desktop shortcut and updating the PATH variable.</li>
+            <li>Click <strong>Install</strong> and wait for the process to complete.</li>
+            <li>Click <strong>Finish</strong> and launch PyCharm.</li>
+        </ol>
+  <h1>Steps to Install Visual Studio Code (VS Code)</h1>
+
+<ol>
+  <li>
+    <strong>Download VS Code</strong>
+    <ul>
+      <li>Go to the official website: <a href="https://code.visualstudio.com" target="_blank">https://code.visualstudio.com</a>.</li>
+      <img  width="760" height="315" className='youtube' src={Vs} alt="Python" />
+      <li>Click <strong>Download</strong> for your platform (Windows, Mac, or Linux).</li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>Install on Windows</strong>
+    <ul>
+      <li>Open the downloaded <code>.exe</code> file.</li>
+      <li>Accept the license agreement and click <strong>Next</strong>.</li>
+      <li>Select the installation location (or leave it as default) and click <strong>Next</strong>.</li>
+      <li>Choose additional tasks:
+        <ul>
+          <li>Check <strong>Add to PATH (recommended)</strong>.</li>
+          <li>Check other options as needed (like creating a desktop icon).</li>
+        </ul>
+      </li>
+      <li>Click <strong>Install</strong> and wait for the process to complete.</li>
+      <li>Click <strong>Finish</strong> to launch VS Code.</li>
+    </ul>
+  </li>
+</ol>
+
          {/* //Variables */}
          <div class="container_vari">
              <h1><a id='pyvariable'>Python Variables</a></h1>
@@ -157,7 +259,7 @@ const Card = () => {
                  print(x)<br/>
                  print(y)
              </div>
-             <a href="#" class="button1">Try it Yourself</a>
+             
      
              <p class="note">Variables do not need to be declared with any particular type, and can even change type after they have been set.</p>
      
@@ -167,7 +269,7 @@ const Card = () => {
                  x = "Sally"  # x is now of type str<br/>
                  print(x)
              </div>
-             <a href="#" class="button1">Try it Yourself</a>
+             
      
              <h2>Casting</h2>
              <p>If you want to specify the data type of a variable, this can be done with casting.</p>
@@ -178,7 +280,7 @@ const Card = () => {
                  y = int(3)    # y will be 3<br/>
                  z = float(3)  # z will be 3.0
              </div>
-             <a href="#" class="button1">Try it Yourself</a>
+             
          </div>
 </div>
 <h1 ><a id='pydatatypes'>Python Data Types</a></h1>
@@ -308,7 +410,7 @@ z = 1j   # complex</div>
         <div class="code">print(type(x))
 print(type(y))
 print(type(z))</div>
-        <a href="#" class="button1">Try it Yourself &gt;</a>
+        
     </div>
 </div>
 
@@ -324,7 +426,7 @@ z = -3255522
 print(type(x))
 print(type(y))
 print(type(z))</div>
-        <a href="#" class="button1">Try it Yourself &gt;</a>
+        
     </div>
 </div>
 
@@ -340,7 +442,7 @@ z = -35.59
 print(type(x))
 print(type(y))
 print(type(z))</div>
-        <a href="#" class="button1">Try it Yourself &gt;</a>
+       
     </div>
 
     <p>Float can also be scientific numbers with an "e" to indicate the power of 10.</p>
@@ -353,7 +455,7 @@ z = -87.7e100
 print(type(x))
 print(type(y))
 print(type(z))</div>
-        <a href="#" class="button1">Try it Yourself &gt;</a>
+       
     </div>
     
 
@@ -368,7 +470,7 @@ print(x)
 print(y)
 print(type(x))
 print(type(y))</div>
-    <a href="#" class="button1">Try it Yourself &raquo;</a>
+    
 </div>
 
 <div class="section">
@@ -387,7 +489,7 @@ print(type(x))
 print(type(y))
 print(type(z))</div>
     <p><strong>Note:</strong> You cannot convert complex numbers into another number type.</p>
-    <a href="#" class="button1">Try it Yourself &raquo;</a>
+    
 </div>
 
 <div class="section">
@@ -398,7 +500,7 @@ print(type(z))</div>
 import random
 
 print(random.randrange(1, 10))</div>
-    <a href="#" class="button1">Try it Yourself &raquo;</a>
+   
 </div>
 
 <div class="note">
@@ -410,8 +512,8 @@ print(random.randrange(1, 10))</div>
 </div>
 
 <h1 className='coding mood'>CODING MOOD </h1> <br/>
-  <Moodhead/> 
-    <Mood/>
+  <Moodhead /> 
+    <Mood />
     </div>
 
     
@@ -601,12 +703,12 @@ const StyledWrapper = styled.div`
 
 
        .container3 {
-            max-width: 800px;
+               max-width: 1500px;
             margin: 20px auto;
-            background: #fff;
             padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
         h1 {
             color: #444;
@@ -963,7 +1065,10 @@ const StyledWrapper = styled.div`
     font-size: 1rem;
     transition: all 0.3s ease;
   }
-
+  .png{
+    width: 100%;
+    height: 100%;
+  }
   .button-icon {
     position: absolute;
     height: 100%;
@@ -1001,7 +1106,22 @@ const StyledWrapper = styled.div`
 
   .download-button:active .button-icon {
     background-color: var(--primary-shadow);
-  }`;
+  }
+  code {
+      background-color: #f4f4f4;
+      padding: 2px 4px;
+      font-size: 90%;
+      color: #c7254e;
+    }
+    blockquote {
+      background: #f9f9f9;
+      border-left: 10px solid #ccc;
+      margin: 1.5em 10px;
+      padding: 0.5em 10px;
+      color: #555;
+      font-style: italic;
+    }
+  `;
 
 
 export default Card;

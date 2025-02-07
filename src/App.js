@@ -20,6 +20,9 @@ import Part2 from './components/Part_2.js';
 import Minigame from './components/Minigame.js';
 import Python3_0 from './components/python3_0.js';
 import Interviewguide from './components/Interview.js';
+import Interview2 from './components/interview2.js';
+import Interview3 from './components/interview3.js';
+import Interview4 from './components/interview4.js';
 // import Mood from './components/mood.js';
 // import LoginPage from "./LoginPage2";
 import Nextbtn from './components/nextbutton.js'
@@ -61,6 +64,9 @@ const App = () => {
         <Route path="/part2" component ={Part2} />
         <Route path="/minigame" component ={Minigame} />
         <Route path="/interviewguide" component ={Interviewguide} />
+        <Route path="/Interview2" component ={Interview2} />
+        <Route path="/Interview3" component ={Interview3} />
+        <Route path="/Interview4" component ={Interview4} />
         <Route path="/search">
           <SearchView keyword={searchText} searchResults={searchResults}/>
         </Route>
