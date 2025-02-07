@@ -2,12 +2,13 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+// import Finallogo from './finallogo.png'
 
 function BasicExample() {
   return (
     <Navbar expand="" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="/Rohi-App">🌐Rohi-App</Navbar.Brand>
+        <Navbar.Brand href="/Rohi-App">{/* <img   style={{marginLeft:"20px"}}width="90" height="90"  src={Finallogo} alt="Python" />  */}Rohi-App</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
