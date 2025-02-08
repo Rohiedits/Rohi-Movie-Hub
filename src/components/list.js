@@ -6,7 +6,7 @@ import Hero from './Hero';
 const Card = () => {
   return (
     <StyledWrapper>
-        <Hero  text="👨‍💻 Control Systems.."/> 
+        <Hero  text="👨‍💻 Academic Guide.."/> 
       <div className="cards">
         <div className="card red">
           <p className="tip">Control Systems</p>
@@ -14,15 +14,15 @@ const Card = () => {
         </div>
         <div className="card blue">
           <p className="tip">Digital Disign</p>
-          <p className="second-text">Start</p>
+          <Nav.Link href="/Dd" >   <p  className="second-text">Start</p> </Nav.Link> 
         </div>
         <div className="card green">
           <p className="tip">Electrical Machines-II</p>
-          <p className="second-text">Start</p>
+          <Nav.Link href="/em_2" >   <p  className="second-text">Start</p> </Nav.Link> 
         </div>
         <div className="card yellow">
           <p className="tip">Transmission and Distribution</p>
-          <p className="second-text">Start</p>
+          <Nav.Link href="/Td" >   <p  className="second-text">Start</p> </Nav.Link> 
         </div>
       </div>
     </StyledWrapper>

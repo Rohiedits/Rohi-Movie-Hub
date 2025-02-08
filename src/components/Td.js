@@ -20,17 +20,18 @@ const python4 = () => {
   return (
     <StyledWrapper>
 
-        <Hero text=" Electrical-Machines-II.."/>
+        <Hero text=" Transmission&Distribution.."/>
         <div className='container'>
-        <img style={{width:"960px",height:"455"}} className='youtube'src='https://media-hosting.imagekit.io//246b5731e05b4bf9/Screenshot%202025-02-08%20190132.png?Expires=1833629561&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=EhaYY-HZYXGuQ4pIvrjQVnDgPV~uAYFwGK-xlDaN1PTlvFZdzXiyGRrNlxSYZieuD6lAOkK3hTCGLuriCHbHBigvzJCEtDwfRtj6wQpLaBfRCjjnjR6anRGwGKirWhzb0wFSK-kOkwTUd-mC8dQAgbep-g~C7vlFfxY8w6Wl9rj84LH8FRMJu4beGErTdZ2XChRkywRXEO28Uam-CrmYHRcEG4OYY9JD5vAx0KRIJ0PAwuh-zy4IawupUeLIwPii4FfkvhAC9sSPUN7tiKbK58BBHbKwrFd2ms90ILfdaaNEFLT4Ro1OgA1iwxRg1CrVEyShb7BGtIu3zk1ofAFOcA__'/>
+        <img style={{width:"960px",height:"455"}} className='youtube'src='https://png.pngtree.com/thumb_back/fh260/background/20220413/pngtree-wire-line-transmission-electron-power-transmission-substation-system-electron-distribution-photo-image_35893834.jpg'/>
         <h2 style={{textAlign:'center',color:'blue'}}><u>COURSE CONTENT</u></h2>
-        <h3 style={{textAlign:"center",paddingTop:"10px"}}>Module 1:THREE PHASE INDUCTION MOTORS</h3>
-        <p style={{textAlign:"center"}}>Production of rotating magnetic field in 3-phase Induction motor, slip, rotor EMF and <br/>
-rotor frequency, rotor reactance, rotor current and power factor at standstill and running <br/>
-conditions; ratio of full-load torque and maximum torque, ratio of starting torque and <br/>
-maximum torque; losses in 3-phase induction motor, relation between rotor power <br/>
-input, rotor copper loss and mechanical power developed; Induction motor as a <br/>
-generalized transformer. Double-cage and deep bar rotors.</p>
+        <h3 style={{textAlign:"center",paddingTop:"10px"}}>Module 1:OVERHEAD TRANSMISSION LINE AND UNDERGROUND CABLES</h3>
+        <p style={{textAlign:"center"}}>Overhead Transmission Lines: Overhead line and underground cables and its types, <br/>
+Parameters- resistance, inductance and capacitance calculations in single and three <br/>
+phase transmission lines, single and double circuits, symmetrical and unsymmetrical <br/>
+spacing, concepts of GMR and GMD-Effect of earth on capacitance.<br/>
+Underground Cables: Construction, types of insulating materials, classification of <br/>
+cables, laying of cables, insulation resistance, capacitance of single and 3-core belted <br/>
+cables, grading of cables - capacitance and inter sheath grading.</p>
 {/* <div className="p-4 flex justify-center">
       <div className="max-w-4xl">
         <iframe
@@ -96,12 +97,13 @@ generalized transformer. Double-cage and deep bar rotors.</p>
         </a>
       </p>
     </div>
-<h3 style={{textAlign:"center",paddingTop:"10px"}}>Module 2: STARTING AND SPEED CONTROL METHODS</h3>
-<p style={{textAlign:"center"}}>Methods of starting — starting current and torque calculations for direct online, primary <br/>
-resistors, auto transformer and star-delta starters; Crawling and Cogging; Speed control <br/>
-— change of frequency, voltage and stator poles, rotor rheostat control, cascade <br/>
-connection and injection of EMF into rotor circuit; Induction generator — principle of <br/>
-operation and its applications.</p>
+<h3 style={{textAlign:"center",paddingTop:"10px"}}>Module 2:ANALYSIS OF TRANSMISSION LINES</h3>
+<p style={{textAlign:"center"}}>line and long line; equivalent circuits – end condenser, Nominal-T, Nominal- models, <br/>
+rigorous method; ABCD constants, voltage regulation and efficiency of transmission <br/>
+lines. <br/>
+Travelling waves on transmission lines: Travelling waves – open end line, short  <br/>
+circuited line, Line terminated through a resistor, line connected to a cable, Line  <br/>
+connected to a T-junction.</p>
 
 {/* <div className="flex justify-center p-4">
       <iframe
@@ -134,13 +136,14 @@ operation and its applications.</p>
         </a>
       </p>
     </div> */}
-<h3 style={{textAlign:"center",paddingTop:"10px"}}>Module 3: SYNCHRONOUS GENERATORS </h3>
+<h3 style={{textAlign:"center",paddingTop:"10px"}}>Module 3: MECHANICAL ASPECTS OF OVER HEAD LINE AND CORONA </h3>
 <p style={{textAlign:"center"}}>
-Armature windings — integral slot and fractional slot, distributed and concentrated, <br/>
-short pitch and full pitch, winding factors; EMF equation, harmonics in generated EMF <br/>
-and suppression of harmonics. Armature reaction and its effect for various operating <br/>
-power factors. — Phasor diagrams; Power flow equations in synchronous generator; <br/>
-Salient pole alternators —two-reaction theory, phasor diagrams and voltage regulation.<br/>
+Insulators— Line supports, overhead line insulators, types of insulators, string <br/>
+efficiency and methods for improvement.<br/>
+Sag in overhead line: Sag and tension calculations with equal and unequal heights of <br/>
+towers, effect of wind and ice on sag, stringing chart.<br/>
+Corona: Corona phenomenon - factors affecting corona, critical voltages and power <br/>
+loss, advantages and disadvantages.<br/>
 </p>
 <div className="flex justify-center p-4">
       <iframe
@@ -175,12 +178,13 @@ Salient pole alternators —two-reaction theory, phasor diagrams and voltage reg
     </div>
     
 
-<h3 style={{textAlign:"center",paddingTop:"10px"}}>Module 4: PARALLEL OPERATION OF SYNCHRONOUS GENERATORS</h3>
-<p style={{textAlign:"center"}}>Conditions for parallel operation; methods of synchronization; Synchronizing current, <bf/>
-power and torque, rigidity factor; Effect of change of excitation and mechanical power <br/>
-input on parallel operation of two alternators, load sharing between two alternators; <br/>
-Synchronous machines on infinite bus bars; Short Circuit Ratio (SCR) and its <br/>
-significance; Time period of rotor oscillations.</p>
+<h3 style={{textAlign:"center",paddingTop:"10px"}}>Module 4: DISTRIBUTION SYSTEMS</h3>
+<p style={{textAlign:"center"}}>Classification and Characteristics—residential, commercial, agricultural and <br/>
+industrial loads.<br/>
+Voltage drop calculations in DC distributors– radial DC distributor fed at one end, <br/>
+at both the ends (equal/unequal voltages) and ring main distributor.<br/>
+Voltage drop calculations in AC distributors– power factors referred to receiving <br/>
+end voltage and respective load voltages.</p>
 
 <div className="flex flex-col items-center p-4">
       <iframe
@@ -214,12 +218,13 @@ significance; Time period of rotor oscillations.</p>
       </p>
     </div>
 
-<h3  style={{textAlign:"center",paddingTop:"10px"}}>Module 5: THREE PHASE SYNCHRONOUS MOTORS</h3>
-<p style={{textAlign:"center"}}>Principle of operation; starting methods —auxiliary motor, damper winding, <br/>
-synchronous-induction motor. Phasor diagrams; Variation of armature current and <br/>
-power factor with excitation; synchronous condenser; Power flow equations in <br/>
-synchronous motor; Circle diagram —excitation and power circles; Hunting and its <br/>
-suppression.</p>
+<h3  style={{textAlign:"center",paddingTop:"10px"}}>Module 5: SUBSTATIONS</h3>
+<p style={{textAlign:"center"}}>Classification of substations — Indoor and outdoor, gas and air insulated substations; <br/>
+Substation layout, different bus bar schemes, location of substations and benefits <br/>
+through optimal location — rating of distribution substations, service area with 'n' <br/>
+primary feeders; Considerations of distribution feeder voltage levels: Radial and loop <br/>
+types of primary feeders and secondary feeders – Feeder loading – Basic design practice <br/>
+of the secondary distribution system.</p>
 
 <div>
 <div className="scribd-embed-container">
@@ -401,4 +406,5 @@ const StyledWrapper = styled.div`
 `;
 
 export default python4
+
 

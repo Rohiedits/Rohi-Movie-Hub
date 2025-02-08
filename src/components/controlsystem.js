@@ -111,142 +111,107 @@ analogy of mechanical systems; Block diagram reduction, Signal flow graph.</p>
 specifications, steady state error — static and dynamic error constants; Effects of <br/>
 Proportional, Integral and Derivative controllers.</p>
 
-<div>
+<div className="flex justify-center p-4">
       <iframe
-        className="scribd_iframe_embed"
         title="Module 2: TIME RESPONSE ANALYSIS"
-        src="https://www.scribd.com/embeds/825445458/content?start_page=1&view_mode=slideshow&access_key=key-FMPHzkVUw1d2QQrH0krF"
-        tabIndex="0"
-        data-auto-height="false"
-        data-aspect-ratio="0.5980066445182725"
-        scrolling="no"
+        src="https://www.scribd.com/embeds/825457064/content?start_page=1&view_mode=slideshow&access_key=key-BDBcn8pWDsJyr6Q6p07i"
         width="100%"
-        height="800"
+        height="600"
         frameBorder="0"
+        scrolling="no"
+        className="rounded-lg shadow-md"
+        allowFullScreen
       ></iframe>
-      <p
-        style={{
-          margin: "12px auto 6px auto",
-          fontFamily: "Helvetica, Arial, Sans-serif",
-          fontStyle: "normal",
-          fontVariant: "normal",
-          fontWeight: "normal",
-          fontSize: "14px",
-          lineHeight: "normal",
-          display: "block",
-          textAlign: "center",
-        }}
-      >
+      <p className="text-center text-gray-600 mt-2">
         <a
-          title="View Module 1: MATHEMATICAL MODELING OF SYSTEMS Handwritten Notes on Scribd"
-          href="https://www.scribd.com/document/825445458/Module-1-MATHEMATICAL-MODELING-OF-SYSTEMS#from_embed"
-          style={{ textDecoration: "underline" }}
+          href="https://www.scribd.com/document/825457064/Module-2-TIME-Response-ANALYSIS#from_embed"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 underline"
         >
-          View Module 1: MATHEMATICAL MODELING OF SYSTEMS
-        </a>{" "}
-        by{" "}
+          View Module 2: TIME RESPONSE ANALYSIS
+        </a>{' '}
+        by{' '}
         <a
-          title="View bhojanapuvenkatarohith's profile on Scribd"
           href="https://www.scribd.com/user/832765700/Bv-Rohith#from_embed"
-          style={{ textDecoration: "underline" }}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 underline"
         >
           Bv.Rohith
         </a>
       </p>
     </div>
-
-<h3  style={{textAlign:"center",paddingTop:"10px"}}>Module 3: STABILITY ANALYSIS</h3>
-<p style={{textAlign:"center"}}> Introduction to stability, Stability in terms of location of roots, Routh-Hurwitz stability <br/>
+<h3 style={{textAlign:"center",paddingTop:"10px"}}>Module 3: STABILITY ANALYSIS </h3>
+<p style={{textAlign:"center"}}>
+Introduction to stability, Stability in terms of location of roots, Routh-Hurwitz stability <br/>
 criterion – Relative stability; Root locus — rules to construct root loci, effect of adding <br/>
-pole and zero on root loci.</p>
-
-<div>
+pole and zero on root loci. <br/>
+</p>
+<div className="flex justify-center p-4">
       <iframe
-        className="scribd_iframe_embed"
-        title="Module 1: MATHEMATICAL MODELING OF SYSTEMS"
-        src="https://www.scribd.com/embeds/825445458/content?start_page=1&view_mode=slideshow&access_key=key-FMPHzkVUw1d2QQrH0krF"
-        tabIndex="0"
-        data-auto-height="false"
-        data-aspect-ratio="0.5980066445182725"
-        scrolling="no"
+        title="Module 3: STABILITY ANALYSIS"
+        src="https://www.scribd.com/embeds/825457588/content?start_page=1&view_mode=slideshow&access_key=key-aIC2Ws5fgsWjd6ZdusZQ"
         width="100%"
-        height="800"
+        height="600"
         frameBorder="0"
+        scrolling="no"
+        className="rounded-lg shadow-md"
+        allowFullScreen
       ></iframe>
-      <p
-        style={{
-          margin: "12px auto 6px auto",
-          fontFamily: "Helvetica, Arial, Sans-serif",
-          fontStyle: "normal",
-          fontVariant: "normal",
-          fontWeight: "normal",
-          fontSize: "14px",
-          lineHeight: "normal",
-          display: "block",
-          textAlign: "center",
-        }}
-      >
+      <p className="text-center text-gray-600 mt-2">
         <a
-          title="View Module 1: MATHEMATICAL MODELING OF SYSTEMS Handwritten Notes on Scribd"
-          href="https://www.scribd.com/document/825445458/Module-1-MATHEMATICAL-MODELING-OF-SYSTEMS#from_embed"
-          style={{ textDecoration: "underline" }}
+          href="https://www.scribd.com/document/825457588/Module-3-STABILITY-ANALYSIS#from_embed"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 underline"
         >
-          View Module 1: MATHEMATICAL MODELING OF SYSTEMS
-        </a>{" "}
-        by{" "}
+          View Module 3: STABILITY ANALYSIS
+        </a>{' '}
+        by{' '}
         <a
-          title="View bhojanapuvenkatarohith's profile on Scribd"
           href="https://www.scribd.com/user/832765700/Bv-Rohith#from_embed"
-          style={{ textDecoration: "underline" }}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 underline"
         >
           Bv.Rohith
         </a>
       </p>
     </div>
+    
 
 <h3 style={{textAlign:"center",paddingTop:"10px"}}>Module 4: FREQUENCY RESPONSE ANALYSIS</h3>
 <p style={{textAlign:"center"}}>Frequency domain specifications, Bode plot, Polar plot and Nyquist Stability Criterion <br/>
 Correlation between time and frequency response; Design of Lag and Lead <br/>
 Compensators using bode plot.</p>
 
-<div>
+<div className="flex justify-center p-4">
       <iframe
-        className="scribd_iframe_embed"
-        title="Module 1: MATHEMATICAL MODELING OF SYSTEMS"
-        src="https://www.scribd.com/embeds/825445458/content?start_page=1&view_mode=slideshow&access_key=key-FMPHzkVUw1d2QQrH0krF"
-        tabIndex="0"
-        data-auto-height="false"
-        data-aspect-ratio="0.5980066445182725"
-        scrolling="no"
+        title="Module 4: FREQUENCY RESPONSE ANALYSIS"
+        src="https://www.scribd.com/embeds/825457785/content?start_page=1&view_mode=slideshow&access_key=key-4rH7Ek93yIkf5wpdHGLc"
         width="100%"
-        height="800"
+        height="600"
         frameBorder="0"
+        scrolling="no"
+        className="rounded-lg shadow-md"
+        allowFullScreen
       ></iframe>
-      <p
-        style={{
-          margin: "12px auto 6px auto",
-          fontFamily: "Helvetica, Arial, Sans-serif",
-          fontStyle: "normal",
-          fontVariant: "normal",
-          fontWeight: "normal",
-          fontSize: "14px",
-          lineHeight: "normal",
-          display: "block",
-          textAlign: "center",
-        }}
-      >
+      <p className="text-center text-gray-600 mt-2">
         <a
-          title="View Module 1: MATHEMATICAL MODELING OF SYSTEMS Handwritten Notes on Scribd"
-          href="https://www.scribd.com/document/825445458/Module-1-MATHEMATICAL-MODELING-OF-SYSTEMS#from_embed"
-          style={{ textDecoration: "underline" }}
+          href="https://www.scribd.com/document/825457785/Module-4-FREQUENCY-RESPONSE-ANALYSIS#from_embed"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 underline"
         >
-          View Module 1: MATHEMATICAL MODELING OF SYSTEMS
-        </a>{" "}
-        by{" "}
+          View Module 4: FREQUENCY RESPONSE ANALYSIS
+        </a>{' '}
+        by{' '}
         <a
-          title="View bhojanapuvenkatarohith's profile on Scribd"
           href="https://www.scribd.com/user/832765700/Bv-Rohith#from_embed"
-          style={{ textDecoration: "underline" }}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 underline"
         >
           Bv.Rohith
         </a>
@@ -260,48 +225,73 @@ State transition matrix and its properties – solution of state equations – d
 of state matrix; Controllability and observability using Kalman's test.</p>
 
 <div>
+<div className="flex justify-center p-4">
       <iframe
-        className="scribd_iframe_embed"
-        title="Module 1: MATHEMATICAL MODELING OF SYSTEMS"
-        src="https://www.scribd.com/embeds/825445458/content?start_page=1&view_mode=slideshow&access_key=key-FMPHzkVUw1d2QQrH0krF"
-        tabIndex="0"
-        data-auto-height="false"
-        data-aspect-ratio="0.5980066445182725"
-        scrolling="no"
+        title="Module 5: STATE SPACE ANALYSIS"
+        src="https://www.scribd.com/embeds/825458107/content?start_page=1&view_mode=slideshow&access_key=key-vtagVkdQVOz5CiiXfLnu"
         width="100%"
-        height="800"
+        height="600"
         frameBorder="0"
+        scrolling="no"
+        className="rounded-lg shadow-md"
+        allowFullScreen
       ></iframe>
-      <p
-        style={{
-          margin: "12px auto 6px auto",
-          fontFamily: "Helvetica, Arial, Sans-serif",
-          fontStyle: "normal",
-          fontVariant: "normal",
-          fontWeight: "normal",
-          fontSize: "14px",
-          lineHeight: "normal",
-          display: "block",
-          textAlign: "center",
-        }}
-      >
+      <p className="text-center text-gray-600 mt-2">
         <a
-          title="View Module 1: MATHEMATICAL MODELING OF SYSTEMS Handwritten Notes on Scribd"
-          href="https://www.scribd.com/document/825445458/Module-1-MATHEMATICAL-MODELING-OF-SYSTEMS#from_embed"
-          style={{ textDecoration: "underline" }}
+          href="https://www.scribd.com/document/825458107/Module-5-STATE-SPACE-ANALYSIS#from_embed"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 underline"
         >
-          View Module 1: MATHEMATICAL MODELING OF SYSTEMS
-        </a>{" "}
-        by{" "}
+          View Module 5: STATE SPACE ANALYSIS
+        </a>{' '}
+        by{' '}
         <a
-          title="View bhojanapuvenkatarohith's profile on Scribd"
           href="https://www.scribd.com/user/832765700/Bv-Rohith#from_embed"
-          style={{ textDecoration: "underline" }}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 underline"
         >
           Bv.Rohith
         </a>
       </p>
     </div>
+    </div>
+    <center><h3>Text-Book</h3></center>
+    <div className="flex justify-center p-4">
+      <iframe
+        title="Control System Engineering by Nagoor Kani"
+        src="https://www.scribd.com/embeds/825530603/content?start_page=1&view_mode=scroll&access_key=key-w1Cdag1VIPqg7qADLUYq"
+        width="100%"
+        height="600"
+        frameBorder="0"
+        scrolling="no"
+        className="rounded-lg shadow-md"
+        allowFullScreen
+      ></iframe>
+      <p className="text-center text-gray-600 mt-2">
+        <a
+          href="https://www.scribd.com/doc/312738130/Nagoor-Kani-Control-System-Engineering#from_embed"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 underline"
+        >
+          View Control System Engineering by Nagoor Kani
+        </a>{' '}
+        by{' '}
+        <a
+          href="https://www.scribd.com/user/832765700/Bv-Rohith#from_embed"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 underline"
+        >
+          Bv.Rohith
+        </a>
+      </p>
+    </div>
+
+
+
     <a href="#" >   <Codeingbtn/>   </a>
     <Footer/>
         </div>

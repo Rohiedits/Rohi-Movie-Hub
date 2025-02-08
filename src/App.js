@@ -25,6 +25,9 @@ import Interview3 from './components/interview3.js';
 import Interview4 from './components/interview4.js';
 import Academic from './components/Academic.js';
 import Cs from './components/controlsystem.js';
+import Em_2 from './components/em_2.js';
+import Dd from './components/Dd.js';
+import Td from './components/Td.js';
 // import Mood from './components/mood.js';
 // import LoginPage from "./LoginPage2";
 import Nextbtn from './components/nextbutton.js'
@@ -71,6 +74,9 @@ const App = () => {
         <Route path="/Interview4" component ={Interview4} />
         <Route path="/Academic" component ={Academic} />
         <Route path="/Controlsystems" component ={Cs} />
+        <Route path="/em_2" component ={Em_2} />
+        <Route path="/Dd" component ={Dd} />
+        <Route path="/Td" component ={Td} />
         <Route path="/search">
           <SearchView keyword={searchText} searchResults={searchResults}/>
         </Route>
