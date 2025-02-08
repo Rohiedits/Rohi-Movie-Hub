@@ -21,7 +21,7 @@ function python_c2() {
       <Hero  text="👨‍💻 Python Course.."/> 
       <div class="container">
         <h1>Python Casting</h1>
-        <iframe width="760" height="315" className='youtube' src="https://www.youtube.com/embed/Qtq83lAoogM?si=jypEFN-PoVOX225F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="960"  height="455" className='youtube' src="https://www.youtube.com/embed/Qtq83lAoogM?si=jypEFN-PoVOX225F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
         {/* <a href="#" class="btn">&lt; Previous</a> */}
 
@@ -89,7 +89,7 @@ z = str(3.0)    # z will be '3.0'
     </div>
     <div class="container">
     <h1>Strings</h1>
-    <iframe width="716" height="315" className='youtube' src="https://www.youtube.com/embed/IWk44K-6bnQ?si=1kWxFtER6PEBc0sq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="960"  height="455" className='youtube' src="https://www.youtube.com/embed/IWk44K-6bnQ?si=1kWxFtER6PEBc0sq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     <p>
       Strings in python are surrounded by either single quotation marks, or double quotation marks.
       <br/>
@@ -214,7 +214,7 @@ print(a)
         <a href="#" class="btn">Try it Yourself</a>
         <div class="container">
         <h1>Python Operators</h1>
-        <iframe width="716" height="315" className='youtube' src="https://www.youtube.com/embed/v5MR5JnKcZI?si=qeHvQop1Olc2zm4_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="960"  height="455" className='youtube' src="https://www.youtube.com/embed/v5MR5JnKcZI?si=qeHvQop1Olc2zm4_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <p>Operators are used to perform operations on variables and values. In the example below, we use the <code>+</code> operator to add together two values:</p>
          <li>Arithmetic operators</li>
          <li>Assignment operators</li>

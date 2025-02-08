@@ -21,7 +21,7 @@ const python3_0 = () => {
 
      <div class="container">
         <h1>Python Lists</h1>
-        <iframe width="716" height="315" className='youtube' src="https://www.youtube.com/embed/Eaz5e6M8tL4?si=Y6mIyb1JXhqh5v5O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="960"  height="455" className='youtube' src="https://www.youtube.com/embed/Eaz5e6M8tL4?si=Y6mIyb1JXhqh5v5O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         
         <h2>List</h2>
         <p>Lists are used to store multiple items in a single variable.</p>
@@ -88,7 +88,7 @@ print(thislist)</pre>
         </ul>
 
 <h1>Python Tuples</h1>
-<iframe width="716" height="315" className='youtube' src="https://www.youtube.com/embed/Mf7eFtbVxFM?si=jFMOsU24iI6jkB38" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="960"  height="455" className='youtube' src="https://www.youtube.com/embed/Mf7eFtbVxFM?si=jFMOsU24iI6jkB38" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <h2>Tuple</h2>
 <p>Tuples are used to store multiple items in a single variable.
 
@@ -213,7 +213,7 @@ print(thisset)
 
 
 <h1>Python Dictionaries</h1>
-<iframe width="716" height="315" className='youtube' src="https://www.youtube.com/embed/2IsF7DEtVjg?si=h7WTGKSpS_POhfij" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="960"  height="455" className='youtube' src="https://www.youtube.com/embed/2IsF7DEtVjg?si=h7WTGKSpS_POhfij" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <h2>What is a Dictionary?</h2>
 <p>A dictionary is a collection which is unordered, changeable, and indexed. In Python, dictionaries are written with curly brackets, and they have keys and values.</p>
@@ -277,7 +277,7 @@ print(thisdict.values())
 </pre>
 
 <h1>Python If...Else</h1>
-<iframe width="716" height="315" className='youtube' src="https://www.youtube.com/embed/PqFKRqpHrjw?si=GMLI5arVkbqRvtzD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="960"  height="455" className='youtube' src="https://www.youtube.com/embed/PqFKRqpHrjw?si=GMLI5arVkbqRvtzD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
         
         <h2>Conditional Statements</h2>

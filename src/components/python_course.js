@@ -60,7 +60,7 @@ const Card = () => {
                                     //////////////// */}
  <div class="container3">
         <h1 ><a id='whatispy'>What is Python?</a></h1>
-        <iframe width="760"  height="315" className='youtube' src="https://www.youtube.com/embed/hEgO047GxaQ?si=F9saf0FVvf1sbnN4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="960"  height="455" className='youtube' src="https://www.youtube.com/embed/hEgO047GxaQ?si=F9saf0FVvf1sbnN4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <p>Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.</p>
         <p>It is used for:</p>
         <ul>
@@ -146,7 +146,7 @@ const Card = () => {
         <a href="https://www.w3schools.com/python/trypython.asp?filename=demo_default" class="button3">Try it Yourself</a>
 <div>
 <h1><a id='pyvariable'>Python Installation</a></h1>
-<iframe width="760" height="315" className='youtube' src="https://www.youtube.com/embed/CScxy0294SE?si=f8K1ohoefJ6Ai01u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="960"  height="455" className='youtube' src="https://www.youtube.com/embed/CScxy0294SE?si=f8K1ohoefJ6Ai01u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <h1>Python Installation & IDE Guide</h1>
 
   <h2>Limitations of the Interpreter & the Role of an IDE</h2>
@@ -245,7 +245,7 @@ const Card = () => {
          <div class="container_vari">
              <h1><a id='pyvariable'>Python Variables</a></h1>
              {/* https://www.youtube.com/embed/TqPzwenhMj0?si=e_cl2NSDNMVJ7Lbz */}
-             <iframe width="760" height="315" className='youtube' src="https://www.youtube.com/embed/TqPzwenhMj0?si=e_cl2NSDNMVJ7Lbz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+             <iframe width="960"  height="455" className='youtube' src="https://www.youtube.com/embed/TqPzwenhMj0?si=e_cl2NSDNMVJ7Lbz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
              <p>Variables are containers for storing data values.</p>
      
              <h2>Creating Variables</h2>
@@ -285,7 +285,7 @@ const Card = () => {
 </div>
 <h1 ><a id='pydatatypes'>Python Data Types</a></h1>
 {/* https://www.youtube.com/embed/gCCVsvgR2KU?si=3UAAQIk3diNvrjyr */}
-<iframe width="760" height="315" className='youtube' src="https://www.youtube.com/embed/gCCVsvgR2KU?si=3UAAQIk3diNvrjyr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="960"  height="455" className='youtube' src="https://www.youtube.com/embed/gCCVsvgR2KU?si=3UAAQIk3diNvrjyr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <div class="section">
     <h2>Built-in Data Types</h2>
@@ -386,7 +386,7 @@ print(type(x))</div>
 {/* ///python numbers  */}
 
 <h1><a id='pynumbers'>Python Numbers</a></h1>
-<iframe width="760" height="315" className='youtube' src="https://www.youtube.com/embed/AWAjbtWBzGs?si=mY4MKSoXuDkGceJr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="960"  height="455" className='youtube' src="https://www.youtube.com/embed/AWAjbtWBzGs?si=mY4MKSoXuDkGceJr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <div class="section">
     <h2>Introduction</h2>
