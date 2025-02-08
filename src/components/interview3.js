@@ -8,6 +8,7 @@ import Footer from './footer.js'
 import Nav from 'react-bootstrap/Nav';
 import Interview3 from './interview3.js'
 import Interview4 from './interview3.js'
+
 const python4 = () => {
   return (
     <StyledWrapper>
@@ -176,6 +177,7 @@ const python4 = () => {
     <li><strong>Virtual Keyword:</strong> A keyword to ensure that only one instance is created, removing ambiguity when multiple classes inherit from the same parent class.</li>
   </ul>
   </div>
+
  
     <Nav.Link href="/Interview4" >   <Nextbutton/>   </Nav.Link>
     <a href="#" >   <Codeingbtn/>   </a>

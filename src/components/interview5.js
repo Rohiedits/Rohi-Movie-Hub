@@ -14,9 +14,8 @@ const python4 = () => {
   )
 }
 const StyledWrapper = styled.div`
-
 .container {
-            max-width: 900px;
+    max-width: 1500px;
             margin: 20px auto;
             padding: 20px;
             background: #fff;
@@ -56,6 +55,9 @@ const StyledWrapper = styled.div`
             text-decoration: none;
             font-size: 1rem;
             cursor: pointer;
+        }
+        .question {
+            font-weight: bold;
         }
 
         .btn:hover {
@@ -116,6 +118,17 @@ const StyledWrapper = styled.div`
     transform: rotateX(var(--X)) rotateY(var(--Y)) rotateZ(var(--Z));
     transition: transform 0.3s ease-in-out;
   }
+  .quiz-section {
+            margin-bottom: 30px;
+        }
+        .glossary {
+            background: #f1f1f1;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .glossary dt {
+            font-weight: bold;
+        }
 
 `;
 

@@ -23,6 +23,8 @@ import Interviewguide from './components/Interview.js';
 import Interview2 from './components/interview2.js';
 import Interview3 from './components/interview3.js';
 import Interview4 from './components/interview4.js';
+import Academic from './components/Academic.js';
+import Cs from './components/controlsystem.js';
 // import Mood from './components/mood.js';
 // import LoginPage from "./LoginPage2";
 import Nextbtn from './components/nextbutton.js'
@@ -67,6 +69,8 @@ const App = () => {
         <Route path="/Interview2" component ={Interview2} />
         <Route path="/Interview3" component ={Interview3} />
         <Route path="/Interview4" component ={Interview4} />
+        <Route path="/Academic" component ={Academic} />
+        <Route path="/Controlsystems" component ={Cs} />
         <Route path="/search">
           <SearchView keyword={searchText} searchResults={searchResults}/>
         </Route>
