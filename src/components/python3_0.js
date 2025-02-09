@@ -20,7 +20,16 @@ const python3_0 = () => {
      <Hero  text="👨‍💻 Python Course.."/> 
 
      <div class="container">
-        <h1>Python Lists</h1>
+     <h2>Python-Course Topics</h2>
+        <ul>
+           
+            <li><a href='#pylist'>Python List</a></li>
+            <li><a href='#pytuples'>Pythin Tuples</a></li>
+            <li><a href='#pysets'>Python Sets</a></li>
+            <li><a href='#pydist'>Python Dictionaries</a></li>
+            <li><a href='#pyif'>Python If...Else</a></li>
+            </ul>
+        <h1 id='pylist'>Python Lists</h1>
         <iframe width="960"  height="455" className='youtube' src="https://www.youtube.com/embed/Eaz5e6M8tL4?si=Y6mIyb1JXhqh5v5O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         
         <h2>List</h2>
@@ -87,7 +96,7 @@ print(thislist)</pre>
             <li><strong>Dictionary</strong> is a collection which is ordered** and changeable. No duplicate members.</li>
         </ul>
 
-<h1>Python Tuples</h1>
+<h1 id='pytuples'>Python Tuples</h1>
 <iframe width="960"  height="455" className='youtube' src="https://www.youtube.com/embed/Mf7eFtbVxFM?si=jFMOsU24iI6jkB38" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <h2>Tuple</h2>
 <p>Tuples are used to store multiple items in a single variable.
@@ -132,7 +141,7 @@ tuple3 = (True, False, False) # boolean</pre>
 print(thistuple)</pre>
 
 
-<h1>Python Sets</h1>
+<h1 id='pysets'>Python Sets</h1>
 
 <h2>What is a Set?</h2>
 <p>A set is a collection which is unordered, unchangeable*, and unindexed.</p>
@@ -187,7 +196,7 @@ thisset.discard("banana")
 print(thisset)
 </pre>
 
-<h2>Set Methods</h2>
+<h2 id='pysets'>Set Methods</h2>
 <p>Python has a set of built-in methods that you can use on sets.</p>
 <pre class="code-block">
 # Method	Description <br/>
@@ -212,7 +221,7 @@ print(thisset)
 
 
 
-<h1>Python Dictionaries</h1>
+<h1 id='pydist'>Python Dictionaries</h1>
 <iframe width="960"  height="455" className='youtube' src="https://www.youtube.com/embed/2IsF7DEtVjg?si=h7WTGKSpS_POhfij" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <h2>What is a Dictionary?</h2>
@@ -276,7 +285,7 @@ for x, y in thisdict.items():<br/>
 print(thisdict.values())
 </pre>
 
-<h1>Python If...Else</h1>
+<h1 id='pyif'>Python If...Else</h1>
 <iframe width="960"  height="455" className='youtube' src="https://www.youtube.com/embed/PqFKRqpHrjw?si=GMLI5arVkbqRvtzD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
         
@@ -402,7 +411,7 @@ if b {'>'} a:<br/>
 
 
    <Roadmapbtn1/>
-    <Nav.Link href="/Python_p3.0" >   <Nextbutton/>   </Nav.Link>
+    <Nav.Link href="/Python4" >   <Nextbutton/>   </Nav.Link>
     <a href="#" >   <Codeingbtn/>   </a>
       <hr/>
       <Footer/>
@@ -415,7 +424,7 @@ if b {'>'} a:<br/>
 }
 const StyledWrapper = styled.div`
 .container {
-            max-width: 900px;
+  max-width: 1500px;
             margin: 20px auto;
             padding: 20px;
             background: #fff;

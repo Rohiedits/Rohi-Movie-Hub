@@ -20,13 +20,23 @@ function python_c2() {
     <StyledWrapper>
       <Hero  text="👨‍💻 Python Course.."/> 
       <div class="container">
-        <h1>Python Casting</h1>
+
+      <h2>Python-Course Topics</h2>
+        <ul>
+           
+            <li><a href='#pynumbers'>Python Numbers</a></li>
+            <li><a href='#pycast'>Pythin Casting</a></li>
+            <li><a href='#pystrings'>Python Strings</a></li>
+            <li><a href='#pybool'>Python Booleans</a></li>
+            <li><a href='#pyop'>Python Operaters</a></li>
+            </ul>
+        <h1 id='pycast'>Python Casting</h1>
         <iframe width="960"  height="455" className='youtube' src="https://www.youtube.com/embed/Qtq83lAoogM?si=jypEFN-PoVOX225F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
         {/* <a href="#" class="btn">&lt; Previous</a> */}
 
         <section class="section">
-            <h2>Specify a Variable Type</h2>
+            <h2 id='pycast'>Specify a Variable Type</h2>
             <p>
                 There may be times when you want to specify a type on to a variable. This
                 can be done with casting. Python is an object-orientated language, and
@@ -88,7 +98,7 @@ z = str(3.0)    # z will be '3.0'
         </section>
     </div>
     <div class="container">
-    <h1>Strings</h1>
+    <h1 id='pystrings'>Strings</h1>
     <iframe width="960"  height="455" className='youtube' src="https://www.youtube.com/embed/IWk44K-6bnQ?si=1kWxFtER6PEBc0sq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     <p>
       Strings in python are surrounded by either single quotation marks, or double quotation marks.
@@ -166,7 +176,7 @@ print(a)
     </section>
 
     
-        <h1>Python Booleans</h1>
+        <h1 id='pybool'>Python Booleans</h1>
         <p>Booleans represent one of two values: <strong>True</strong> or <strong>False</strong>.</p>
 
         <h2>Boolean Values</h2>
@@ -213,7 +223,7 @@ print(a)
         </div>
         <a href="#" class="btn">Try it Yourself</a>
         <div class="container">
-        <h1>Python Operators</h1>
+        <h1 id='pyop'>Python Operators</h1>
         <iframe width="960"  height="455" className='youtube' src="https://www.youtube.com/embed/v5MR5JnKcZI?si=qeHvQop1Olc2zm4_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <p>Operators are used to perform operations on variables and values. In the example below, we use the <code>+</code> operator to add together two values:</p>
          <li>Arithmetic operators</li>
@@ -540,7 +550,7 @@ const StyledWrapper = styled.div`
 
 
 .container {
-            max-width: 900px;
+    max-width: 1500px;
             margin: 20px auto;
             padding: 20px;
             background: #fff;

@@ -28,6 +28,10 @@ import Cs from './components/controlsystem.js';
 import Em_2 from './components/em_2.js';
 import Dd from './components/Dd.js';
 import Td from './components/Td.js';
+import python4 from "./components/python4.js";
+import python5 from "./components/python5.js";
+import python6 from "./components/python6.js";
+import python7 from "./components/python7.js";
 // import Mood from './components/mood.js';
 // import LoginPage from "./LoginPage2";
 import Nextbtn from './components/nextbutton.js'
@@ -77,6 +81,10 @@ const App = () => {
         <Route path="/em_2" component ={Em_2} />
         <Route path="/Dd" component ={Dd} />
         <Route path="/Td" component ={Td} />
+        <Route path="/Python4" component ={python4} />
+        <Route path="/Python5" component ={python5} />
+        <Route path="/Python6" component ={python6} />
+        <Route path="/Python7" component ={python7} />
         <Route path="/search">
           <SearchView keyword={searchText} searchResults={searchResults}/>
         </Route>

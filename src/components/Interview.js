@@ -7,12 +7,14 @@ import Nextbutton from './nextbutton.js';
 import Footer from './footer.js'
 import Nav from 'react-bootstrap/Nav';
 import Interview2 from './interview2.js';
+
 const python4 = () => {
   return (
     <StyledWrapper>
 
      <Hero  text="👨‍💻 Interview Guide.."/> 
      <div class="container">
+        
         <h1 style={{color:"gray",textAlign:"center" }}> 1.C-Programming Interview Questions with Answers</h1>
      <iframe width="960"  height="455" className='youtube' src="https://www.youtube.com/embed/oeA3dskWKxE?si=mspwKeL56r6bMs7c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
      <h2 style={{ }}>Interview Questions</h2>
