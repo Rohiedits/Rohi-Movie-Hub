@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import jsPDF from 'jspdf';
+import Hero from './Hero';
 
 function CertificateGenerator() {
   const [name, setName] = useState('');
@@ -66,7 +67,12 @@ function CertificateGenerator() {
   };
 
   return (
+    
+    <div>
+       <Hero text="👨‍💻 Python Course Completed Successfully.." />
     <div style={{
+      marginTop:'250px',
+      paddingTop:'50px',
       maxWidth: '500px',
       margin: '40px auto',
       padding: '20px',
@@ -74,7 +80,11 @@ function CertificateGenerator() {
       border: '1px solid #ddd',
       borderRadius: '10px',
       boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
+      
+      
     }}>
+      
+      
       <h1 style={{
         textAlign: 'center',
         marginBottom: '20px',
@@ -87,7 +97,7 @@ function CertificateGenerator() {
         <label style={{
           marginBottom: '10px',
         }}>
-          Enter your name:
+          ENTER YOUR NAME:
           <input type="text" value={name} onChange={(e) => setName(e.target.value)} style={{
             padding: '10px',
             marginBottom: '20px',
@@ -95,6 +105,9 @@ function CertificateGenerator() {
             borderRadius: '5px',
           }} />
         </label>
+        <label style={{
+          marginBottom: '10px',color:'red'
+        }} >[ Enter Your Name in Capitals ]</label>
         <button type="submit" style={{
           padding: '10px 20px',
           backgroundColor: '#4CAF50',
@@ -115,6 +128,7 @@ function CertificateGenerator() {
           marginTop: '20px',
         }}>Download Certificate</button>
       )}
+    </div>
     </div>
   );
 }
