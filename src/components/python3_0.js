@@ -7,9 +7,10 @@ import Moodhead from './codemoodheading.js';
 import Footer from './footer.js'
 import Nav from 'react-bootstrap/Nav';
 import Codeingbtn from './codingbtn.js';
-import Roadmapbtn1 from './Roadmapbtn1.js';
+import Nav3 from './Nav3.js'
+
 // import S1 from './s1.png'
-import ScribdEmbed from './embedednotes.js';
+
 import Quiz from './quize.js';
 import Quiz3 from './quiz3.js';
 
@@ -20,15 +21,17 @@ const python3_0 = () => {
      <Hero  text="👨‍💻 Python Course.."/> 
 
      <div class="container">
-     <h2>Python-Course Topics</h2>
+      <center>
+     <h2>Python-Course Topics in This Page-3</h2>
         <ul>
            
-            <li><a href='#pylist'>Python List</a></li>
-            <li><a href='#pytuples'>Pythin Tuples</a></li>
-            <li><a href='#pysets'>Python Sets</a></li>
-            <li><a href='#pydist'>Python Dictionaries</a></li>
-            <li><a href='#pyif'>Python If...Else</a></li>
+            <><a href='#pylist'>Python List</a></><br/>
+            <><a href='#pytuples'>Pythin Tuples</a></><br/>
+            <><a href='#pysets'>Python Sets</a></><br/>
+            <><a href='#pydist'>Python Dictionaries</a></><br/>
+            <><a href='#pyif'>Python If...Else</a></><br/>
             </ul>
+            </center>
         <h1 id='pylist'>Python Lists</h1>
         <iframe width="960"  height="455" className='youtube' src="https://www.youtube.com/embed/Eaz5e6M8tL4?si=Y6mIyb1JXhqh5v5O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         
@@ -399,18 +402,21 @@ if b {'>'} a:<br/>
   
 <Quiz3/>
 
-  <ScribdEmbed/>
+  
     {/* <img src={S1} alt='s1' /> */}
 
     <h1 className='coding mood'>CODING MOOD </h1> <br/>
   <Moodhead/> 
-    <Mood/>
+    <Mood/><br/>
+    <center>
+      <Nav3/>
+    </center>
     </div>
 
     
 
 
-   <Roadmapbtn1/>
+   
     <Nav.Link href="/Python4" >   <Nextbutton/>   </Nav.Link>
     <a href="#" >   <Codeingbtn/>   </a>
       <hr/>

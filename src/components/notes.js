@@ -6,7 +6,35 @@ const Card = () => {
     <StyledWrapper>
       <div className="page">
         <div className="margin" />
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mauris risus, lobortis a neque aliquet, ornare rutrum purus. Integer hendrerit ac est non cursus. Integer quis risus tincidunt nunc mattis ultricies. Proin sed enim tellus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mauris risus, lobortis a neque aliquet, ornare rutrum purus. Integer hendrerit ac est non cursus. Integer quis risus tincidunt nunc mattis ultricies. Proin sed enim tellus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mauris risus, lobortis a neque aliquet, ornare rutrum purus. Integer hendrerit ac est non cursus. Integer quis risus tincidunt nunc mattis ultricies. Proin sed enim tellus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mauris risus, lobortis a neque aliquet, ornare rutrum purus. Integer hendrerit ac est non cursus. Integer quis risus tincidunt nunc mattis ultricies. Proin sed enim tellus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mauris risus, lobortis a neque aliquet, ornare rutrum purus. Integer hendrerit ac est non cursus. Integer quis risus tincidunt nunc mattis ultricies. Proin sed enim tellus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mauris risus, lobortis a neque aliquet, ornare rutrum purus. Integer hendrerit ac est non cursus. Integer quis risus tincidunt nunc mattis ultricies. Proin sed enim tellus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mauris risus, lobortis a neque aliquet, ornare rutrum purus. Integer hendrerit ac est non cursus. Integer quis risus tincidunt nunc mattis ultricies. Proin sed enim tellus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mauris risus, lobortis a neque aliquet, ornare rutrum purus. Integer hendrerit ac est non cursus. Integer quis risus tincidunt nunc mattis ultricies. Proin sed enim tellus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mauris risus, lobortis a neque aliquet, ornare rutrum purus. Integer hendrerit ac est non cursus. Integer quis risus tincidunt nunc mattis ultricies. Proin sed enim tellus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mauris risus, lobortis a neque aliquet, ornare rutrum purus. Integer hendrerit ac est non cursus. Integer quis risus tincidunt nunc mattis ultricies. Proin sed enim tellus.</p>
+        <p><h2 style={{textDecoration:"underline"}}>Python-Full-Course Topics In Rohi-Learning-Hub</h2><br/>1.What is Python<br/>
+2.Python Variables<br/>
+3.Python Data Types<br/>
+4.Python Numbers<br/>
+5.Python Casting<br/>
+6.Python Strings<br/>
+7.Python Booleans<br/>
+8.Python Python Operators<br/>
+9.Python Python Lists<br/>
+10.Python Python Tuples<br/>
+11.Python Python Sets<br/>
+12.Python Dictionaries<br/>
+13.Python If...Else<br/>
+14.Python While Loops<br/>
+15.Python For Loops<br/>
+16.Python Functions<br/>
+17.Python Lambda<br/>
+18.Python Arrays<br/>
+19.Python Classes/Objects<br/>
+20.Python Inheritance<br/>
+21.Python Iterators<br/>
+22.Python Polymorphism<br/>
+23.Python Scope<br/>
+24.Python Modules<br/>
+25.Python Dates<br/>
+26.Python Math<br/>
+27.Python JSON<br/>
+28.Python RegEx<br/>
+</p>
       </div>
     </StyledWrapper>
   );

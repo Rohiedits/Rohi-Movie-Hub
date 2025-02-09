@@ -8,13 +8,14 @@ import styled from 'styled-components';
  import Nav from 'react-bootstrap/Nav';
  import Codeingbtn from './codingbtn.js';
  import Roadmapbtn1 from './Roadmapbtn1.js';
- import Python_notes from  './Py_Notes.pdf'
- import Quiz1 from './queiz1.js';
+import Quiz1 from './queiz1.js';
 import Pythondwd from './pythondwd _1.png';
 import Pyversion from './pyversion.png';
 import Pywelcome from './pywelcome.png';
 import Vs from './vs.png';
 import Pycham from './pycham.png';
+import Nav3 from './Nav3.js';
+import Note from './notes.js';
 
 //  import Card1 from './card.js';
 
@@ -22,8 +23,12 @@ const Card = () => {
   return (
     <StyledWrapper>
       
-             <Hero  text="👨‍💻Welcome to Python Course.."/> 
+      
+             <Hero  text="👨‍💻Welcome to Python Course.."/>
+             
+           
       <div className="card_container">
+       
         <div className="card_hover">
           <div className="part part-1" />
           <div className="part part-2" />
@@ -59,6 +64,22 @@ const Card = () => {
                                   ///////  Script 
                                     //////////////// */}
  <div class="container3">
+  <center>  <br/><Note/>
+  
+  <h2>Python-Course Topics in This Page-1</h2>
+        <ul>
+            <><a href='#whatispy'>What is Python</a></><br/>
+            <><a href='#pyvariable'>Python Variables</a></><br/>
+            <><a href='#pydatatypes'>Python Data Types</a></><br/>
+            <><a href='#pynumbers'>Python Numbers</a></><br/>
+            </ul>
+  
+  
+  
+  </center>
+
+ 
+
         <h1 ><a id='whatispy'>What is Python?</a></h1>
         <iframe width="960"  height="455" className='youtube' src="https://www.youtube.com/embed/hEgO047GxaQ?si=F9saf0FVvf1sbnN4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <p>Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.</p>
@@ -101,13 +122,8 @@ const Card = () => {
             <li>Python relies on indentation, using whitespace, to define scope; such as the scope of loops, functions, and classes. Other programming languages often use curly brackets for this purpose.</li>
         </ul>
         
-        <h2>Python-Course Topics</h2>
-        <ul>
-            <li><a href='#whatispy'>What is Python</a></li>
-            <li><a href='#pyvariable'>Python Variables</a></li>
-            <li><a href='#pydatatypes'>Python Data Types</a></li>
-            <li><a href='#pynumbers'>Python Numbers</a></li>
-            <li>Python Casting</li>
+       
+            {/* <li>Python Casting</li>
             <li>Python Strings</li>
             <li>Python Booleans</li>
             <li>Python Python Operators</li>
@@ -135,8 +151,8 @@ const Card = () => {
             <li>Python PIP</li>
             <li>Python Try...Except</li>
             <li>Python User Input</li>
-            <li>Python String Formatting</li>
-        </ul>
+            <li>Python String Formatting</li> */}
+        
         <h2>Example</h2>
         
         <div class="example">
@@ -513,12 +529,13 @@ print(random.randrange(1, 10))</div>
 
 <h1 className='coding mood'>CODING MOOD </h1> <br/>
   <Moodhead /> 
-    <Mood />
+    <Mood /><br/>
+    <center><Nav3/><br/><Roadmapbtn1/></center>
     </div>
 
     
 
-    <Roadmapbtn1/>
+    
 
     <Nav.Link href="/Python_p2" >   <Nextbutton/>   </Nav.Link>
 
@@ -530,49 +547,7 @@ print(random.randrange(1, 10))</div>
 
 
                     {/* Download Source */}
-                    <hr/>
-      <div className="card1">
-        <div className="image_container">
-          {/* <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" className="image">
-            <path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z" />
-          </svg> */}
-          {/* <img src='pythonimage.jpg'className='container'/> */}
-          <img src='https://tse1.mm.bing.net/th?id=OIP.Jl2AWryzVJ0fIag0lgzfugHaKe&pid=Api&P=0&h=180'className='container'/>
-
-        </div>
-        <div className="title">
-          <span>Python Notes</span>
-        </div>
-        <div className="size">
-          <span>Hand-Written</span>
-          {/* <ul className="list-size">
-            <li className="item-list"><button className="item-list-button">1.8.9</button></li>
-            <li className="item-list">
-              <button className="item-list-button">1.21.1</button>
-            </li>
-          </ul> */}
-        </div>
-        <div className="action">
-        <a href={Python_notes} download="Rohi-Hub_Python_handwritten_notes">
-          <button className="download-button">
-          
-            <span className="button-text">DOWNLOAD</span>
-            
-            
-            <span className="button-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35" className="download-svg">
-                <path d="M17.5,22.131a1.249,1.249,0,0,1-1.25-1.25V2.187a1.25,1.25,0,0,1,2.5,0V20.881A1.25,1.25,0,0,1,17.5,22.131Z" />
-                <path d="M17.5,22.693a3.189,3.189,0,0,1-2.262-.936L8.487,15.006a1.249,1.249,0,0,1,1.767-1.767l6.751,6.751a.7.7,0,0,0,.99,0l6.751-6.751a1.25,1.25,0,0,1,1.768,1.767l-6.752,6.751A3.191,3.191,0,0,1,17.5,22.693Z" />
-                <path d="M31.436,34.063H3.564A3.318,3.318,0,0,1,.25,30.749V22.011a1.25,1.25,0,0,1,2.5,0v8.738a.815.815,0,0,0,.814.814H31.436a.815.815,0,0,0,.814-.814V22.011a1.25,1.25,0,1,1,2.5,0v8.738A3.318,3.318,0,0,1,31.436,34.063Z" />
-              </svg>
-            </span>
-            
-          </button>
-          </a>
-          
-        </div>
-        
-      </div>
+                   
 
       <br/>
       

@@ -7,9 +7,10 @@ import Moodhead from './codemoodheading.js';
 import Footer from './footer.js'
 import Nav from 'react-bootstrap/Nav';
 import Codeingbtn from './codingbtn.js';
-import Roadmapbtn1 from './Roadmapbtn1.js';
+import Nav3 from './Nav3.js'
+
 // import S1 from './s1.png'
-import ScribdEmbed from './embedednotes.js';
+
 import Quiz from './quize.js';
 
 
@@ -20,16 +21,17 @@ function python_c2() {
     <StyledWrapper>
       <Hero  text="👨‍💻 Python Course.."/> 
       <div class="container">
-
-      <h2>Python-Course Topics</h2>
+<center>
+      <h2>Python-Course Topics in This Page-2</h2>
         <ul>
            
-            <li><a href='#pynumbers'>Python Numbers</a></li>
-            <li><a href='#pycast'>Pythin Casting</a></li>
-            <li><a href='#pystrings'>Python Strings</a></li>
-            <li><a href='#pybool'>Python Booleans</a></li>
-            <li><a href='#pyop'>Python Operaters</a></li>
+            <><a href='#pynumbers'>Python Numbers</a></><br/>
+            <><a href='#pycast'>Pythin Casting</a></><br/>
+            <><a href='#pystrings'>Python Strings</a></><br/>
+            <><a href='#pybool'>Python Booleans</a></><br/>
+            <><a href='#pyop'>Python Operaters</a></><br/>
             </ul>
+            </center>
         <h1 id='pycast'>Python Casting</h1>
         <iframe width="960"  height="455" className='youtube' src="https://www.youtube.com/embed/Qtq83lAoogM?si=jypEFN-PoVOX225F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -517,18 +519,22 @@ print(a)
     <Quiz/>
     <br/>
 
-    <ScribdEmbed/>
+    
     {/* <img src={S1} alt='s1' /> */}
 
     <h1 className='coding mood'>CODING MOOD </h1> <br/>
-  <Moodhead/> 
-    <Mood/>
+  <Moodhead/> <br/>
+  <Mood/>
+  <center>
+    <Nav3/>
+  </center>
+    
     </div>
 
     
 
 
-   <Roadmapbtn1/>
+   
     <Nav.Link href="/Python_p3.0" >   <Nextbutton/>   </Nav.Link>
     <a href="#" >   <Codeingbtn/>   </a>
       <hr/>

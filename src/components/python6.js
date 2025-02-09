@@ -5,6 +5,7 @@ import Footer from './footer.js'
 import Nav from 'react-bootstrap/Nav';
 import Codeingbtn from './codingbtn.js';
 import Nextbutton from './nextbutton.js';
+import Nav3 from './Nav3.js'
 // import datetime
 // import datetime
 // import math
@@ -20,17 +21,18 @@ import Nextbutton from './nextbutton.js';
 const python3_0 = () => {
   return (
     <StyledWrapper>
-      <Hero text="👨‍💻 Python Course.." />
+     
       <div className='container'>
-        <h2>Python-Course Topics</h2>
+        <center>
+        <h2>Python-Course Topics in This Page-6</h2>
         <ul>
-          <li><a href='#pylist'>Python Modules</a></li>
-          <li><a href='#pytuples'>Python Dates</a></li>
-          <li><a href='#pysets'>Python Maths</a></li>
-          <li><a href='#pydist'>Python JSON</a></li>
-          <li><a href='#pyarrays'>Python RegEx</a></li>
+          <><a href='#pylist'>Python Modules</a></><br/>
+          <><a href='#pytuples'>Python Dates</a></><br/>
+          <><a href='#pysets'>Python Maths</a></><br/>
+          <><a href='#pydist'>Python JSON</a></><br/>
+          <><a href='#pyarrays'>Python RegEx</a></><br/>
         </ul>
-
+        </center>
         <div id='pylist' className='section'>
           <h1>Python Modules</h1>
           <iframe width="960" height="455" className='youtube' src=" https://www.youtube.com/embed/WfcozEiBIJU?si=CDWEF6kW997X3Lcg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -243,6 +245,7 @@ print(x)`}
             </div>
           </div>
         </div>
+        <center><Nav3/><br/></center>
         <Nav.Link href="/Python7"><Nextbutton /></Nav.Link>
         <a href="#"><Codeingbtn /></a>
         <hr />

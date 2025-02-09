@@ -5,24 +5,27 @@ import Footer from './footer.js'
 import Nav from 'react-bootstrap/Nav';
 import Codeingbtn from './codingbtn.js';
 import Nextbutton from './nextbutton.js';
+import Nav3 from './Nav3.js'
 
 const python4 = () => {
 return (
     <StyledWrapper>
         <Hero text="👨‍💻 Python Course.." />
         <div className='container'>
-        <h2>Python-Course Topics</h2>
+            <center>
+        <h2>Python-Course Topics in This Page-4</h2>
         <ul>
         {/* about Python Inheritance,
 Python Iterators,
 Python Polymorphism,
 Python Scope each topic having 5 codes and details using same style in this file */}
-            <li><a href='#pylist'>Python While Loops</a></li>
-            <li><a href='#pytuples'>Python For Loops</a></li>
-            <li><a href='#pysets'>Python Functions</a></li>
-            <li><a href='#pydist'>Python Lambda</a></li>
-            <li><a href='#pyarrays'>Python Arrays</a></li>
+            <><a href='#pylist'>Python While Loops</a></><br/>
+            <><a href='#pytuples'>Python For Loops</a></><br/>
+            <><a href='#pysets'>Python Functions</a></><br/>
+            <><a href='#pydist'>Python Lambda</a></><br/>
+            <><a href='#pyarrays'>Python Arrays</a></><br/>
         </ul>
+        </center>
         <div className="section">
             <h1 id="pylist">Python While Loops</h1>
             <iframe width="960" height="455" className='youtube' src="https://www.youtube.com/embed/HZARImviDxg?si=MK4IaRD3zxvbijUd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -367,7 +370,10 @@ print(numbers)  # Output: array('i', [1, 3, 4, 5, 6])`}
                     </code>
                 </pre>
             </div>
-            <p>In this example, elements are added to and removed from the array using the <code>append</code> and <code>remove</code> methods.</p>
+            <p>In this example, elements are added to and removed from the array using the <code>append</code> and <code>remove</code> methods.</p><br/>
+            <center>
+                <Nav3/><br/>
+            </center>
             <Nav.Link href="/Python5" >   <Nextbutton/>   </Nav.Link>
             <a href="#" >   <Codeingbtn/>   </a>
       <hr/>
