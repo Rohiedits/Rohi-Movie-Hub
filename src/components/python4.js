@@ -6,6 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 import Codeingbtn from './codingbtn.js';
 import Nextbutton from './nextbutton.js';
 import Nav3 from './Nav3.js'
+import Quiz4 from './quize4.js';
 
 const python4 = () => {
 return (
@@ -372,6 +373,7 @@ print(numbers)  # Output: array('i', [1, 3, 4, 5, 6])`}
             </div>
             <p>In this example, elements are added to and removed from the array using the <code>append</code> and <code>remove</code> methods.</p><br/>
             <center>
+                <Quiz4/>
                 <Nav3/><br/>
             </center>
             <Nav.Link href="/Python5" >   <Nextbutton/>   </Nav.Link>

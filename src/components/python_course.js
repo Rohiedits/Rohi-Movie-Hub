@@ -528,8 +528,8 @@ print(random.randrange(1, 10))</div>
 </div>
 
 <h1 className='coding mood'>CODING MOOD </h1> <br/>
-  <Moodhead /> 
-    <Mood /><br/>
+  <Moodhead /> <br/>
+    <center><Mood /></center><br/>
     <center><Nav3/><br/><Roadmapbtn1/></center>
     </div>
 

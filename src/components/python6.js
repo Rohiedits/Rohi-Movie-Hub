@@ -6,6 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 import Codeingbtn from './codingbtn.js';
 import Nextbutton from './nextbutton.js';
 import Nav3 from './Nav3.js'
+import Quize6 from './quize6.js'
 // import datetime
 // import datetime
 // import math
@@ -245,7 +246,8 @@ print(x)`}
             </div>
           </div>
         </div>
-        <center><Nav3/><br/></center>
+        <center><Quize6/>
+          <Nav3/><br/></center>
         <Nav.Link href="/Python7"><Nextbutton /></Nav.Link>
         <a href="#"><Codeingbtn /></a>
         <hr />

@@ -6,6 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 import Codeingbtn from './codingbtn.js';
 import Nextbutton from './nextbutton.js';
 import Nav3 from './Nav3.js'
+import Quize5 from './quize5.js'
 const python3_0 = () => {
   return (
     <StyledWrapper>
@@ -530,7 +531,7 @@ print(x)`}
             </pre>
           </div>
         </div>
-        <center><Nav3/><br/></center>
+        <center><Quize5/><Nav3/><br/></center>
 
         <Nav.Link href="/Python6"><Nextbutton /></Nav.Link>
         <a href="#"><Codeingbtn /></a>

@@ -406,9 +406,10 @@ if b {'>'} a:<br/>
     {/* <img src={S1} alt='s1' /> */}
 
     <h1 className='coding mood'>CODING MOOD </h1> <br/>
-  <Moodhead/> 
-    <Mood/><br/>
+  <Moodhead/> <br/>
+    
     <center>
+    <Mood/><br/>
       <Nav3/>
     </center>
     </div>

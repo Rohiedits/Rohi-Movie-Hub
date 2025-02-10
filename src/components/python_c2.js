@@ -524,7 +524,7 @@ print(a)
 
     <h1 className='coding mood'>CODING MOOD </h1> <br/>
   <Moodhead/> <br/>
-  <Mood/>
+  <center><Mood/></center><br/>
   <center>
     <Nav3/>
   </center>
