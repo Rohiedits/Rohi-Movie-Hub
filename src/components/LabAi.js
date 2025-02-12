@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Hero from "./Hero";
 
 function LabAssistantAI() {
   const [experimentName, setExperimentName] = useState("");
@@ -58,8 +59,12 @@ function LabAssistantAI() {
   };
 
   return (
-    <div style={{ textAlign: "center", padding: "20px" }}>
-      <h1>Lab Assistant AI</h1>
+    
+    <div >
+       <Hero text=" 🔬 Lab-AI..." />
+      <div style={{ textAlign: "center", padding: "20px" }}>
+      <h3 style={{textDecoration:"underline"}}>Given Experiments</h3><br/>
+      <h5>1.Speed Control Methods of 3-Phase Induction Motor</h5> <br/>
       <input
         type="text"
         value={experimentName}
@@ -95,6 +100,7 @@ function LabAssistantAI() {
           )}
         </div>
       )}
+      </div>
     </div>
   );
 }
