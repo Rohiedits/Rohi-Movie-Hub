@@ -63,7 +63,7 @@ const Card = () => {
                                   {/* ///////
                                   ///////  Script 
                                     //////////////// */}
- <div class="container3">
+ <div class="container">
   <center>  <br/><Note/>
   
   <h2>Python-Course Topics in This Page-1</h2>
@@ -529,7 +529,7 @@ print(random.randrange(1, 10))</div>
 
 <h1 className='coding mood'>CODING MOOD </h1> <br/>
   <Moodhead /> <br/>
-    <center><Mood /></center><br/>
+    <center><Mood/><br/></center><br/>
     <center><Nav3/><br/><Roadmapbtn1/></center>
     </div>
 
@@ -633,7 +633,14 @@ const StyledWrapper = styled.div`
             display: inline-block;
             white-space: pre-wrap;
         }
-
+        .container {
+  max-width: 1500px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
         .button {
             background-color: #4CAF50;
             color: white;
@@ -677,14 +684,14 @@ const StyledWrapper = styled.div`
 
 
 
-       .container3 {
+       /* .container3 {
                max-width: 1500px;
             margin: 20px auto;
             padding: 20px;
             background: #fff;
             border-radius: 10px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
+        } */
         h1 {
             color: #444;
         }

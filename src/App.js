@@ -34,6 +34,7 @@ import python6 from "./components/python6.js";
 import python7 from "./components/python7.js";
 import Todo from './components/Todo.js'
 import Gemini from "./components/geminiAi.js";
+import LabAi from "./components/LabAi.js";
 import Allpythonotes from "./components/Allpythonotes.js";
 // import Mood from './components/mood.js';
 // import LoginPage from "./LoginPage2";
@@ -89,6 +90,7 @@ const App = () => {
         <Route path="/Python6" component ={python6} />
         <Route path="/Python7" component ={python7} />
         <Route path="/Gemini" component ={Gemini} />
+        <Route path="/labai" component ={LabAi} />
         <Route path="/Allpythonotes" component ={Allpythonotes} />
         <Route path="/Todo" component ={Todo} />
         <Route path="/search">

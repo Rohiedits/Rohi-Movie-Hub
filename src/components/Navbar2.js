@@ -51,7 +51,8 @@ const OffcanvasExample =({searchText,setSearchText}) =>{
                     <NavDropdown.Item href="/interviewguide">Interview Guide </NavDropdown.Item>
                     <NavDropdown.Item href="/Academic">Academic Guide </NavDropdown.Item>
                     <NavDropdown.Item href="/Todo">To-Do </NavDropdown.Item>
-                    <NavDropdown.Item href="/part2" style={{color:"red"}}>Part-2 </NavDropdown.Item>
+                    <NavDropdown.Item href="/part2" style={{color:"red"}}>Attendance Analyzer </NavDropdown.Item>
+                    <NavDropdown.Item href="/labai" style={{color:"red"}}>Lab AI </NavDropdown.Item>
                     <NavDropdown.Divider />
                     <NavDropdown.Item href="/cancel">
                       Cancel
