@@ -26,36 +26,90 @@ function CertificateGenerator() {
 
     e.preventDefault();
     const doc = new jsPDF({
+      orientation: 'landscape',
       unit: 'px',
-      format: [1415, 1200],
+      format:  [1415, 1000]
       // [1415, 1200],
+      
     });
     doc.setFont('helvetica', 'bold');
     doc.setFontSize(58);
+    const bgImage = 'https://media-hosting.imagekit.io//6551c53f787349d1/bg3.jpg?Expires=1834022237&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=nT4wB4vjlbuXbgFqOD7f0Xi64yfXQLHkmimZs0h4T1WBip8IXJwnKhNkOfOxCJEnHInEMcGysbaCa-aukiXvtyDxmLAFSu6WBTnoMyGdrHMgxAPCq5LCBneEn5Qclqm6ef~wwh51~DElnlvBEmg90zM0TJXKLLkmrh71IosgBad6~NZ1ldEcNx5YA7NZ8~gh3YFBo0rqPq3~4OniQXtsfR14yTy3M0DdLV3NWNN5Tnq-LxQPWUCzksujjohXc9MRu~WsbZ-snOs6C7JK9yJSyNv3qWd6fdydFoFbMI9HNOQEmFw4PGU48bdrqfZx~MJ0LbqLOwQbMmvVgPW8AZgDvw__'; // Use a high-quality background
+if (bgImage) {
+    doc.addImage(bgImage, 'JPEG', 0, 0, 1415, 1000);}
     // doc.addImage('https://media-hosting.imagekit.io//4c67ae8906964ae3/WhatsApp_Image_2025-02-12_at_07.24.00_6b15c7df-removebg-preview.png?Expires=1833935243&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=r-d5ylQkUHMr7Y3xVLGz4noMEuPO1v136RNZSiZalLjwXuQXO24R3TDnfdXpAgSqLZmS8Ern4qWUyh56wKTYNYzf5xdwofgO1vTM2tTVHr-QU46BA5HJV1C4oUofK4Zd6nXMApndtPggyFeuncTHoVdo6-fzTVp5jQWhRxIrBffMWdpoQe7xPbYmXeEPdC52j2sW0~KbH16jzxnQywLtn1YTO2lQ~77C14OH-DXz3hXqWpsYfRA3ak9Y6dBfZK8z1g3PK8DTMx1kjSFgV3mXN~x~3UWIOeXyvuuF3vYpi6wYZIFzMKXxOaOY90vwVXGKCOFKYXrHnjmswr0SVeOnDA__', 'PNG', 0, 0, 1415, 2000);
     // doc.addImage('https://media-hosting.imagekit.io//77d4a86bd9cf4086/certificate%20bg.jpg?Expires=1833723758&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=F5nnNCphjBDv7UMTPqPFgdlAo4-qoCqUSQbKV12UeAVc1PXsIgMF84bUviG~kBWPotVadupMbHy62MII3UP6Q7tadNpBvMsPqyG4c~Igjk5ry9v0FSAq6QISjwnJUZ5IHuS5PViGOxrWJqX8Iqw5QzbvuNx4VqrRejM80A7eXYD29jNGDNXQoGqOTG4eQl9JFncX~ys5L4ALMay7qSJ0zwp8XdDvookkX-zMPe-nLIaeVo5dOp1eMMMJPj3p4tUfWucwwyKOAASBWeMExtzANMWchzn7vAMPJT2gM4wp-DxECg2OVYRk9elSE8MbaCbmYKkI8qQce4BnpO~bwmo-OA__', 'PNG', 0, 0, 1415, 2000);
     //doc.addImage('https://media-hosting.imagekit.io//cea29f48ef1b4101/certificatebg3.jpg?Expires=1833803894&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=z8aV14TH6z6UY4E0VRaQeKsFiFPpx-CnCBE-XxL0I7HyBCjIozv2Di3tT5ncXhN1klpmPchULw2JgdlaB8lXeoefo8VWLd-6vO1VQNXkd6mKvV89qhM4mD8o63jALvRuVfUMD0VB0ohdk6SV2wH3p4daHTe495jamZgKsvPv5pg1FnKcyx0k~Gb~VkTji5JJ-EhquxYBdQ~OCoX51-oOn4byTvktGHNirOUoGj1JjNrTkqE3T5Ok9zvncV-HMfxVzQu~WSQ2c2goIZq2euPzKkNNvceD0gUWTgnNAGSIHxjRFKo20J4AibY53RCoOoonbyZVgSS5-Y2OlYveh4K-Sg__', 'PNG', 0, 0, 1415, 2000);
     // doc.addImage('https://media-hosting.imagekit.io//a27e5b4317174ebd/certificate%20background.jpg?Expires=1833723456&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=iOVLOsGkZxsmCS6HBcb521KBz2fjU0rkfAJ-Iuw6HQsCebdiKvtj-IL~PnHBrhrN8NfXMCi-pyTB6PP0bflVANLLKs8mSN5juu~oTm77dGFNrqcIqlbRoeMe6UgksKIWFCkuDkL9dmnR0-CPqVloLnGJkxk61YG-yKYtaUoPsSf~6DzftCYdsPJMwMoToztSXTY5wo2Ab-1WOxcWDhhwhwcd-lpKT1TeM1pZ4arF3tx7Jp9Mkb4XQ1M5wmTNkacPSucUabs59xJ7dmLBMELaLkwZFTlJxmORLJTodvRPUL1CXyImE0acx6XJRGrbm~SCMz6~YhGYoQqoabFGQ4Dn8g__', 'PNG', 0, 0, 1415, 2000);
-    doc.text('CERTIFICATE OF COMPLETION', 50, 100);
+    const title = 'CERTIFICATE OF COMPLETION';
+    doc.setFont('times', 'bold');
+    doc.setTextColor(20, 50, 100); // Dark Blue Color
+    doc.setFontSize(60);
+    doc.text(title, 400, 200);
+
+
     doc.setFont('helvetica', 'normal');
     doc.setFontSize(36);
     
-    doc.addImage('https://media-hosting.imagekit.io//4c67ae8906964ae3/WhatsApp_Image_2025-02-12_at_07.24.00_6b15c7df-removebg-preview.png?Expires=1833935243&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=r-d5ylQkUHMr7Y3xVLGz4noMEuPO1v136RNZSiZalLjwXuQXO24R3TDnfdXpAgSqLZmS8Ern4qWUyh56wKTYNYzf5xdwofgO1vTM2tTVHr-QU46BA5HJV1C4oUofK4Zd6nXMApndtPggyFeuncTHoVdo6-fzTVp5jQWhRxIrBffMWdpoQe7xPbYmXeEPdC52j2sW0~KbH16jzxnQywLtn1YTO2lQ~77C14OH-DXz3hXqWpsYfRA3ak9Y6dBfZK8z1g3PK8DTMx1kjSFgV3mXN~x~3UWIOeXyvuuF3vYpi6wYZIFzMKXxOaOY90vwVXGKCOFKYXrHnjmswr0SVeOnDA__', 'PNG', 1000, 20, 150, 150);
+    //doc.addImage('https://media-hosting.imagekit.io//5c73c74592ea4c46/finallogo.png?Expires=1833693186&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=tUywRuFafopQU7B-Lf-2UERQOvrx4sHtm3HlRjHJ3yPR4YU1GewG13IXEqTZu34VhqTpM0y4n0paqKH3PDXPEG43jNKYpkb2SgTkPtoPDT5o~r2KNDPS3LY6iSFCRa4ziDtLKg1tE-xjfFlq4cK~uKH~H3HBELJhwkw1N5Ho5xKxh4N7md93souPcj5msTk8qUzei3nFkCV5NbBpWgh5rjwv1Ph5cwYBEyXZalyZ5PHqQciAdMYWg6Qda~s6M~fQHLfPG0XSqXW~mss~ThO5KQRs8bQpgCdT8KVYKe32EtV-UZPYOIBLxWz8GiYPqEhBJm9-lKOO7zC0sb-Ic7mtBg__', 'PNG', 1000, 20, 150, 150);
+    //  doc.setFont('helvetica', 'bold');
+    // doc.setFontSize(48);
+    // doc.text(` ${name} `, 100, 400);
+    // const name = 'John Doe';
+
+    // const logo = 'https://media-hosting.imagekit.io//5c73c74592ea4c46/finallogo.png?Expires=1833693186&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=tUywRuFafopQU7B-Lf-2UERQOvrx4sHtm3HlRjHJ3yPR4YU1GewG13IXEqTZu34VhqTpM0y4n0paqKH3PDXPEG43jNKYpkb2SgTkPtoPDT5o~r2KNDPS3LY6iSFCRa4ziDtLKg1tE-xjfFlq4cK~uKH~H3HBELJhwkw1N5Ho5xKxh4N7md93souPcj5msTk8qUzei3nFkCV5NbBpWgh5rjwv1Ph5cwYBEyXZalyZ5PHqQciAdMYWg6Qda~s6M~fQHLfPG0XSqXW~mss~ThO5KQRs8bQpgCdT8KVYKe32EtV-UZPYOIBLxWz8GiYPqEhBJm9-lKOO7zC0sb-Ic7mtBg__';
+    // doc.addImage(logo, 'PNG', 630, 50, 150, 150);
+
     doc.setFont('helvetica', 'bold');
-    doc.setFontSize(48);
-    doc.text(`THIS CERTIFICATE AWARDED TO ${name} `, 100, 400);
-    doc.setFontSize(33);
-    doc.text(`HAS COMPLETED THE PYTHON FULL COURSE ON WEAVELIFE-SITE.`, 90, 490);
-    doc.setFontSize(29);
-    doc.text(`Date: ${new Date().toLocaleDateString()}`, 750, 800);
+    doc.setTextColor(0, 0, 0);
+    doc.setFontSize(50);
+    doc.text(` THIS CERTIFICATE IS PROUDLY PRESENTED TO`, 300, 320);
+    doc.setTextColor(230, 145, 56); // Gold Color
+    doc.text(name.toUpperCase(), 500, 400);
     
-    doc.setFont('helvetica', 'bold');
-    doc.text('FOUNDER', 750, 950);
-    doc.text('TEJA BHOJANAPU ', 750, 1000);
-    doc.text('SANGAM-524308', 50, 950);
-    doc.text('NELLORE', 50, 1000);
-    doc.text('ANDRA-PRADESH', 50, 1050);
+
+
+    // doc.setFontSize(33);
+    // doc.text(`HAS COMPLETED THE PYTHON FULL COURSE ON LEARNING-HUB.`, 90, 490);
+    // doc.setFontSize(29);
+    // doc.text(`Date: ${new Date().toLocaleDateString()}`, 750, 800);
+    
+
+// Course Details
+doc.setFont('times', 'italic');
+doc.setTextColor(0, 0, 0);
+doc.setFontSize(36);
+doc.text(`For Successfully Completing the`, 480, 470);
+doc.setFont('times', 'bold');
+doc.text(`PYTHON FULL COURSE`, 510, 520);
+
+doc.setFontSize(30);
+doc.setTextColor(80, 80, 80);
+doc.text(`on Learning-Hub`, 570, 570);
+
+
+    // doc.setFont('helvetica', 'bold');
+    // doc.text('FOUNDER', 750, 950);
+    // doc.text('ROHITH BHOJANAPU ', 750, 1000);
+    // doc.text('RANGAMPET-517102', 50, 950);
+    // doc.text('TIRUPATHI', 50, 1000);
+    // doc.text('ANDRA-PRADESH', 50, 1050);
      
+
+    doc.setFont('helvetica', 'normal');
+doc.setFontSize(26);
+doc.setTextColor(50, 50, 50);
+doc.text(`Date: ${new Date().toLocaleDateString()}`, 100, 800);
+
+doc.setFont('helvetica', 'bold');
+doc.text('Founder', 1100, 800);
+doc.text('ROHITH BHOJANAPU', 1050, 850);
+
+
+
+    doc.setDrawColor(50, 50, 150);
+doc.setLineWidth(5);
+doc.rect(20, 20, 1375, 960);
     // 
     const certificateBlob = new Blob([doc.output('blob')], { type: 'application/pdf' });
     const certificateUrl = URL.createObjectURL(certificateBlob);
@@ -110,9 +164,9 @@ function CertificateGenerator() {
             borderRadius: '5px',
           }} />
         </label>
-        <label style={{
+        {/* <label style={{
           marginBottom: '10px',color:'red'
-        }} >[ Enter Your Name in Capitals ]</label>
+        }} >[ Enter Your Name in Capitals ]</label> */}
         <button type="submit" style={{
           padding: '10px 20px',
           backgroundColor: '#4CAF50',

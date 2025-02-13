@@ -36,6 +36,7 @@ import Todo from './components/Todo.js'
 import Gemini from "./components/geminiAi.js";
 import LabAi from "./components/LabAi.js";
 import Allpythonotes from "./components/Allpythonotes.js";
+import Aitutor from "./components/Aitutor.js";
 // import Mood from './components/mood.js';
 // import LoginPage from "./LoginPage2";
 import Nextbtn from './components/nextbutton.js'
@@ -93,6 +94,7 @@ const App = () => {
         <Route path="/labai" component ={LabAi} />
         <Route path="/Allpythonotes" component ={Allpythonotes} />
         <Route path="/Todo" component ={Todo} />
+        <Route path="/aitutor" component ={Aitutor} />
         <Route path="/search">
           <SearchView keyword={searchText} searchResults={searchResults}/>
         </Route>
