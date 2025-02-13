@@ -4,39 +4,10 @@ import styled from 'styled-components';
 const Button = () => {
   return (
     <StyledWrapper>
-       <hr/>
-      <div className="card1">
-        <div className="image_container">
-          {/* <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" className="image">
-            <path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z" />
-          </svg> */}
-          {/* <img src='pythonimage.jpg'className='container'/> */}
-          <img src='https://tse1.mm.bing.net/th?id=OIP.Jl2AWryzVJ0fIag0lgzfugHaKe&pid=Api&P=0&h=180'className='container'/>
-
-        </div>
-        <div className="title">
-          <span>Python Notes</span>
-        </div>
-        <div className="size">
-          <span>Hand-Written</span>
-          {/* <ul className="list-size">
-            <li className="item-list"><button className="item-list-button">1.8.9</button></li>
-            <li className="item-list">
-              <button className="item-list-button">1.21.1</button>
-            </li>
-          </ul> */}
-        </div>
-        
-      </div>
+      
       <button className="download-button">
         <div className="docs">
-          <svg viewBox="0 0 24 24" width={20} height={20} stroke="currentColor" strokeWidth={2} fill="none" strokeLinecap="round" strokeLinejoin="round" className="css-i6dzq1">
-            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
-            <polyline points="14 2 14 8 20 8" />
-            <line x1={16} y1={13} x2={8} y2={13} />
-            <line x1={16} y1={17} x2={8} y2={17} />
-            <polyline points="10 9 9 9 8 9" />
-          </svg>
+      
           Download
         </div>
         <div className="download">
