@@ -16,7 +16,7 @@ import Vs from './vs.png';
 import Pycham from './pycham.png';
 import Nav3 from './Nav3.js';
 import Note from './notes.js';
-
+import Aiphoto from './aiphoto.js';
 //  import Card1 from './card.js';
 
 const Card = () => {
@@ -531,6 +531,7 @@ print(random.randrange(1, 10))</div>
   <Moodhead /> <br/>
     <center><Mood/><br/></center><br/>
     <center><Nav3/><br/><Roadmapbtn1/></center>
+    <Aiphoto/>
     </div>
 
     

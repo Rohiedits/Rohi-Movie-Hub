@@ -6,7 +6,8 @@ import Roadmapbtn1 from './Roadmapbtn1.js';
 import Nextbutton from './nextbutton.js';
 import Footer from './footer.js'
 import Nav from 'react-bootstrap/Nav';
-import Interview3 from './interview3.js'
+import Interview3 from './interview3.js';
+import Aiphoto from './Aitutor.png';
 const python4 = () => {
   return (
     <StyledWrapper>
@@ -234,6 +235,16 @@ const python4 = () => {
             <li><span class="glossary-term">Union All:</span> A SQL operator used to combine the results of two or more SELECT statements into a single result set, including all rows, even duplicates.</li>
             <li><span class="glossary-term">View:</span> A virtual table that consists of data from one or more underlying tables and does not physically store data itself.</li>
         </ul>
+
+        <a href="https://ai-tutor-bujji.vercel.app/" target="_blank" rel="noopener noreferrer">
+     <img 
+  src={Aiphoto} 
+  alt="Description" 
+  style={{ height:'185px',maxWidth:'85px',position: "fixed", left: "92%", top: "70%", transform: "translateY(50%)" }} 
+/>
+</a>
+
+
     </section>
     <Nav.Link href="/Interview3" >   <Nextbutton/>   </Nav.Link>
     <a href="#" >   <Codeingbtn/>   </a>

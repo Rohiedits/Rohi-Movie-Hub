@@ -7,6 +7,7 @@ import Nextbutton from './nextbutton.js';
 import Footer from './footer.js'
 import Nav from 'react-bootstrap/Nav';
 import Interview2 from './interview2.js';
+import Aiphoto from './Aitutor.png';
 
 const python4 = () => {
   return (
@@ -14,6 +15,8 @@ const python4 = () => {
 
      <Hero  text="👨‍💻 Interview Guide.."/> 
      <div class="container">
+    
+
         
         <h1 style={{color:"gray",textAlign:"center" }}> 1.C-Programming Interview Questions with Answers</h1>
      <iframe width="960"  height="455" className='youtube' src="https://www.youtube.com/embed/oeA3dskWKxE?si=mspwKeL56r6bMs7c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -185,6 +188,14 @@ const python4 = () => {
 <strong>Linked List</strong>: A data structure where each element is a node containing data and a reference to the next node.<br/>
 <strong>Two-Pointer Technique</strong>: An approach where two pointers are used simultaneously to solve problems in data structures like linked lists, arrays or strings.<br/>
 <strong>Dynamic Programming</strong>: An approach to solve a complex problem by breaking it down into smaller subproblems.<br/>
+
+<a href="https://ai-tutor-bujji.vercel.app/" target="_blank" rel="noopener noreferrer">
+     <img 
+  src={Aiphoto} 
+  alt="Description" 
+  style={{ height:'185px',maxWidth:'85px',position: "fixed", left: "92%", top: "70%", transform: "translateY(50%)" }} 
+/>
+</a>
 </dl>
     <Nav.Link href="/Interview2" >   <Nextbutton/>   </Nav.Link>
     <a href="#" >   <Codeingbtn/>   </a>

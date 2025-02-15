@@ -8,6 +8,7 @@ import Footer from './footer.js'
 import Nav from 'react-bootstrap/Nav';
 import Codeingbtn from './codingbtn.js';
 import Nav3 from './Nav3.js'
+import Aiphoto from './aiphoto.js';
 
 // import S1 from './s1.png'
 
@@ -412,6 +413,7 @@ if b {'>'} a:<br/>
     <Mood/><br/>
       <Nav3/>
     </center>
+    <Aiphoto/>
     </div>
 
     

@@ -16,6 +16,7 @@ import styled from 'styled-components';
 import Hero from './Hero';
 import Footer from './footer';
 import Codeingbtn from './codingbtn'
+import Aiphoto from './aiphoto';
 const python4 = () => {
   return (
     <StyledWrapper>
@@ -294,6 +295,7 @@ of state matrix; Controllability and observability using Kalman's test.</p>
 
     <a href="#" >   <Codeingbtn/>   </a>
     <Footer/>
+    <Aiphoto/>
         </div>
 
      

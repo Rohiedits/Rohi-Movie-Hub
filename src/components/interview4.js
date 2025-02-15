@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 import Hero from './Hero';
 import Notes from './notes.js';
+import Aiphoto from './aiphoto.js';
 const python4 = () => {
   return (
     <StyledWrapper>
@@ -183,7 +184,8 @@ const python4 = () => {
       <dd>Independent JavaScript threads in Node.js that facilitate parallel execution of code to improve performance of multi-core systems.</dd>
     </dl>
   </section>
-  <Notes/>
+  
+  <Aiphoto/>
 </div>
 
 

@@ -7,6 +7,7 @@ import Codeingbtn from './codingbtn.js';
 import Nextbutton from './nextbutton.js';
 import Nav3 from './Nav3.js'
 import Quize6 from './quize6.js'
+import Aiphoto from './aiphoto.js';
 // import datetime
 // import datetime
 // import math
@@ -252,6 +253,7 @@ print(x)`}
         <a href="#"><Codeingbtn /></a>
         <hr />
         <Footer />
+        <Aiphoto/>
         </div>
         
       

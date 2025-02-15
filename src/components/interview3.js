@@ -8,6 +8,7 @@ import Footer from './footer.js'
 import Nav from 'react-bootstrap/Nav';
 import Interview3 from './interview3.js'
 import Interview4 from './interview3.js'
+import Aiphoto from './aiphoto.js'
 
 const python4 = () => {
   return (
@@ -176,6 +177,7 @@ const python4 = () => {
     <li><strong>Shallow Copy:</strong> A copy operation that duplicates the references to an object, not the object itself, meaning that all references will refer to the same memory location.</li>
     <li><strong>Virtual Keyword:</strong> A keyword to ensure that only one instance is created, removing ambiguity when multiple classes inherit from the same parent class.</li>
   </ul>
+  <Aiphoto/>
   </div>
 
  

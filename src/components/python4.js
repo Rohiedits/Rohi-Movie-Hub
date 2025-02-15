@@ -7,6 +7,7 @@ import Codeingbtn from './codingbtn.js';
 import Nextbutton from './nextbutton.js';
 import Nav3 from './Nav3.js'
 import Quiz4 from './quize4.js';
+import Aiphoto from './aiphoto.js';
 
 const python4 = () => {
 return (
@@ -380,6 +381,7 @@ print(numbers)  # Output: array('i', [1, 3, 4, 5, 6])`}
             <a href="#" >   <Codeingbtn/>   </a>
       <hr/>
       <Footer/>
+      <Aiphoto/>
         </div>
        
     </StyledWrapper>
