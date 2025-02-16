@@ -26,6 +26,7 @@ function BasicExample() {
                     <NavDropdown.Item href="/interviewguide">Interview Guide </NavDropdown.Item>
                     <NavDropdown.Item href="/Academic">Academic Guide </NavDropdown.Item>
                     <NavDropdown.Item href="/Todo">To-Do </NavDropdown.Item>
+                    <NavDropdown.Item href="/NotesApp" style={{color:"red"}}>Notes-App </NavDropdown.Item>
                     <NavDropdown.Item href="/part2" style={{color:"red"}}>Attendance Analyzer </NavDropdown.Item>
                     <NavDropdown.Item href="/labai" style={{color:"red"}}>Lab AI </NavDropdown.Item>
                     <NavDropdown.Item href="https://ai-tutor-bujji.vercel.app/" style={{color:"red"}}>AI Tutor </NavDropdown.Item>
