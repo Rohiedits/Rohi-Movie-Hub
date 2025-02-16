@@ -289,6 +289,13 @@ of state matrix; Controllability and observability using Kalman's test.</p>
           Bv.Rohith
         </a>
       </p>
+
+
+      <h2 style={{textAlign:"center",color:"grey",paddingTop:"20px"}}>2-2 MID-1 Question Papers</h2>
+      <iframe src="https://drive.google.com/file/d/1Fh245v3on48E2b4oQh-zec2aANfs-Nk6/preview" width="100%" height="680" ></iframe>
+
+
+      
     </div>
 
 

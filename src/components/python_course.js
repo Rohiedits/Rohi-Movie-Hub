@@ -529,7 +529,7 @@ print(random.randrange(1, 10))</div>
 
 <h1 className='coding mood'>CODING MOOD </h1> <br/>
   <Moodhead /> <br/>
-    <center><Mood/><br/></center><br/>
+    <center><Nav.Link href="https://www.online-python.com/" ><Mood/></Nav.Link><br/></center><br/>
     <center><Nav3/><br/><Roadmapbtn1/></center>
     <Aiphoto/>
     </div>

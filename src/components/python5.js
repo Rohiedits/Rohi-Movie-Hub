@@ -8,6 +8,7 @@ import Nextbutton from './nextbutton.js';
 import Nav3 from './Nav3.js'
 import Quize5 from './quize5.js'
 import Aiphoto from './aiphoto.js';
+import Mood from './mood.js';
 const python3_0 = () => {
   return (
     <StyledWrapper>
@@ -532,7 +533,9 @@ print(x)`}
             </pre>
           </div>
         </div>
-        <center><Quize5/><Nav3/><br/></center>
+        <center><Quize5/><Nav3/><br/>
+        <Nav.Link href="https://www.online-python.com/" ><Mood/></Nav.Link>
+        </center>
 
         <Nav.Link href="/Python6"><Nextbutton /></Nav.Link>
         <a href="#"><Codeingbtn /></a>

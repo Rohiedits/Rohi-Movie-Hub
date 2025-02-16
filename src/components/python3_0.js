@@ -410,7 +410,7 @@ if b {'>'} a:<br/>
   <Moodhead/> <br/>
     
     <center>
-    <Mood/><br/>
+    <Nav.Link href="https://www.online-python.com/" ><Mood/></Nav.Link><br/>
       <Nav3/>
     </center>
     <Aiphoto/>

@@ -173,6 +173,9 @@ Salient pole alternators —two-reaction theory, phasor diagrams and voltage reg
           Bv.Rohith
         </a>
       </p>
+
+
+
     </div>
     
 
@@ -270,6 +273,10 @@ suppression.</p>
     </div>
     <center><h3>Text-Book</h3></center>
 
+
+
+  <h2 style={{textAlign:"center",color:"grey",paddingTop:"20px"}}>2-2 MID-1 Question Papers</h2>
+      <iframe src="https://drive.google.com/file/d/1Fh245v3on48E2b4oQh-zec2aANfs-Nk6/preview" width="100%" height="680" ></iframe>
 
     
     <a href="#" >   <Codeingbtn/>   </a>

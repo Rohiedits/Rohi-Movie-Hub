@@ -8,6 +8,7 @@ import Nextbutton from './nextbutton.js';
 import Nav3 from './Nav3.js'
 import Quize6 from './quize6.js'
 import Aiphoto from './aiphoto.js';
+import Mood from './mood.js'
 // import datetime
 // import datetime
 // import math
@@ -248,7 +249,9 @@ print(x)`}
           </div>
         </div>
         <center><Quize6/>
-          <Nav3/><br/></center>
+          <Nav3/><br/>
+          <Nav.Link href="https://www.online-python.com/" ><Mood/></Nav.Link>
+          </center>
         <Nav.Link href="/Python7"><Nextbutton /></Nav.Link>
         <a href="#"><Codeingbtn /></a>
         <hr />

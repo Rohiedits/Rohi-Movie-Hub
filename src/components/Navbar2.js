@@ -3,7 +3,6 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { useHistory } from 'react-router-dom';
 
@@ -15,10 +14,10 @@ const OffcanvasExample =({searchText,setSearchText}) =>{
     }
   return (
     <>
-      {['sm' ].map((expand) => (
+      {[true ].map((expand) => (
         <Navbar key={expand} expand={expand} className="bg-body-tertiary mb-3">
           <Container fluid>
-            <Navbar.Brand href="#Rohi-App"> 🌐Rohi MB&L-Hub</Navbar.Brand>
+            <Navbar.Brand href="#Rohi-App"> Rohi MB&L-Hub</Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
@@ -33,32 +32,11 @@ const OffcanvasExample =({searchText,setSearchText}) =>{
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
                 
-                  <Nav.Link href="/">Home</Nav.Link>
+                  {/* <Nav.Link href="/">Home</Nav.Link>
                   <Nav.Link href="/NewFeature">Learn</Nav.Link>
                   <Nav.Link href="/Help">Login</Nav.Link>
-                  <Nav.Link href="/search">Search</Nav.Link>
-                  <NavDropdown
-                    title="More"
-                    id={`offcanvasNavbarDropdown-expand-${expand}`}
-                  >
-                    {/* <NavDropdown.Item href="/Yt">Youtube</NavDropdown.Item> */}
-                    <NavDropdown.Item href="/signup">Signup</NavDropdown.Item>
-                    <NavDropdown.Item href="/comingsoon">
-                      Introduce Bujji
-                    </NavDropdown.Item>
-                    <NavDropdown.Item href="/AboutUs">About </NavDropdown.Item>
-                    <NavDropdown.Item href="/minigame">Mini Game </NavDropdown.Item>
-                    <NavDropdown.Item href="/interviewguide">Interview Guide </NavDropdown.Item>
-                    <NavDropdown.Item href="/Academic">Academic Guide </NavDropdown.Item>
-                    <NavDropdown.Item href="/Todo">To-Do </NavDropdown.Item>
-                    <NavDropdown.Item href="/part2" style={{color:"red"}}>Attendance Analyzer </NavDropdown.Item>
-                    <NavDropdown.Item href="/labai" style={{color:"red"}}>Lab AI </NavDropdown.Item>
-                    <NavDropdown.Item href="https://ai-tutor-bujji.vercel.app/" style={{color:"red"}}>AI Tutor </NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item href="/cancel">
-                      Cancel
-                    </NavDropdown.Item>
-                  </NavDropdown>
+                  <Nav.Link href="/search">Search</Nav.Link> */}
+           
                 </Nav>
                 <form className="d-flex">
                   <Form.Control

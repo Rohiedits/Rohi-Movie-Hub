@@ -92,36 +92,42 @@ Programmable Memories: ROM, PLA, PAL</p>
 
 
     <center><h3>Text-Book</h3></center>
-    <div className="flex justify-center p-4">
+    <div className="flex flex-col items-center">
       <iframe
-        title="Control System Engineering by Nagoor Kani"
-        src="https://www.scribd.com/embeds/825530603/content?start_page=1&view_mode=scroll&access_key=key-w1Cdag1VIPqg7qADLUYq"
+        className="w-full"
+        title="Digital-Design-Hand Written Notes"
+        src="https://www.scribd.com/embeds/826570534/content?start_page=1&view_mode=slideshow&access_key=key-DxMsbE1Ne94BWjDN4Td8"
+        tabIndex="0"
+        data-auto-height="true"
+        data-aspect-ratio="0.7729220222793488"
+        scrolling="no"
         width="100%"
         height="600"
         frameBorder="0"
-        scrolling="no"
-        className="rounded-lg shadow-md"
-        allowFullScreen
       ></iframe>
-      <p className="text-center text-gray-600 mt-2">
+      <p className="mt-3 text-center text-sm text-gray-700">
         <a
-          href="https://www.scribd.com/doc/312738130/Nagoor-Kani-Control-System-Engineering#from_embed"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-blue-600 underline"
+          title="View Digital-Design-Hand Written Notes on Scribd"
+          href="https://www.scribd.com/document/826570534/Digital-Design-Hand-Written-Notes#from_embed"
+          className="underline text-blue-600 hover:text-blue-800"
         >
-          View Control System Engineering by Nagoor Kani
-        </a>{' '}
-        by{' '}
+          Digital-Design-Hand Written...
+        </a>
+        &nbsp;by&nbsp;
         <a
+          title="View Bv.Rohith's profile on Scribd"
           href="https://www.scribd.com/user/832765700/Bv-Rohith#from_embed"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-blue-600 underline"
+          className="underline text-blue-600 hover:text-blue-800"
         >
           Bv.Rohith
         </a>
       </p>
+    
+
+      <h2 style={{textAlign:"center",color:"grey",paddingTop:"20px"}}>2-2 MID-1 Question Papers</h2>
+      <iframe src="https://drive.google.com/file/d/1Fh245v3on48E2b4oQh-zec2aANfs-Nk6/preview" width="100%" height="680" ></iframe>
+
+
     </div>
 
 

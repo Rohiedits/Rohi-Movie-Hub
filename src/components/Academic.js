@@ -4,7 +4,7 @@ import List from './list';
 const Academic = () => {
   return (
     <div>
-     <List/>
+     <List />
     </div>
   )
 }

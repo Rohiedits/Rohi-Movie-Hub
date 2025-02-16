@@ -8,6 +8,7 @@ import Nextbutton from './nextbutton.js';
 import Nav3 from './Nav3.js'
 import Quiz4 from './quize4.js';
 import Aiphoto from './aiphoto.js';
+import Mood from './mood.js';
 
 const python4 = () => {
 return (
@@ -376,6 +377,7 @@ print(numbers)  # Output: array('i', [1, 3, 4, 5, 6])`}
             <center>
                 <Quiz4/>
                 <Nav3/><br/>
+                <Nav.Link href="https://www.online-python.com/" ><Mood/></Nav.Link>
             </center>
             <Nav.Link href="/Python5" >   <Nextbutton/>   </Nav.Link>
             <a href="#" >   <Codeingbtn/>   </a>

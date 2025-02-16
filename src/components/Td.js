@@ -67,7 +67,7 @@ cables, grading of cables - capacitance and inter sheath grading.</p>
       
     </div> */}
 
-<div className="flex justify-center p-4">
+{/* <div className="flex justify-center p-4">
       <iframe
         title="Module 1: THREE PHASE INDUCTION MOTORS"
         src="https://www.scribd.com/embeds/825544348/content?start_page=1&view_mode=slideshow&access_key=key-z0dGkSLIRgnazE38HXYn"
@@ -97,7 +97,11 @@ cables, grading of cables - capacitance and inter sheath grading.</p>
           Bv.Rohith
         </a>
       </p>
-    </div>
+    </div> */}
+
+<iframe src="https://drive.google.com/file/d/1FkIdOU-lmO9XBp8Pa2z6zqxxVCHGU7pi/preview"  width="100%" height="680" allow="autoplay"></iframe>
+
+
 <h3 style={{textAlign:"center",paddingTop:"10px"}}>Module 2:ANALYSIS OF TRANSMISSION LINES</h3>
 <p style={{textAlign:"center"}}>line and long line; equivalent circuits – end condenser, Nominal-T, Nominal- models, <br/>
 rigorous method; ABCD constants, voltage regulation and efficiency of transmission <br/>
@@ -106,37 +110,37 @@ Travelling waves on transmission lines: Travelling waves – open end line, shor
 circuited line, Line terminated through a resistor, line connected to a cable, Line  <br/>
 connected to a T-junction.</p>
 
-{/* <div className="flex justify-center p-4">
+<div className="flex flex-col items-center">
       <iframe
-        title="Module 2: TIME RESPONSE ANALYSIS"
-        src="https://www.scribd.com/embeds/825457064/content?start_page=1&view_mode=slideshow&access_key=key-BDBcn8pWDsJyr6Q6p07i"
+        className="w-full"
+        title="TD Module II AnalysisofTransmissionLines"
+        src="https://www.scribd.com/embeds/826350335/content?start_page=1&view_mode=slideshow&access_key=key-3yHXk6IZ0qBc6BfxQBJ7"
+        tabIndex="0"
+        data-auto-height="true"
+        data-aspect-ratio="0.722177742193755"
+        scrolling="no"
         width="100%"
         height="600"
         frameBorder="0"
-        scrolling="no"
-        className="rounded-lg shadow-md"
-        allowFullScreen
       ></iframe>
-      <p className="text-center text-gray-600 mt-2">
+      <p className="mt-3 text-center text-sm text-gray-700">
         <a
-          href="https://www.scribd.com/document/825457064/Module-2-TIME-Response-ANALYSIS#from_embed"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-blue-600 underline"
+          title="View TD Module II AnalysisofTransmissionLines on Scribd"
+          href="https://www.scribd.com/document/826350335/TD-Module-II-AnalysisofTransmissionLines#from_embed"
+          className="underline text-blue-600 hover:text-blue-800"
         >
-          View Module 2: TIME RESPONSE ANALYSIS
-        </a>{' '}
-        by{' '}
+          TD Module II AnalysisofTran...
+        </a>
+        &nbsp;by&nbsp;
         <a
+          title="View Bv.Rohith's profile on Scribd"
           href="https://www.scribd.com/user/832765700/Bv-Rohith#from_embed"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-blue-600 underline"
+          className="underline text-blue-600 hover:text-blue-800"
         >
           Bv.Rohith
         </a>
       </p>
-    </div> */}
+    </div>
 <h3 style={{textAlign:"center",paddingTop:"10px"}}>Module 3: MECHANICAL ASPECTS OF OVER HEAD LINE AND CORONA </h3>
 <p style={{textAlign:"center"}}>
 Insulators— Line supports, overhead line insulators, types of insulators, string <br/>
@@ -146,78 +150,46 @@ towers, effect of wind and ice on sag, stringing chart.<br/>
 Corona: Corona phenomenon - factors affecting corona, critical voltages and power <br/>
 loss, advantages and disadvantages.<br/>
 </p>
-<div className="flex justify-center p-4">
+<div className="flex flex-col items-center">
       <iframe
-        title="Module 3: SYNCHRONOUS GENERATORS"
-        src="https://www.scribd.com/embeds/825544925/content?start_page=1&view_mode=slideshow&access_key=key-DeNujKen1gkQVH0naYvg"
+        className="w-full"
+        title="Chapter 3 1 Overheadtransmissionline"
+        src="https://www.scribd.com/embeds/826349474/content?start_page=1&view_mode=slideshow&access_key=key-0eSaqKf3Ih88IEjQBf6b"
+        tabIndex="0"
+        data-auto-height="true"
+        data-aspect-ratio="0.7729220222793488"
+        scrolling="no"
         width="100%"
         height="600"
         frameBorder="0"
-        scrolling="no"
-        className="rounded-lg shadow-md"
-        allowFullScreen
       ></iframe>
-      <p className="text-center text-gray-600 mt-2">
+      <p className="mt-3 text-center text-sm text-gray-700">
         <a
-          href="https://www.scribd.com/document/825544925/Module-3-SYNCHRONOUS-GENERATORS#from_embed"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-blue-600 underline"
+          title="View Chapter 3 1 Overheadtransmissionline on Scribd"
+          href="https://www.scribd.com/document/826349474/Chapter-3-1-Overheadtransmissionline#from_embed"
+          className="underline text-blue-600 hover:text-blue-800"
         >
-          View Module 3: SYNCHRONOUS GENERATORS
-        </a>{' '}
-        by{' '}
+          Chapter 3  Overheadtransmi...
+        </a>
+        &nbsp;by&nbsp;
         <a
+          title="View Bv.Rohith's profile on Scribd"
           href="https://www.scribd.com/user/832765700/Bv-Rohith#from_embed"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-blue-600 underline"
+          className="underline text-blue-600 hover:text-blue-800"
         >
           Bv.Rohith
         </a>
       </p>
     </div>
-    
 
-<h3 style={{textAlign:"center",paddingTop:"10px"}}>Module 4: DISTRIBUTION SYSTEMS</h3>
-<p style={{textAlign:"center"}}>Classification and Characteristics—residential, commercial, agricultural and <br/>
-industrial loads.<br/>
-Voltage drop calculations in DC distributors– radial DC distributor fed at one end, <br/>
-at both the ends (equal/unequal voltages) and ring main distributor.<br/>
-Voltage drop calculations in AC distributors– power factors referred to receiving <br/>
-end voltage and respective load voltages.</p>
+<h3  style={{textAlign:"center",paddingTop:"10px"}}>Module 4: DISTRIBUTION SYSTEMS</h3>
+<p style={{textAlign:"center"}}>Classification and Characteristics —residential,  commercial, agricultural and <br/>
+industrial loads.
+Voltage drop calculations in DC distributors – radial DC distributor fed at one end, at both the ends (equal/unequal voltages) and ring main distributor. <br/>
+Voltage drop calculations in AC distributors – power fact ors referred to receiving  <br/>
+end voltag e and respective load voltages.</p>
 
-<div className="flex flex-col items-center p-4">
-      <iframe
-        title="Module 4: PARALLEL OPERATION OF SYNCHRONOUS GENERATORS"
-        src="https://www.scribd.com/embeds/825545567/content?start_page=1&view_mode=slideshow&access_key=key-sW8sE8uES6iS6wdxAni0"
-        width="100%"
-        height="600"
-        frameBorder="0"
-        scrolling="no"
-        className="rounded-lg shadow-md"
-        allowFullScreen
-      ></iframe>
-      <p className="text-center text-gray-600 mt-2">
-        <a
-          href="https://www.scribd.com/document/825545567/Module-4-PARALLEL-OPERATION-OF-SYNCHRONOUS-GENERATORS#from_embed"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-blue-600 underline"
-        >
-          View Module 4: PARALLEL OPERATION OF SYNCHRONOUS GENERATORS
-        </a>{' '}
-        by{' '}
-        <a
-          href="https://www.scribd.com/user/832765700/Bv-Rohith#from_embed"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-blue-600 underline"
-        >
-          Bv.Rohith
-        </a>
-      </p>
-    </div>
+<iframe src="https://drive.google.com/file/d/1Fo0c4Rn9_ip4AKNZ-xtnRShKmNgY1jAT/preview" width="100%" height="680" allow="autoplay"></iframe>
 
 <h3  style={{textAlign:"center",paddingTop:"10px"}}>Module 5: SUBSTATIONS</h3>
 <p style={{textAlign:"center"}}>Classification of substations — Indoor and outdoor, gas and air insulated substations; <br/>
@@ -228,52 +200,43 @@ types of primary feeders and secondary feeders – Feeder loading – Basic desi
 of the secondary distribution system.</p>
 
 <div>
-<div className="scribd-embed-container">
+<div className="flex flex-col items-center">
       <iframe
-        className="scribd_iframe_embed"
-        title="Module 5: THREE PHASE SYNCHRONOUS MOTORS"
-        src="https://www.scribd.com/embeds/825546531/content?start_page=1&view_mode=slideshow&access_key=key-5EiBqIWcw5hUvFHbzljA"
+        className="w-full"
+        title="TD Module-V Substation"
+        src="https://www.scribd.com/embeds/826351297/content?start_page=1&view_mode=slideshow&access_key=key-h6eGniJOozqhnYu5Tene"
         tabIndex="0"
         data-auto-height="true"
-        data-aspect-ratio="0.5554187192118226"
+        data-aspect-ratio="1.3323485967503692"
         scrolling="no"
         width="100%"
         height="600"
         frameBorder="0"
       ></iframe>
-      <p
-        style={{
-          margin: '12px auto 6px auto',
-          fontFamily: 'Helvetica, Arial, Sans-serif',
-          fontStyle: 'normal',
-          fontVariant: 'normal',
-          fontWeight: 'normal',
-          fontSize: '14px',
-          lineHeight: 'normal',
-          fontSizeAdjust: 'none',
-          fontStretch: 'normal',
-          display: 'block',
-        }}
-      >
+      <p className="mt-3 text-center text-sm text-gray-700">
         <a
-          title="View Module 5: THREE PHASE SYNCHRONOUS MOTORS on Scribd"
-          href="https://www.scribd.com/document/825546531/Module-5-THREE-PHASE-SYNCHRONOUS-MOTORS#from_embed"
-          style={{ textDecoration: 'underline' }}
+          title="View TD Module-V Substation on Scribd"
+          href="https://www.scribd.com/document/826351297/TD-Module-V-Substation#from_embed"
+          className="underline text-blue-600 hover:text-blue-800"
         >
-          Module 5: THREE PHASE SYNCHRONOUS MOTORS
-        </a>{' '}
-        by{' '}
+          TD Module-V Substation
+        </a>
+        &nbsp;by&nbsp;
         <a
           title="View Bv.Rohith's profile on Scribd"
           href="https://www.scribd.com/user/832765700/Bv-Rohith#from_embed"
-          style={{ textDecoration: 'underline' }}
+          className="underline text-blue-600 hover:text-blue-800"
         >
           Bv.Rohith
         </a>
       </p>
+      <h2 style={{textAlign:"center",color:"grey",paddingTop:"20px"}}>2-2 MID-1 Question Papers</h2>
+      <iframe src="https://drive.google.com/file/d/1Fh245v3on48E2b4oQh-zec2aANfs-Nk6/preview" width="100%" height="680" ></iframe>
+
     </div>
+
     </div>
-    <center><h3>Text-Book</h3></center>
+    {/* <center><h3>Text-Book</h3></center> */}
 
 
     

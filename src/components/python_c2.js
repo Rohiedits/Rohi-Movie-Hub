@@ -525,7 +525,7 @@ print(a)
 
     <h1 className='coding mood'>CODING MOOD </h1> <br/>
   <Moodhead/> <br/>
-  <center><Mood/></center><br/>
+  <center><Nav.Link href="https://www.online-python.com/" ><Mood/></Nav.Link></center><br/>
   <center>
     <Nav3/>
   </center>
