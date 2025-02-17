@@ -38,6 +38,12 @@ import LabAi from "./components/LabAi.js";
 import Allpythonotes from "./components/Allpythonotes.js";
 import Aitutor from "./components/Aitutor.js";
 import NotesApp from "./components/NotesApp.js";
+import Cpp from "./components/Cpp.js";
+import Ruby from "./components/Ruby.js";
+import Javascriptcourse from "./components/Javascriptcourse.js";
+import Reactjscourse from "./components/Reactjscourse.js";
+import Sqlcourse from "./components/Sqlcourse.js";
+import Timetable from './components/Timetable.js'
 // import Mood from './components/mood.js';
 // import LoginPage from "./LoginPage2";
 import Nextbtn from './components/nextbutton.js'
@@ -97,6 +103,12 @@ const App = () => {
         <Route path="/Todo" component ={Todo} />
         <Route path="/aitutor" component ={Aitutor} />
         <Route path="/NotesApp" component ={NotesApp} />
+        <Route path="/Cpp" component ={Cpp} />
+        <Route path="/Ruby" component ={Ruby} />
+        <Route path="/Javascriptcourse" component ={Javascriptcourse} />
+        <Route path="/Reactjscourse" component ={Reactjscourse} />
+        <Route path="/Sqlcourse" component ={Sqlcourse} />
+        <Route path="/Timetable" component ={Timetable} />
         <Route path="/search">
           <SearchView keyword={searchText} searchResults={searchResults}/>
         </Route>

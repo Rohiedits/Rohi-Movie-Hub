@@ -15,7 +15,7 @@ function BasicExample() {
           <Nav.Link href="/">Home</Nav.Link>
                   <Nav.Link href="/NewFeature">Learn</Nav.Link>
                   <Nav.Link href="/Help">Login</Nav.Link>
-                  <Nav.Link style={{color:"red"}} href="/https://ai-tutor-bujji.vercel.app/">Ai-Tutor</Nav.Link>
+                  <Nav.Link style={{color:"red"}} href="https://ai-tutor-bujji.vercel.app/">Ai-Tutor</Nav.Link>
             <NavDropdown title="More" id="basic-nav-dropdown">
             <NavDropdown.Item href="/signup">Signup</NavDropdown.Item>
                     <NavDropdown.Item href="/comingsoon">
@@ -28,6 +28,7 @@ function BasicExample() {
                     <NavDropdown.Item href="/Todo">To-Do </NavDropdown.Item>
                     <NavDropdown.Item href="/NotesApp" style={{color:"red"}}>Notes-App </NavDropdown.Item>
                     <NavDropdown.Item href="/part2" style={{color:"red"}}>Attendance Analyzer </NavDropdown.Item>
+                    <NavDropdown.Item href="/Timetable" style={{color:"red"}}>Timetable </NavDropdown.Item>
                     <NavDropdown.Item href="/labai" style={{color:"red"}}>Lab AI </NavDropdown.Item>
                     <NavDropdown.Item href="https://ai-tutor-bujji.vercel.app/" style={{color:"red"}}>AI Tutor </NavDropdown.Item>
               <NavDropdown.Divider />
