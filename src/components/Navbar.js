@@ -22,6 +22,7 @@ function BasicExample() {
                       Introduce Bujji
                     </NavDropdown.Item>
                     <NavDropdown.Item href="/AboutUs">About </NavDropdown.Item>
+                    <NavDropdown.Item href="/Yt">Yt</NavDropdown.Item>
                     <NavDropdown.Item href="/minigame">Mini Game </NavDropdown.Item>
                     <NavDropdown.Item href="/interviewguide">Interview Guide </NavDropdown.Item>
                     <NavDropdown.Item href="/Academic">Academic Guide </NavDropdown.Item>
