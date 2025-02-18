@@ -106,6 +106,7 @@
 
 
 import React, { useState } from 'react';
+import CV from './Cv.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col, Card, Button, Nav, Modal, Form, Alert } from 'react-bootstrap';
 import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope, FaDownload } from 'react-icons/fa';
@@ -245,8 +246,9 @@ const Portfolio = () => {
                   Contact Me
                 </Button>
                 <Button variant="outline-primary">
+                <a href={CV} style={{}} download="Cv">
                   <FaDownload className="me-2" />
-                  Download CV
+                   Download Cv</a>
                 </Button>
               </div>
             </Col>
