@@ -8,7 +8,8 @@ function BasicExample() {
   return (
     <Navbar expand="sm" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="/Rohi-App">{/* <img   style={{marginLeft:"20px"}}width="90" height="90"  src={Finallogo} alt="Python" />  */}🌐Rohi-App</Navbar.Brand>
+        <Navbar.Brand href="/Rohi-App">{/* <img   style={{marginLeft:"20px"}}width="90" height="90"  src={Finallogo} alt="Python" />  */}⚡Code-Charge</Navbar.Brand>
+        {/* //Charging up your skills in coding + Academic's */}
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="justify-content-end flex-grow-1 pe-3">
@@ -22,12 +23,12 @@ function BasicExample() {
                       Introduce Bujji
                     </NavDropdown.Item>
                     <NavDropdown.Item href="/AboutUs">About </NavDropdown.Item>
-                    <NavDropdown.Item href="/Yt">Yt</NavDropdown.Item>
                     <NavDropdown.Item href="/minigame">Mini Game </NavDropdown.Item>
                     <NavDropdown.Item href="/interviewguide">Interview Guide </NavDropdown.Item>
                     <NavDropdown.Item href="/Academic">Academic Guide </NavDropdown.Item>
                     <NavDropdown.Item href="/Todo">To-Do </NavDropdown.Item>
-                    <NavDropdown.Item href="/NotesApp" style={{color:"red"}}>Notes-App </NavDropdown.Item>
+                    <NavDropdown.Item href="/Yt" style={{color:"red"}}>Code-Compiler</NavDropdown.Item>
+                    <NavDropdown.Item href="/NotesApp" style={{color:"red"}} >Notes-App </NavDropdown.Item>
                     <NavDropdown.Item href="/part2" style={{color:"red"}}>Attendance Analyzer </NavDropdown.Item>
                     <NavDropdown.Item href="/Timetable" style={{color:"red"}}>Ai-Mock Interview Ast.  </NavDropdown.Item>
                     <NavDropdown.Item href="/labai" style={{color:"red"}}>Lab AI </NavDropdown.Item>

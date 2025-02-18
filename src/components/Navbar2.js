@@ -17,7 +17,7 @@ const OffcanvasExample =({searchText,setSearchText}) =>{
       {[true ].map((expand) => (
         <Navbar key={expand} expand={expand} className="bg-body-tertiary mb-3">
           <Container fluid>
-            <Navbar.Brand href="#Rohi-App"> Rohi MB&L-Hub</Navbar.Brand>
+            <Navbar.Brand href="#Rohi-App"> Return coding + Academic's</Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
