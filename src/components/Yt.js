@@ -288,7 +288,7 @@ const OnlineCompiler = () => {
 </head>
 <body>
     <div class="container">
-        <h1 class="title">Hello, World!</h1>
+        <h1 class="title">Welcome to Code-charge Online-Cp!</h1>
         <button onclick="showMessage()">Click Me</button>
     </div>
 
@@ -303,7 +303,7 @@ const OnlineCompiler = () => {
 
   // Language-specific settings
   const languageSettings = {
-    
+
     web: {
       name: 'Web (HTML/CSS/JS)',
       mode: 'html',
@@ -379,9 +379,7 @@ Execution time: 0.05s`);
                 onSelect={handleLanguageChange}
                 className="mb-3"
               >
-                {/* <Tab eventKey="python" title="Python" />
-                <Tab eventKey="cpp" title="C++" />
-                <Tab eventKey="java" title="Java" /> */}
+                
                 <Tab eventKey="web" title="Web (HTML/CSS/JS)" />
               </Tabs>
 
@@ -460,7 +458,7 @@ Execution time: 0.05s`);
 
           <div className="text-center mt-3">
             <small className="text-muted">
-              This is a demo Web compiler
+              This is a demo compiler. For actual code execution, you'll need to implement a secure backend service.
             </small>
           </div>
         </Col>
