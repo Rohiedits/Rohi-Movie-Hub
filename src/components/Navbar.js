@@ -27,7 +27,10 @@ function BasicExample() {
                     <NavDropdown.Item href="/interviewguide">Interview Guide </NavDropdown.Item>
                     <NavDropdown.Item href="/Academic">Academic Guide </NavDropdown.Item>
                     <NavDropdown.Item href="/Todo">To-Do </NavDropdown.Item>
+                    <NavDropdown.Item href="/AiMovie">Ai-MovieRecommender </NavDropdown.Item>
+                    <NavDropdown.Item href="/TechMemeSection">Tech-Meme-Section </NavDropdown.Item>
                     <NavDropdown.Item href="/Yt" style={{color:"red"}}>Code-Compiler</NavDropdown.Item>
+                    <NavDropdown.Item href="/AiRoadMap" style={{color:"red"}}>Ai-RoadMap</NavDropdown.Item>
                     <NavDropdown.Item href="/Dailycode" style={{color:"red"}}>Daily-Code</NavDropdown.Item>
                     <NavDropdown.Item href="/VirtualWhiteboard" style={{color:"red"}}>Virtual-Whiteboard</NavDropdown.Item>
                     <NavDropdown.Item href="/AIResumeBuilder" style={{color:"red"}}>AiResumeBuilder</NavDropdown.Item>

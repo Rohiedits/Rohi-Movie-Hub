@@ -47,6 +47,9 @@ import Timetable from './components/Timetable.js'
 import AIResumeBuilder from "./components/AiResumeBuilder.js";
 import Dailycode from './components/Dailycode.js'
 import VirtualWhiteboard from "./components/VirtualWhiteboard.js";
+import AiRoadMap from './components/AiRoadMap.js'
+import AiMovie from './components/AiMovie.js'
+import TechMemeSection from './components/TechMeme.js'
 // import Mood from './components/mood.js';
 // import LoginPage from "./LoginPage2";
 import Nextbtn from './components/nextbutton.js'
@@ -115,6 +118,9 @@ const App = () => {
         <Route path="/AIResumeBuilder" component ={AIResumeBuilder} />
         <Route path="/Dailycode" component ={Dailycode} />
         <Route path="/VirtualWhiteboard" component ={VirtualWhiteboard} />
+        <Route path="/AiRoadMap" component ={AiRoadMap} />
+        <Route path="/AiMovie" component ={AiMovie} />
+        <Route path="/TechMemeSection" component ={TechMemeSection} />
         <Route path="/search">
           <SearchView keyword={searchText} searchResults={searchResults}/>
         </Route>
