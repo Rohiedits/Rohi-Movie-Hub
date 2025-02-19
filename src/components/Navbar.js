@@ -29,6 +29,7 @@ function BasicExample() {
                     <NavDropdown.Item href="/Todo">To-Do </NavDropdown.Item>
                     <NavDropdown.Item href="/Yt" style={{color:"red"}}>Code-Compiler</NavDropdown.Item>
                     <NavDropdown.Item href="/Dailycode" style={{color:"red"}}>Daily-Code</NavDropdown.Item>
+                    <NavDropdown.Item href="/VirtualWhiteboard" style={{color:"red"}}>Virtual-Whiteboard</NavDropdown.Item>
                     <NavDropdown.Item href="/AIResumeBuilder" style={{color:"red"}}>AiResumeBuilder</NavDropdown.Item>
                     <NavDropdown.Item href="/NotesApp" style={{color:"red"}} >Notes-App </NavDropdown.Item>
                     <NavDropdown.Item href="/part2" style={{color:"red"}}>Attendance Analyzer </NavDropdown.Item>
