@@ -472,14 +472,18 @@ const CodeChargeHome = () => {
               </button></center>
             </div>
             <div className="col-lg-6"><br/>
+            <center>
               <img 
-                src="https://media-hosting.imagekit.io//7b9ceeba79da483e/social_network.jpg?Expires=1834594446&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=x3jbWlZtvf9YHbAxhvM1yls2fFyD8QPGf7jmzehnR7QYTM-2Q7JmrzklWx7hXo2836bxxoDwgXstWDyPyNS4LOiHFtb0c-6hXTgIwpZyCp1~SDFQigC1oDQCq4ld-ReLtBsTNjd87kD-BSXzmxrgt6zOEZP6tDcqkhRBraZCq4yU2BNvKx5feZE-3zKxPvRT31nd3eq8uI-38zfcod2ciL4T~JsfZ5dtxar9YZqbFAQoKYLr1mDgA1rrr3ttyMoVYdKUx93TO0ZZ1NqfkPiwRiaeXtTRygvo4ngJnAL0PTwcyOKftA7jwTBDecGN04hsHtJGp0sgTqxtSCG-Le9naw__"
+                //1src="https://media-hosting.imagekit.io//7b9ceeba79da483e/social_network.jpg?Expires=1834594446&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=x3jbWlZtvf9YHbAxhvM1yls2fFyD8QPGf7jmzehnR7QYTM-2Q7JmrzklWx7hXo2836bxxoDwgXstWDyPyNS4LOiHFtb0c-6hXTgIwpZyCp1~SDFQigC1oDQCq4ld-ReLtBsTNjd87kD-BSXzmxrgt6zOEZP6tDcqkhRBraZCq4yU2BNvKx5feZE-3zKxPvRT31nd3eq8uI-38zfcod2ciL4T~JsfZ5dtxar9YZqbFAQoKYLr1mDgA1rrr3ttyMoVYdKUx93TO0ZZ1NqfkPiwRiaeXtTRygvo4ngJnAL0PTwcyOKftA7jwTBDecGN04hsHtJGp0sgTqxtSCG-Le9naw__"
+               // src='https://media-hosting.imagekit.io//8c6d98042042417f/ss3.jpg?Expires=1834598984&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=ABEkZmX8-mv4suZukWTHAoJy4ZV-B6RpPIic1gfhgbcafOcYTu7ZUjGxKcVXbbzJeCpnBZ-OdIkm2htfJ0C7FybkP2dYIep8Oo~DzwXVD5112h1q8IEs0qeIK3Q3UPhRv6B0XEuSJTK3XcXmEZ96A6LJozd5TJujIMgFy8DjrxdCDTzsRdTr0VYi4X6Olmeqb7N1kWEqtLygsSRGyAAZdmv9kbxgaIsFXklw6BdEPET3fwIHLVX4~aESVc5Cpd8FUqCZ5Qx2aXuScSMfeh~oMuqks2NxKXgfirlrIRlAwLqzvwYbURAPhBz-r8-Jc4MfQr1FKvg8EslcbUho9v45UA__'
+               src='https://media-hosting.imagekit.io//f4b69e070f1043cf/ss2.jpg?Expires=1834598984&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=nsMEaA9Lxl79bHlrPJQhg4r-Fi2dWCqgRZN9Vihfxcrs5qbLvYO84O4IciBpFg7Ou8WvHRgxOynmZwpQKwKVDAzf6A6CrHnqfhAeX-iXj3XdS-SiD44Wb3WYTdB02waPCQbFUg69dPRJlDoeYWF9uiddI3xEBxZySmFXJPIjOWF5bFEbgrXCU12aL3jSzq67wgkZeWUxjKbSTseV1MUzI5S-3GdM~C2j5BQMHdf~DkclbT2-LKSOwEANo7JMK1DNl51G8LS8nrt3qK5DWWOWEAHLF7olGr00Pm-F~kzLNRwJ1sJ1RAidbi3MUPf-Yaq-ljMNhqVLg7La545VE8i1Cg__'
+              //  src='https://media-hosting.imagekit.io//e7c38fc727a14143/ss5.jpg?Expires=1834598984&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=fSx4futnXjFwYaLRjoUN~qR1YRjDzberxn8-B1fSIGYb8CVXzXJavQ~j63hGWd4cdo7NScDgAqy3XJb2kv8x9HyJLBoxuOSnXB5yetLRMKLLnUsA6vWN7BCIdJ2gXYKRa~uUmKgLvLXxItAtuiEphlITss8R7BrvuapZf6NmX84avnZBRAKTN9wsd6mWQwaKBgxmYnNpzWTy5TZor50Dl2cvoSMtXnamj~u2apTz2DzRcaXaBbzy85sHfTVHkV3BWfBMRGE2vbE02uN1AiD56Q9B4zEoFk-EJCtQcmIzLMfL4GzPVGPfQwaTHVjDRhS59pVHSYKljTcB3q2hSdTOIg__'
                 alt="Coding Platform"
                 className="img-fluid rounded-3"
                 style={{
                   filter: 'drop-shadow(0 0 30px rgba(107, 70, 193, 0.2))'
                 }}
-              />
+              /></center>
             </div>
           </div>
         </div>
