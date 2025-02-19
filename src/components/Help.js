@@ -409,18 +409,18 @@
 // export default Form;
 
 
-// import React from 'react';
+import React from 'react';
 
-// const Login = () => {
-//   return (
-//     <div>
-//       {/* OTPLESS Login UI */}
-//       <div id="otpless-login-page"></div>
-//     </div>
-//   );
-// };
+const Login = () => {
+  return (
+    <div>
+      {/* OTPLESS Login UI */}
+      <div id="otpless-login-page"></div>
+    </div>
+  );
+};
 
-// export default Login;
+export default Login;
 
 
 // import React, { useEffect } from 'react';
@@ -466,33 +466,33 @@
 
 // export default Login;
 
-import React, { useEffect } from "react";
+// import React, { useEffect } from "react";
 
-const Login = () => {
-  useEffect(() => {
-    // Check if user is already logged in
-    const user = JSON.parse(localStorage.getItem("user"));
-    if (user) {
-      window.location.href = "/home"; // Redirect to Home if logged in
-    }
+// const Login = () => {
+//   useEffect(() => {
+//     // Check if user is already logged in
+//     const user = JSON.parse(localStorage.getItem("user"));
+//     if (user) {
+//       window.location.href = "/home"; // Redirect to Home if logged in
+//     }
 
-    // Set up OTPless login callback
-    window.otpless = (otplessUser) => {
-      console.log("User Details:", otplessUser);
-      localStorage.setItem("user", JSON.stringify(otplessUser)); // Store user data
-      window.location.href = "/home"; // Redirect to Home page after login
-    };
-  }, []);
+//     // Set up OTPless login callback
+//     window.otpless = (otplessUser) => {
+//       console.log("User Details:", otplessUser);
+//       localStorage.setItem("user", JSON.stringify(otplessUser)); // Store user data
+//       window.location.href = "/home"; // Redirect to Home page after login
+//     };
+//   }, []);
 
-  return (
-    <div>
-      {/* OTPLESS Login UI */}
-      <div id="otpless-login-page"></div>
-    </div>
-  );
-};
+//   return (
+//     <div>
+//       {/* OTPLESS Login UI */}
+//       <div id="otpless-login-page"></div>
+//     </div>
+//   );
+// };
 
-export default Login;
+// export default Login;
 
 
 
