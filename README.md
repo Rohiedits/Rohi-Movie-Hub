@@ -1,5 +1,5 @@
 
-#Code-Charge: Empowering Coders to Learn, Build, and Grow
+# Code-Charge: Empowering Coders to Learn, Build, and Grow
 ##Overview
 Code-Charge is an innovative platform designed to help programmers enhance their skills through
 interactive learning, 
