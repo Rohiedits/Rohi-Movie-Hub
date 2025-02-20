@@ -1,17 +1,17 @@
 
 # Code-Charge: Empowering Coders to Learn, Build, and Grow
-##Overview
+## `Overview`
 Code-Charge is an innovative platform designed to help programmers enhance their skills through
 interactive learning, 
 AI-powered tools, and community-driven features. Founded by Bhojanapu Venkata Rohith,
 Code-Charge aims to bridge the 
 gap between learning and practical implementation by offering a dynamic environment for coders of
 all levels.
-3##Mission
+## `Mission`
 To create an all-in-one platform where aspiring and professional developers can learn, practice, and
 collaborate 
 effectively, fostering innovation and problem-solving skills.
-##Key Features
+## `Key Features`
 1. Learning Hub - Comprehensive coding courses with videos, PDFs, handwritten notes, and
 quizzes.
 2. AI-Powered Coding Assistant - Helps with bug fixes, code optimization, and explanations.
@@ -23,11 +23,11 @@ quizzes.
 8. Mock Interviews - AI-powered technical interviews with instant feedback.
 9. Tech Blogs & Roadmaps - Stay updated with the latest trends in programming.
 10. Freelance & Job Board - Discover career opportunities in tech.
-##Vision
+## `Key Features`
 To establish Code-Charge as a go-to platform for developers, combining education, AI-driven coding
 assistance, and a 
 strong developer community to accelerate skill development and career growth.
-##Founder's Note
+## `Key Features`
 "I created Code-Charge to provide a single platform where coders can learn, practice, and grow
 without limitations. 
 My goal is to make coding accessible and enjoyable for everyone." - Bhojanapu Venkata Rohith
