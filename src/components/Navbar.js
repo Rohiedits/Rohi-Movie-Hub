@@ -14,7 +14,7 @@ function BasicExample() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="justify-content-end flex-grow-1 pe-3">
           <Nav.Link href="/">Home</Nav.Link>
-                  <Nav.Link href="/NewFeature">Learn</Nav.Link>
+                  <Nav.Link href="/NewFeature">Coding-Hub</Nav.Link>
                   <Nav.Link href="/Help">Login</Nav.Link>
                   <Nav.Link style={{color:"red"}} href="https://ai-tutor-bujji.vercel.app/">Ai-Tutor</Nav.Link>
             <NavDropdown title="More" id="basic-nav-dropdown">
@@ -23,22 +23,32 @@ function BasicExample() {
                       Introduce Bujji
                     </NavDropdown.Item>
                     <NavDropdown.Item href="/AboutUs">About </NavDropdown.Item>
-                    <NavDropdown.Item href="/minigame">Mini Game </NavDropdown.Item>
-                    <NavDropdown.Item href="/interviewguide">Interview Guide </NavDropdown.Item>
                     <NavDropdown.Item href="/Academic">Academic Guide </NavDropdown.Item>
-                    <NavDropdown.Item href="/Todo">To-Do </NavDropdown.Item>
-                    <NavDropdown.Item href="/AiMovie">Ai-MovieRecommender </NavDropdown.Item>
+                    <NavDropdown.Item href="/part2" >Attendance Analyzer </NavDropdown.Item>
+                    <NavDropdown.Item href="/Yt" >Code-Compiler</NavDropdown.Item>
+                    <NavDropdown.Item href="/Dailycode">Daily-Code</NavDropdown.Item>
+                    <NavDropdown.Item href="/interviewguide">Interview Guide </NavDropdown.Item>
+
+                    <NavDropdown.Item href="/minigame">Mini Game </NavDropdown.Item>
+                    <NavDropdown.Item href="/NotesApp"  >Notes-App </NavDropdown.Item>
                     <NavDropdown.Item href="/TechMemeSection">Tech-Meme-Section </NavDropdown.Item>
-                    <NavDropdown.Item href="/Yt" style={{color:"red"}}>Code-Compiler</NavDropdown.Item>
+                    
+                    <NavDropdown.Item href="/Todo">To-Do </NavDropdown.Item>
+                    
+                    <NavDropdown.Item href="/VirtualWhiteboard" >Virtual-Whiteboard</NavDropdown.Item>
+                   
+
+                    <NavDropdown.Item href="https://ai-tutor-bujji.vercel.app/" style={{color:"red"}}>Ai-Tutor </NavDropdown.Item>
+                    <NavDropdown.Item href="/labai" style={{color:"red"}}>Lab-Ai </NavDropdown.Item>
                     <NavDropdown.Item href="/AiRoadMap" style={{color:"red"}}>Ai-RoadMap</NavDropdown.Item>
-                    <NavDropdown.Item href="/Dailycode" style={{color:"red"}}>Daily-Code</NavDropdown.Item>
-                    <NavDropdown.Item href="/VirtualWhiteboard" style={{color:"red"}}>Virtual-Whiteboard</NavDropdown.Item>
-                    <NavDropdown.Item href="/AIResumeBuilder" style={{color:"red"}}>AiResumeBuilder</NavDropdown.Item>
-                    <NavDropdown.Item href="/NotesApp" style={{color:"red"}} >Notes-App </NavDropdown.Item>
-                    <NavDropdown.Item href="/part2" style={{color:"red"}}>Attendance Analyzer </NavDropdown.Item>
+                    {/* <NavDropdown.Item href="/AiDebugger" style={{color:"red"}}>Ai-Debugger</NavDropdown.Item> */}
+                    
+                    <NavDropdown.Item href="/AIResumeBuilder" style={{color:"red"}}>Ai-ResumeBuilder</NavDropdown.Item>
+                   
                     <NavDropdown.Item href="/Timetable" style={{color:"red"}}>Ai-Mock Interview Ast.  </NavDropdown.Item>
-                    <NavDropdown.Item href="/labai" style={{color:"red"}}>Lab AI </NavDropdown.Item>
-                    <NavDropdown.Item href="https://ai-tutor-bujji.vercel.app/" style={{color:"red"}}>AI Tutor </NavDropdown.Item>
+                    
+
+                    <NavDropdown.Item href="/AiMovie" style={{color:"red"}}>Ai-MovieRecommender </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="/">
                 Close
