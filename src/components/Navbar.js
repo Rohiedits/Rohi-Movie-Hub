@@ -8,7 +8,7 @@ function BasicExample() {
   return (
     <Navbar expand="sm" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="/Rohi-App">{/* <img   style={{marginLeft:"20px"}}width="90" height="90"  src={Finallogo} alt="Python" />  */}⚡Code-Charge</Navbar.Brand>
+        <Navbar.Brand href="/">{/* <img   style={{marginLeft:"20px"}}width="90" height="90"  src={Finallogo} alt="Python" />  */}⚡Code-Charge</Navbar.Brand>
         {/* //Charging up your skills in coding + Academic's */}
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

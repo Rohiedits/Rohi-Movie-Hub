@@ -364,84 +364,121 @@ const CodeChargeHome = () => {
       title: "AI Tutor",
       description: "Get personalized coding assistance 24/7",
       icon: "🤖",
-      gradient: "linear-gradient(135deg, #6B46C1 0%, #434190 100%)"
+      gradient: "linear-gradient(135deg, #6B46C1 0%, #434190 100%)",
+      link:"https://ai-tutor-bujji.vercel.app/"
+    },
+
+    {
+      id: 10,
+      title: "Academic Guide",
+      description: "Academics Related Text-books and Pdf's etc..",
+      icon: "📖",
+      gradient: "linear-gradient(135deg, #6B46C1 0%, #434190 100%)",
+      link:"/Academic"
     },
     {
-      id: 2,
-      title: "Code Compiler",
-      description: "Execute your code in real-time",
-      icon: "⚡",
-      gradient: "linear-gradient(135deg, #553C9A 0%, #2C5282 100%)"
+      id: 16,
+      title: "Notes-App",
+      description: " Note important points in Notes-App",
+      icon: "👨‍💻",
+      gradient: "linear-gradient(135deg, #6B46C1 0%, #434190 100%)",
+      link:"/NotesApp"
+    },
+    {
+      id: 13,
+      title: "Coding-Hub",
+      description: " Related Learn Coding of Different languages like Python,C++,Ruby,Java-Script,React,Sql Hand-written Notes and Quize etc..",
+      icon: "👨‍💻",
+      gradient: "linear-gradient(135deg, #6B46C1 0%, #434190 100%)",
+      link:"/NewFeature"
+    },
+    {
+      id: 14,
+      title: "Interview-Guide",
+      description: " Related Interview-Questions Coding of Different languages like Python,C++,Ruby,Java-Script,React,Sql Hand-written Notes and Quize etc..",
+      icon: "📄",
+      gradient: "linear-gradient(135deg, #6B46C1 0%, #434190 100%)",
+      link:"/interviewguide"
     },
     {
       id: 3,
       title: "AI Roadmap",
-      description: "Personalized learning paths for your goals",
+      description: "Personalized learning paths for your goals Different languages like Python,C++,Ruby,Java-Script,React,Sql Hand-written Notes and Quize etc..",
       icon: "🗺️",
-      gradient: "linear-gradient(135deg, #4C51BF 0%, #2B6CB0 100%)"
+      gradient: "linear-gradient(135deg, #4C51BF 0%, #2B6CB0 100%)",
+      link:"/AiRoadMap"
     },
     {
       id: 4,
       title: "Daily Code Challenges",
       description: "Sharpen your skills with daily problems",
       icon: "🎯",
-      gradient: "linear-gradient(135deg, #5A67D8 0%, #3182CE 100%)"
+      gradient: "linear-gradient(135deg, #5A67D8 0%, #3182CE 100%)",
+      link:"/Dailycode"
     },
     {
       id: 5,
       title: "Virtual Whiteboard",
       description: "Collaborate in real-time with your team",
       icon: "🖊️",
-      gradient: "linear-gradient(135deg, #667EEA 0%, #4299E1 100%)"
+      gradient: "linear-gradient(135deg, #667EEA 0%, #4299E1 100%)",
+      link:"/VirtualWhiteboard"
     },
     {
       id: 6,
       title: "AI Resume Builder",
       description: "Create professional tech resumes instantly",
       icon: "📄",
-      gradient: "linear-gradient(135deg, #7F9CF5 0%, #63B3ED 100%)"
+      gradient: "linear-gradient(135deg, #7F9CF5 0%, #63B3ED 100%)",
+      link:"/AIResumeBuilder"
     },
     {
       id: 7,
       title: "AI Mock Interview",
       description: "Practice technical interviews with AI",
       icon: "🎤",
-      gradient: "linear-gradient(135deg, #6B46C1 0%, #4299E1 100%)"
+      gradient: "linear-gradient(135deg, #6B46C1 0%, #4299E1 100%)",
+      link:"/Timetable"
     },
     {
       id: 8,
       title: "Tech Meme Section",
       description: "Take a break with developer humor",
       icon: "😄",
-      gradient: "linear-gradient(135deg, #553C9A 0%, #3182CE 100%)"
+      gradient: "linear-gradient(135deg, #553C9A 0%, #3182CE 100%)",
+      link:"/TechMemeSection"
     },
     {
       id: 9,
       title: "AI Movie Recommender",
       description: "Discover tech-related movies and shows",
       icon: "🎬",
-      gradient: "linear-gradient(135deg, #4C51BF 0%, #2B6CB0 100%)"
+      gradient: "linear-gradient(135deg, #4C51BF 0%, #2B6CB0 100%)",
+      link:"/AiMovie"
     },
     {
-      id: 10,
-      title: "Academic Guide",
-      description: "Academics Related Text-books and Pdf's etc..",
-      icon: "📖",
-      gradient: "linear-gradient(135deg, #6B46C1 0%, #434190 100%)"
+      id: 2,
+      title: "Code Compiler",
+      description: "Execute your code in real-time",
+      icon: "⚡",
+      gradient: "linear-gradient(135deg, #553C9A 0%, #2C5282 100%)",
+      link:"/Yt"
     },
     {
       id: 11,
       title: "Lab-Ai",
       description: "Academics Related to Lab's etc..",
       icon: "🔬",
-      gradient: "linear-gradient(135deg, #553C9A 0%, #2C5282 100%)"
+      gradient: "linear-gradient(135deg, #553C9A 0%, #2C5282 100%)",
+      link:"/labai"
     },
     {
       id: 12,
       title: "Attendance-Analyzer",
       description: "Academics Related to Attendence",
       icon: "📋",
-      gradient: "linear-gradient(135deg, #553C9A 0%, #2C5282 100%)"
+      gradient: "linear-gradient(135deg, #553C9A 0%, #2C5282 100%)",
+      link:"/part2"
     }
   ];
 
@@ -467,8 +504,10 @@ const CodeChargeHome = () => {
                 background: 'linear-gradient(135deg, #6B46C1 0%, #434190 100%)',
                 color: '#E1E1E6',
                 border: 'none'
-              }}>
-                Get Started
+              }}
+              
+              >
+                <a href='/NewFeature' style={{color:"white",textDecoration:"none"}}>Get Started</a>
               </button></center>
             </div>
             <div className="col-lg-6"><br/>
@@ -513,7 +552,7 @@ const CodeChargeHome = () => {
                       {feature.description}
                     </p>
                     <div className="mt-3 text-end">
-                      <a href="#" className="text-decoration-none" style={{
+                      <a href={feature.link} className="text-decoration-none" style={{
                         background: feature.gradient,
                         WebkitBackgroundClip: 'text',
                         WebkitTextFillColor: 'transparent'
@@ -556,19 +595,19 @@ const CodeChargeHome = () => {
                 <div className="col-sm-4">
                   <h6 style={{color: '#E1E1E6'}}>Quick Links</h6>
                   <ul className="list-unstyled">
-                    <li><a href="#" style={{color: '#8B8B93', textDecoration: 'none'}}>Home</a></li>
-                    <li><a href="#" style={{color: '#8B8B93', textDecoration: 'none'}}>Learn</a></li>
-                    <li><a href="#" style={{color: '#8B8B93', textDecoration: 'none'}}>AI Tutor</a></li>
-                    <li><a href="#" style={{color: '#8B8B93', textDecoration: 'none'}}>Features</a></li>
+                    <li><a href="/" style={{color: '#8B8B93', textDecoration: 'none'}}>Home</a></li>
+                    <li><a href="/NewFeature" style={{color: '#8B8B93', textDecoration: 'none'}}>Learn</a></li>
+                    <li><a href="https://ai-tutor-bujji.vercel.app/" style={{color: '#8B8B93', textDecoration: 'none'}}>AI Tutor</a></li>
+                    <li><a href="/AIResumeBuilder" style={{color: '#8B8B93', textDecoration: 'none'}}>AI Resume Builder</a></li>
                   </ul>
                 </div>
                 <div className="col-sm-4">
                   <h6 style={{color: '#E1E1E6'}}>Resources</h6>
                   <ul className="list-unstyled">
-                    <li><a href="#" style={{color: '#8B8B93', textDecoration: 'none'}}>Documentation</a></li>
-                    <li><a href="#" style={{color: '#8B8B93', textDecoration: 'none'}}>Blog</a></li>
-                    <li><a href="#" style={{color: '#8B8B93', textDecoration: 'none'}}>Community</a></li>
-                    <li><a href="#" style={{color: '#8B8B93', textDecoration: 'none'}}>Support</a></li>
+                    <li><a href="/AboutUs" style={{color: '#8B8B93', textDecoration: 'none'}}>Documentation</a></li>
+                    <li><a href="/AboutUs" style={{color: '#8B8B93', textDecoration: 'none'}}>Blog</a></li>
+                    <li><a href="/AboutUs" style={{color: '#8B8B93', textDecoration: 'none'}}>Community</a></li>
+                    <li><a href="/AboutUs" style={{color: '#8B8B93', textDecoration: 'none'}}>Support</a></li>
                   </ul>
                 </div>
                 <div className="col-sm-4">
