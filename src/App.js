@@ -51,6 +51,8 @@ import AiRoadMap from './components/AiRoadMap.js'
 import AiMovie from './components/AiMovie.js'
 import TechMemeSection from './components/TechMeme.js'
 import AiDebugger from './components/AiDebugger.js'
+import Academic2 from './components/Acadamic2.js';
+import GatePreparationHub from "./components/Gate.js";
 // import Mood from './components/mood.js';
 // import LoginPage from "./LoginPage2";
 import Nextbtn from './components/nextbutton.js'
@@ -123,6 +125,8 @@ const App = () => {
         <Route path="/AiMovie" component ={AiMovie} />
         <Route path="/TechMemeSection" component ={TechMemeSection} />
         <Route path="/AiDebugger" component ={AiDebugger} />
+        <Route path="/Academic2" component ={Academic2} />
+        <Route path="/GatePreparationHub" component ={GatePreparationHub} />
         <Route path="/search">
           <SearchView keyword={searchText} searchResults={searchResults}/>
         </Route>

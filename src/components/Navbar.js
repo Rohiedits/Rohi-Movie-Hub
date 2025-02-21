@@ -24,6 +24,8 @@ function BasicExample() {
                     </NavDropdown.Item>
                     <NavDropdown.Item href="/AboutUs">About </NavDropdown.Item>
                     <NavDropdown.Item href="/Academic">Academic Guide </NavDropdown.Item>
+                    <NavDropdown.Item href="/Academic2">Academic Guide 2.0 </NavDropdown.Item>
+                    <NavDropdown.Item href="/GatePreparationHub">Gate-PreparationHub </NavDropdown.Item>
                     <NavDropdown.Item href="/part2" >Attendance Analyzer </NavDropdown.Item>
                     <NavDropdown.Item href="/Yt" >Code-Compiler</NavDropdown.Item>
                     <NavDropdown.Item href="/Dailycode">Daily-Code</NavDropdown.Item>
